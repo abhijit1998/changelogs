@@ -1,0 +1,227 @@
+====================
+     04-09-2019
+====================
+
+
+====================
+     04-08-2019
+====================
+
+
+====================
+     04-07-2019
+====================
+
+
+   * frameworks/base/
+a103ba0bd12 Merge "SystemUI: Don't hide right clock when heads up is visible" into p9.0
+ebe3a2c4366 Be more comprehensive about boot time RTC check
+
+   * vendor/aicp/
+5084b43 Merge "Revert "vendor: Update bootanimation"" into p9.0
+
+====================
+     04-06-2019
+====================
+
+
+   * build/make/
+21cde9857 Merge tag 'android-9.0.0_r35' into p9.0
+
+   * frameworks/base/
+b1054547495 SystemUI: Don't hide right clock when heads up is visible
+
+   * packages/apps/Bluetooth/
+3bb07ab0 DO NOT MERGE Separate SDP procedure from bonding state (2/2)
+
+   * platform_manifest/
+6888c91 manifest: android-9.0.0_r34 -> android-9.0.0_r35
+
+   * system/bt/
+18ea0d65a btm_proc_smp_cback: Don't access p_dev_rec if freed
+6cf652276 DO NOT MERGE Separate SDP procedure from bonding state (1/2)
+abed2f956 resolve merge conflicts of ec78d74706c3e81f91eee53e3d9f959f66e5d77f to pi-dev
+2a39ec54e btm_ble_multi_adv: Check data length in HCI interface
+
+   * system/netd/
+28583a6 Clear Element.mRef immediately after deallocating it
+47dd2ab Fix fortify_fatal issue during DNSServiceProcessResult()
+ee1cfb7 Fix use-after-free in NetworkController::removeInterfaceAddress()
+
+   * system/sepolicy/
+9f51d8fb Merge branch 'lineage-16.0' into p9.0
+
+   * vendor/motorola/potter/
+509dc60 potter: remove energy-awareness
+3ad6c0e potter: remove msm_irqbalance
+5fb9a7b potter: update libOmxVideoDSMode.so from daisy 9/PKQ1.180917.001/V10.0.7.0.PDLMIXM
+1a41745 potter: update msm_irqbalance from OPSS28.85-17-4
+
+====================
+     04-05-2019
+====================
+
+
+   * device/aicp/sepolicy/
+38bb0f7 Revert "common: Add sf_lcd_density_prop type and labelled props"
+
+   * device/qcom/sepolicy-legacy/
+c7380a2 sepolicy: Label persist partition for all SoCs
+
+   * frameworks/base/
+3003d0abe9a Re-add WPS implementation (2/3)
+d6f4336154b [1/2] base: Update proximity check on wake
+c14325728a9 Slim recents old enter/exit animation [1/3]
+6a354e4c859 Theming: control night mode [1/4]
+
+   * packages/apps/AicpExtras/
+f92e667 Slim recents old enter/exit animation [3/3]
+
+   * packages/apps/Settings/
+bb381f8501 Merge "[2/2] Settings: Add proximity check on wake" into p9.0
+1621d736ea Merge "Re-add WPS implementation (1/3)" into p9.0
+59ca302201 Theming: control night mode [4/4]
+
+   * platform_manifest/
+e6daf18 Merge "manifest: Track frameworks_opt_net_wifi" into p9.0
+
+====================
+     04-04-2019
+====================
+
+
+   * kernel/motorola/msm8953/
+ecaf45931f60 Merge branch 'kernel.lnx.3.18.r34-rel' of https://github.com/android-linux-stable/msm-3.18 into HEAD
+
+   * packages/resources/MotoActions/
+0e68e3e Automatic translation import
+
+   * platform_manifest/
+5226ec3 manifest: switch to Gallery2 from OMNI
+
+   * vendor/aicp/
+e90090c Revert "vendor: Update bootanimation"
+
+====================
+     04-03-2019
+====================
+
+
+   * frameworks/opt/slimrecent/
+fc4be58 Slim recents old enter/exit animation [2/3]
+
+   * kernel/motorola/msm8953/
+233870be3b30 Merge 3.18.138 into kernel.lnx.3.18.r34-rel
+a1a43d6522bc Linux 3.18.138
+33807cfab9fd arm64: support keyctl() system call in 32-bit mode
+ecc5b776ffd0 ARM: imx6q: cpuidle: fix bug that CPU might not wake up at expected time
+7e9e474e6448 xhci: Fix port resume done detection for SS ports with LPM enabled
+ffc2152394fb KVM: Reject device ioctls from processes other than the VM's creator
+17874c300308 gpio: adnp: Fix testing wrong value in adnp_gpio_direction_input
+beb70e5c511c fs/proc/proc_sysctl.c: fix NULL pointer dereference in put_links
+69c9fdb685b7 Disable kgdboc failed by echo space to /sys/module/kgdboc/parameters/kgdboc
+30a07c0446cc USB: serial: mos7720: fix mos_parport refcount imbalance on error path
+96c80c460995 USB: serial: ftdi_sio: add additional NovaTech products
+62008c0dc3f7 USB: serial: cp210x: add new device id
+cdae8c6fc96e serial: max310x: Fix to avoid potential NULL pointer dereference
+9f2c21278892 scsi: zfcp: fix scsi_eh host reset with port_forced ERP for non-NPIV FCP devices
+7a5259dd0eef ALSA: pcm: Don't suspend stream in unrecoverable PCM state
+59c86007ad49 ALSA: pcm: Fix possible OOB access in PCM oss plugins
+1801ffbc7de8 mac8390: Fix mmio access size probe
+8567f315cdb5 sctp: get sctphdr by offset in sctp_compute_cksum
+69dfb9c8d69d tcp: do not use ipv6 header for ipv4 flow
+62d2192b9663 packets: Always register packet sk in the same order
+3bfc4e0ecb9c Add hlist_add_tail_rcu() (Merge git://git.kernel.org/pub/scm/linux/kernel/git/davem/net)
+2d4d5d7afba5 net: rose: fix a possible stack overflow
+8887183fcd3b net/packet: Set __GFP_NOWARN upon allocation in alloc_pg_vec
+4ce7f9851c97 mISDN: hfcpci: Test both vendor & device ID for Digium HFC4S
+6b703ff23cb9 dccp: do not use ipv6 header for ipv4 flow
+cf2afae3abba cfg80211: size various nl80211 messages correctly
+f93063f1575b mmc: mmc: fix switch timeout issue caused by jiffies precision
+08422dc1dd31 arm64: kconfig: drop CONFIG_RTC_LIB dependency
+19edccec7408 video: fbdev: Set pixclock = 0 in goldfishfb
+bf925b4fe5f9 usb: gadget: configfs: add mutex lock before unregister gadget
+91366a76f2ea ipv6: fix endianness error in icmpv6_err
+b62638938193 arm64: kernel: Include _AC definition in page.h
+0c99d0dc291d arm64/kernel: fix incorrect EL0 check in inv_entry macro
+ea4147e61820 ARM: 8510/1: rework ARM_CPU_SUSPEND dependencies
+f9ff1fd0c147 staging: goldfish: audio: fix compiliation on arm
+5b96c46521e2 staging: ion: Set minimum carveout heap allocation order to PAGE_SHIFT
+113e4806435d staging: ashmem: Add missing include
+0d9aeed2703d staging: ashmem: Avoid deadlock with mmap/shrink
+2e82280512d9 asm-generic: Fix local variable shadow in __set_fixmap_offset
+60bb79a488db android: unconditionally remove callbacks in sync_fence_free()
+0b86bf5d0715 ARM: 8458/1: bL_switcher: add GIC dependency
+495dde2d8ea6 arm64: fix COMPAT_SHMLBA definition for large pages
+e88dd5c0a4c3 mmc: block: Allow more than 8 partitions per card
+ac7c597c465e Bluetooth: Verify that l2cap_get_conf_opt provides large enough buffer
+8f9c5ea93aa7 Bluetooth: Check L2CAP option sizes returned from l2cap_get_conf_opt
+71b7a0a59c7d media: v4l2-ctrls.c/uvc: zero v4l2_event
+e303ade336a0 mmc: tmio_mmc_core: don't claim spurious interrupts
+a03af61e4353 ext4: brelse all indirect buffer in ext4_ind_remove_space()
+068b08bc9e75 ext4: fix data corruption caused by unaligned direct AIO
+9696bac59661 ext4: fix NULL pointer dereference while journal is aborted
+543b86a1e4c1 futex: Ensure that futex address is aligned in handle_futex_death()
+824289e104f9 udf: Fix crash on IO error during truncate
+
+   * packages/services/Telephony/
+461ec7819 Allow to disable the new scan API for manual network search.
+
+====================
+     04-02-2019
+====================
+
+
+   * frameworks/base/
+8071bac7e9d lockscreen : differentiate hour from minutes in digital bold style clock
+9dc10cbba80 AudioService: Fix camera shutter sound toggle
+8690ae47dd6 PhoneWindowManager: Allow torch during ambient display
+18a4dcc2c1b SystemUI: Fix flickering issue when live wallpaper is showing on aod/pulsing
+5dda3001e83 Make status bar ticker play nice with center clock
+6ae0bb34c80 Ambient music ticker: fix text scrolling on AoD
+063a9ccc56e Ambient music ticker: fix text scrolling glitches
+4ccc8c23f8f Improve ambient play layout on keyguard
+
+   * vendor/aicp/
+81cc651 Merge "vendor: Update bootanimation" into p9.0
+
+====================
+     04-01-2019
+====================
+
+
+   * frameworks/base/
+bff64236535 UpdateEngine: Add perf mode binder interface
+f8ccfc6326b Unbreak ambient display while Heads up is disabled
+e57c0f88e63 Skip one-shot sensors for WindowOrientationListener
+b28d09951e4 Sounds: Squashed cleanup of sound files
+3331dceaabc Include InCallNotification.ogg in AllAudio.mk file
+cf0883d9e73 Add ChargingStarted + InCallNotif to AudioPackage
+fbdaa3b99a8 AICP Theming light/dark tile
+
+   * frameworks/opt/aicpgear/
+d8bfcac Theming: control night mode [2/4]
+3fbd487 Merge "AG: Theming: Import some overlay logic from AE" into p9.0
+296e829 Merge "ThemeOverlayHelper: export function to check if base theme is dark" into p9.0
+
+   * packages/apps/AicpExtras/
+9d30192 Theming: control night mode [3/4]
+
+   * packages/apps/Launcher3/
+008c9f4d8 Launcher3: Follow system theme by default
+
+   * packages/overlays/AICP/
+4246cc7 Merge changes I20272c06,I769c79b4 into p9.0
+
+   * vendor/aicp/
+db14dec vendor: Update bootanimation
+
+====================
+     03-31-2019
+====================
+
+
+   * packages/apps/Launcher3/
+c17b90da2 Launcher3: cleanup theme style code
+74942e8ee Add option to always show app labels
+812f0c5a3 Settings: fix method to hide dividers
