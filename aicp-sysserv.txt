@@ -1,4 +1,173 @@
 ====================
+     05-12-2019
+====================
+
+
+   * device/motorola/potter/
+cc78bd6 potter: copy com.nxp.mifare.xml
+5724657 [DNM]potter: force hal1 on only whatsapp and instagram
+0cddd75 potter: system.prop: re-add hal1 packagelist
+706b8a5 updated clang to 9.0.3
+
+   * platform_manifest/
+88571f8 manifest: track hardware_broadcom_wlan from LoS
+
+====================
+     05-11-2019
+====================
+
+
+   * build/make/
+80fd07228 Merge tag 'android-9.0.0_r37' into p9.0
+
+   * frameworks/av/
+2753d3111 Merge tag 'android-9.0.0_r37' into p9.0
+
+   * frameworks/base/
+4f65e24453d Merge tag 'android-9.0.0_r37' into p9.0
+
+   * frameworks/native/
+1a09a75ad Merge tag 'android-9.0.0_r37' into p9.0
+
+   * frameworks/opt/net/wifi/
+f151e80a8 Merge tag 'android-9.0.0_r37' into p9.0
+
+   * frameworks/opt/telephony/
+dd55a32d7 Merge tag 'android-9.0.0_r37' into p9.0
+
+   * hardware/interfaces/
+5b18869d [squash] Merge tag 'android-9.0.0_r37' into p9.0
+
+   * packages/apps/Bluetooth/
+50e0725d Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/apps/Bluetooth into HEAD
+
+   * packages/apps/CarrierConfig/
+de8d557 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/apps/CarrierConfig into HEAD
+
+   * packages/apps/DeskClock/
+30b9e8115 Merge tag 'android-9.0.0_r37' into p9.0
+
+   * packages/apps/Settings/
+fa872516a9 settings: merge tag 'android-9.0.0_r37' into p9.0
+
+   * packages/inputmethods/LatinIME/
+7ae32794a Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/inputmethods/LatinIME into HEAD
+
+   * packages/providers/DownloadProvider/
+4143d52 [squash] Merge tag 'android-9.0.0_r37' into p9.0
+
+   * packages/providers/MediaProvider/
+c09e495 [squash]  Merge tag 'android-9.0.0_r37' into p9.0
+
+   * packages/services/BuiltInPrintService/
+592b5ef Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/services/BuiltInPrintService into HEAD
+
+   * packages/services/Telecomm/
+dd2d7190 [ squash ;) ]Merge tag 'android-9.0.0_r37' into p9.0
+
+   * packages/services/Telephony/
+b812ee905 [ squash ;) ]Merge tag 'android-9.0.0_r37' into p9.0
+
+   * platform_manifest/
+88a45fd manifest: android-9.0.0_r35 -> android-9.0.0_r37
+
+   * system/bt/
+2457bc42d Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/system/bt into HEAD
+
+   * system/core/
+f83f9ac59 Merge tag 'android-9.0.0_r37' into p9.0
+
+   * system/netd/
+ad2e5fb Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/system/netd into HEAD
+
+   * system/sepolicy/
+51d12bc0 Merge tag 'android-9.0.0_r37' into p9.0
+
+====================
+     05-10-2019
+====================
+
+
+   * bootable/recovery/
+a7132ed7 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/bootable/recovery into HEAD
+
+   * build/soong/
+5e768873 soong: dumpvar recovery info
+
+   * frameworks/base/
+b7b6022493e Fix volume rocker skip track on Ambient Display and Lift to Wake
+f1695771bec Merge "base: Persistent settings icon on qs panel for 9.x" into p9.0
+
+   * vendor/aicp/
+80f0dd5 roomservice: allow adding remove-   *
+256fa40 vendor: set recovery type info
+
+====================
+     05-09-2019
+====================
+
+
+====================
+     05-08-2019
+====================
+
+
+   * packages/apps/Settings/
+44a62b4628 Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
+
+====================
+     05-07-2019
+====================
+
+
+   * frameworks/base/
+bd0a17038b8 base: Persistent settings icon on qs panel for 9.x
+c2eb98277a0 SystemUI: Dismiss keyguard on boot if disabled by current profile
+e3ef15a70ec Workaround for wallpaper not shown correctly problem
+ef1aa581cc0 Fix inaccurate power algorithm of mobile radio
+4fe15498940 SystemUI: enhance alarm and calendar links
+aa04a9914b4 QS: Add advanced location tile options
+c6d50cf4c3e [1/2] base: Add Q style to battery icon chooser
+
+   * hardware/broadcom/wlan/
+b6cf251 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * hardware/qcom/audio/default/
+4a0bd95db Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/Nfc/
+eac38a9a Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+====================
+     05-06-2019
+====================
+
+
+   * frameworks/av/
+ed53810f9 Prevent object of AudioEffect be deleted until construction finished
+
+   * frameworks/base/
+d5160b16e14 base: Add button to AppErrorDialog to upload crash information to haste
+
+   * vendor/aicp/
+3ab4378 kernel: Fix modules path generated in modules.dep
+
+====================
+     05-05-2019
+====================
+
+
+====================
+     05-04-2019
+====================
+
+
+====================
+     05-03-2019
+====================
+
+
+====================
      04-09-2019
 ====================
 
