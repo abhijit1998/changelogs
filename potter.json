@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": ,
-      "filename": "",
-      "id": "",
-      "romtype": "",
-      "size": ,
-      "url": "",
-      "version": ""
+      "datetime": 1588170009,
+      "filename": "aicp_potter_q-15.0-UNOFFICIAL-20200429.zip",
+      "id": "b75d5b52148caace32be8633cff5ab35",
+      "romtype": "UNOFFICIAL",
+      "size": 728512585,
+      "url": "http://abhi-home.dlinkddns.com/builds/aicp/aicp_potter_q-15.0-UNOFFICIAL-20200429.zip",
+      "version": "15.0-UNOFFICIAL"
     }
   ]
 }
