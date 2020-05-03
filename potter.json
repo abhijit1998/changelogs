@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1588425784,
-      "filename": "aicp_potter_q-15.0-UNOFFICIAL-20200502.zip",
-      "id": "bbd8fe4fbcaefa8d2cdcd3ba5268d887",
+      "datetime": 1588480467,
+      "filename": "aicp_potter_q-15.0-UNOFFICIAL-20200503.zip",
+      "id": "99d9f4b91f87a5afb49f4663f10dbdcb",
       "romtype": "UNOFFICIAL",
-      "size": 727371157,
-      "url": "https://master.dl.sourceforge.net/project/unofficial-builds/DO-NOT-DOWNLOAD/aicp_potter_q-15.0-UNOFFICIAL-20200502.zip",
+      "size": 728397934,
+      "url": "https://master.dl.sourceforge.net/project/unofficial-builds/aicp/aicp_potter_q-15.0-UNOFFICIAL-20200503.zip",
       "version": "q-15.0"
     }
   ]
