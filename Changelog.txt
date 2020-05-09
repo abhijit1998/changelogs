@@ -3,6 +3,10 @@
 ====================
 
 
+   * bootable/recovery
+641868d9 recovery: minui: Switch to aicp variable
+7e57490b minui: Allow skipping EV_REL input devices.
+
    * development
 a9dcc4229 privapp_permissions: Check product privapp_permissions
 
@@ -10,10 +14,12 @@ a9dcc4229 privapp_permissions: Check product privapp_permissions
 b330f71 bashrc: Add `ll` alias
 
    * packages/apps/Updater
-0c04c35 change updater urls
+ee5d0b9 Update changelog URL
+660ba33 Update download links
 
    * vendor/aicp
-a355ceb5 add support for Updater in unofficial build
+e4058ab1 add support for Updater in unofficial build
+d020e72a lineage: Add flag for skipping EV_REL input in recovery
 
 ====================
      05-08-2020
@@ -34,13 +40,13 @@ a355ceb5 add support for Updater in unofficial build
    * device/aicp/sepolicy
 aa1a3d4 aicp_sepolicy: we are AICP
 
-   * system/core
-ba9731dec fs_mgr: skip setting rootfs block as ro during mount_all in recovery
-
 ====================
      05-06-2020
 ====================
 
+
+   * system/core
+ba9731dec fs_mgr: skip setting rootfs block as ro during mount_all in recovery
 
 ====================
      05-05-2020
@@ -76,16 +82,13 @@ ae2ed0272e Merge tag 'android-10.0.0_r35' into q10.0
 ====================
 
 
-   * frameworks/base
-13f310b43e1 fw/b data restrictions: Don't call getNetworkCapabilities() in the callback
-
 ====================
      05-03-2020
 ====================
 
 
-   * device/aicp/sepolicy
-2fb0e6d qcom: Add legacymm livedisplay sepolicy
+   * frameworks/base
+13f310b43e1 fw/b data restrictions: Don't call getNetworkCapabilities() in the callback
 
    * packages/overlays/AICP
 9b77af2 overlays: Make all scripts use bash instead of sh
@@ -102,6 +105,9 @@ d7b9ac61 vendor: Add partsbin permission
 eaf945b7 recovery: handle interrupts in apply update menu
 d6730d09 recovery: fix volmgr cleaning up
 
+   * device/aicp/sepolicy
+2fb0e6d qcom: Add legacymm livedisplay sepolicy
+
    * frameworks/base
 f5b415e650e Add isApplicationOnUicc API
 55933adcf95 Wired/BT headset: make ringtone audio focus customizable [1/2]
@@ -115,18 +121,12 @@ d63af67cd15 Revert "FODCircleView: Show while bouncer is requesting Pattern or P
 fc506c058c3 Revert "Location tile: make it cycle modes"
 0554e3e6108 Revert "SystemUI: QSTiles: add details panel to location tile"
 
-   * frameworks/opt/aicpgear
-992675f aicpgear: add GlobalSettingListPreference to the mix
-
    * packages/apps/AicpExtras
 5bfb7ae Wired/BT headset: make ringtone audio focus customizable [2/2]
 
    * packages/apps/JamesDSPManager
 e9ae49f Merge "JamesDSP: add storage permissions" into q10.0
 97a593c JamesDSP: add storage permissions
-
-   * packages/apps/Settings
-05a28f919a LiveDisplaySettings: Hide Reading Mode if wellbeing app is enabled
 
    * packages/services/OmniJaws
 ea65671 OmniJaws: Update owm weather icons' sunset/sunrise dependency
@@ -146,10 +146,16 @@ d95a39023 fixup! Add isApplicationOnUicc API
    * frameworks/base
 b2960dc472f Fix WebView vulnerability by disallowing file access
 
+   * frameworks/opt/aicpgear
+992675f aicpgear: add GlobalSettingListPreference to the mix
+
    * hardware/qcom/display
 7d10f4b5c msm8084: libhwcomposer fix some warnings
 d20c3f894 Make hwc_vsync thread realtime
 b9bd88086 msm8084: Deprecate usage of cutils/log.h
+
+   * packages/apps/Settings
+05a28f919a LiveDisplaySettings: Hide Reading Mode if wellbeing app is enabled
 
 ====================
      04-30-2020
@@ -167,5 +173,4 @@ ae1d814adce base: core: rename restart ui permission
 
    * packages/apps/Settings
 8752f0d20d BasebandVersionPreferenceController: Trim baseband if needed
-
 
