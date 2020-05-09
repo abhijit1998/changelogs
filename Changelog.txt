@@ -1,1 +1,171 @@
+====================
+     05-09-2020
+====================
+
+
+   * development
+a9dcc4229 privapp_permissions: Check product privapp_permissions
+
+   * external/bash
+b330f71 bashrc: Add `ll` alias
+
+   * packages/apps/Updater
+0c04c35 change updater urls
+
+   * vendor/aicp
+a355ceb5 add support for Updater in unofficial build
+
+====================
+     05-08-2020
+====================
+
+
+   * frameworks/base
+770da18a3fa SystemUI: optionaly disable fod night mode
+
+   * vendor/aicp
+67e42478 vendor: Add StevenBlack source
+
+====================
+     05-07-2020
+====================
+
+
+   * device/aicp/sepolicy
+aa1a3d4 aicp_sepolicy: we are AICP
+
+   * system/core
+ba9731dec fs_mgr: skip setting rootfs block as ro during mount_all in recovery
+
+====================
+     05-06-2020
+====================
+
+
+====================
+     05-05-2020
+====================
+
+
+   * build/make
+41b64a7e4 Merge tag 'android-10.0.0_r35' into q10.0
+
+   * frameworks/av
+79536b8aa Merge tag 'android-10.0.0_r35' into q10.0
+
+   * frameworks/base
+b2a468ceb5a Merge tag 'android-10.0.0_r35' into q10.0
+
+   * frameworks/native
+ded11359a Correct PowerManager transaction IDs. These transaction IDs must be kept in sync with the method order from IPowerManager.aidl.
+
+   * packages/apps/Settings
+ae2ed0272e Merge tag 'android-10.0.0_r35' into q10.0
+
+   * packages/services/Telephony
+21819b7a7 Merge tag 'android-10.0.0_r35' into q10.0
+
+   * platform_manifest
+6022ff4 manifest: android-10.0.0_r33 -> android-10.0.0_r35
+
+   * system/bt
+4b27796cb Merge tag 'android-10.0.0_r35' into q10.0
+
+====================
+     05-04-2020
+====================
+
+
+   * frameworks/base
+13f310b43e1 fw/b data restrictions: Don't call getNetworkCapabilities() in the callback
+
+====================
+     05-03-2020
+====================
+
+
+   * device/aicp/sepolicy
+2fb0e6d qcom: Add legacymm livedisplay sepolicy
+
+   * packages/overlays/AICP
+9b77af2 overlays: Make all scripts use bash instead of sh
+
+   * vendor/aicp
+d7b9ac61 vendor: Add partsbin permission
+
+====================
+     05-02-2020
+====================
+
+
+   * bootable/recovery
+eaf945b7 recovery: handle interrupts in apply update menu
+d6730d09 recovery: fix volmgr cleaning up
+
+   * frameworks/base
+f5b415e650e Add isApplicationOnUicc API
+55933adcf95 Wired/BT headset: make ringtone audio focus customizable [1/2]
+ee6e5df02fb SystemUI: check for weather service in qs tile
+655fd0b4f72 Disable R-style headers by default
+4bc3c0c4ac7 ReadingModeTile: Go away if wellbeing app is enabled
+6185d3c1bc4 SystemUI: Allow setting custom rounded corner shapes
+c805a9b6e66 SystemUI: decrease margin between qs and text
+f8dfb2c8310 FODCircleView: Show while bouncer is requesting Pattern or PIN
+d63af67cd15 Revert "FODCircleView: Show while bouncer is requesting Pattern or PIN"
+fc506c058c3 Revert "Location tile: make it cycle modes"
+0554e3e6108 Revert "SystemUI: QSTiles: add details panel to location tile"
+
+   * frameworks/opt/aicpgear
+992675f aicpgear: add GlobalSettingListPreference to the mix
+
+   * packages/apps/AicpExtras
+5bfb7ae Wired/BT headset: make ringtone audio focus customizable [2/2]
+
+   * packages/apps/JamesDSPManager
+e9ae49f Merge "JamesDSP: add storage permissions" into q10.0
+97a593c JamesDSP: add storage permissions
+
+   * packages/apps/Settings
+05a28f919a LiveDisplaySettings: Hide Reading Mode if wellbeing app is enabled
+
+   * packages/services/OmniJaws
+ea65671 OmniJaws: Update owm weather icons' sunset/sunrise dependency
+
+   * packages/services/Telephony
+d95a39023 fixup! Add isApplicationOnUicc API
+10afe04f4 Add isApplicationOnUicc API
+
+   * vendor/aicp
+72b89557 Merge "Add multiple topics support to repopick" into q10.0
+
+====================
+     05-01-2020
+====================
+
+
+   * frameworks/base
+b2960dc472f Fix WebView vulnerability by disallowing file access
+
+   * hardware/qcom/display
+7d10f4b5c msm8084: libhwcomposer fix some warnings
+d20c3f894 Make hwc_vsync thread realtime
+b9bd88086 msm8084: Deprecate usage of cutils/log.h
+
+====================
+     04-30-2020
+====================
+
+
+   * device/aicp/sepolicy
+73d498f sepolicy: Add sepolicy rules for event-based tap to wake gesture control
+
+   * external/bash
+aeab988 inputrc: Import from Ubuntu
+
+   * frameworks/base
+ae1d814adce base: core: rename restart ui permission
+
+   * packages/apps/Settings
+8752f0d20d BasebandVersionPreferenceController: Trim baseband if needed
+
 
