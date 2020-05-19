@@ -1,4 +1,296 @@
 ====================
+     05-19-2020
+====================
+
+
+   * frameworks/base
+5b1f7375c77 SystemUI: Initialize proper visibility for notification icons container
+
+   * hardware/qcom-caf/common
+3b586a8 Don't BUILD_WITHOUT_VENDOR
+
+   * hardware/qcom-caf/sm8150/audio
+12480be3c a2dp: Add a null check before iterating over a2dp.adev->usecase_list
+
+   * packages/apps/Updater
+b643503 Update changelog URL
+ad8c92a Update download links
+
+   * vendor/aicp
+e99dd33b add support for Updater in unofficial build
+
+====================
+     05-18-2020
+====================
+
+
+   * device/motorola/potter
+393ad2f MotoActions: Add new icons for Device Gestures from Stock
+
+   * device/qcom/sepolicy
+2794268a sepolicy: Unlabel aux camera whitelist prop
+
+   * frameworks/base
+5d2507f08a4 NotificationLight: expose left and right widths
+085b442f47c NotificationLight: expose left and right widths
+dcc3ac82e0a NotificationLights: add reverse animation direction
+8d80b68d2ba NotificationLights: enable turning off repeat
+7ff1b80f9c9 Merge changes from topic "expose-aux-camera" into q10.0
+1294a05c122 base: Fix notification LED blink for missed calls
+
+   * packages/services/Telephony
+7964bbf7b Extended suspend actions (2/3)
+
+   * platform_manifest
+d2450bb manifest: remove duplicated repo
+d5d6966 Merge "manifest: switch to AICP forks of telephony repos to fix IMS" into q10.0
+
+====================
+     05-17-2020
+====================
+
+
+   * packages/resources/devicesettings
+0719cae devicesettings: add edge light direction resources
+
+====================
+     05-16-2020
+====================
+
+
+   * bootable/recovery
+b747f927 recovery: Remove the "Format system partition" menu on A/B devices
+
+   * external/hosts
+f9657f92 Release 2.6.16
+f72248b7 Updates from yoyo.org, URLHaus, KADHosts, , hostsVN, Badd-Boyz, and AdAway.
+e2a23e8d Issue #1284: add www.govrefund-uk.com.
+
+   * packages/apps/Messaging
+48fd57f Messaging: Fix sysconfig whitelist filename
+
+   * vendor/aicp
+4b88de95 BoardConfigQcom: Allow a device to opt-out hardset of PRODUCT_SOONG_NAMESPACES
+81b6d764 Merge "aicp: docs: update features again" into q10.0
+
+====================
+     05-15-2020
+====================
+
+
+   * build/make
+cde661e19 releasetools: Use du -b
+
+   * device/aicp/sepolicy
+1a5e8d6 common: Expose aux camera {black,white}list props
+2f007e3 Revert "Label lineage.service.adb.root as system prop"
+
+   * device/qcom/sepolicy-legacy-um
+e884378f sepolicy: Unlabel aux camera whitelist prop
+
+   * frameworks/base
+31f7af709f8 camera: Support exposing aux camera to apps
+a8b3e58aa45 Revert "Camera: Expose Aux camera to apps present in the whitelist"
+cd3bdeb327a Add VPN tile.
+b75033df9ab Gesture nav toggle: show IME when needed and improve code
+3e68c442f37 Allow to hide navigation bar gesture completely [1/2]
+776fcaf4cdc Revert "base: overlays: Hide pill in full gestural nav mode [1/2]"
+
+   * packages/apps/Settings
+95a8010dbc Settings: simplify gesture navbar toggle
+81c29e45bf Allow to hide navigation bar gesture completely [2/2]
+4e3b2fcca9 Revert "Settings: Hide pill in full gestural nav mode [2/3]"
+6e0282aee8 Revert "Settings: Move the hide pill toggle to gesture settings dialog"
+
+   * platform_manifest
+7995ee3 manifest: Fetch LoS fork of build-tools
+
+====================
+     05-14-2020
+====================
+
+
+   * device/aicp/sepolicy
+fd1edce Merge "Revert "aicp-sepolicy: Add wifi ext sepolicy rules"" into q10.0
+af096ca Revert "aicp-sepolicy: Add wifi ext sepolicy rules"
+84f6361 Merge changes from topics "google-cust", "powershare" into q10.0
+
+   * external/hosts
+b0e1d2b8 Release 2.6.15
+4d4ede2a Updates from URLHaus.
+87faa578 Sorry, I dropped the ball, re-removing rollbar website domains.
+9ef031ba Release 2.6.14
+f217546d Updates from URLHaus, StevenBlack, KADhosts, hostsVN, and Badd-Boyz.
+376ff41c Merge pull request #1283 from izn/patch-1
+fcf74d29 Restore api.rollbar.com
+525f7723 Remove *.rollbar.com from blacklist
+
+   * frameworks/base
+2bee7d6140b Don't change public API
+257cd20f721 FODCircleView: Dispatch onPress to HAL only after dimming is applied
+2ab891ef203 Revert "Telephony: Rename VoWiFi Emergency notification intent."
+2495bc6fbfd SystemUI: Enhancement for volte icon
+a65bc75ba32 Whitelist OVERRIDE_WIFI_CONFIG for phone app
+42d4b07a79a ListView: Disable dividers by default
+3342cd07859 Add auth framework for outgoing SMS messages.
+9e378b7148a Telephony: Don't crash for too long baseband version
+993768ea512 Check if EIMS when confirming network
+7998ea0dba0 net: modify connecitvity rematch logic to support MSIM devices
+4d697fb871d Add ICCID into CarrierIdentifier
+e39af83931a BT: Send info if call is CS type from telecomm service to BT apps.
+8231bc5c302 Emergency SMS carrier config flag
+2ac54c77702 IMS-VT: Add config to control holding a video call
+3d857bbdaf5 SMS: Parsing of CDMA MMS notification carried by SMS
+e005cd774f1 Telephony: Get SIM card capacity count of SMS
+9262e785eee IMS: Add carrier config for RTT always enabled
+465e0eaf8ac IMS: Conference URI support.
+5192257dae0 IMS: Propagate RTT capability of the called party to UI
+4c92a9ede70 IMS: Add CALL_TYPE for audio and video inactive
+d9ff3ea118d IMS: Propagate call session property changed message
+25cdfe79a1d Use proper coded alphabet when a contact is written into EF_ADN of USIM.
+7639ced09b0 SEEMP: framework instrumentation and AppProtect features
+b03b1253ecc Telephony: Add DisconnectCause values for clear code
+33fff82f6cf IMS: Add UT interface to query CF setting for service class.
+7fff35e29c5 IMS: Add flag to control reset UT capability
+214d4ac3ae1 Add config to disable CDMA call forward/waiting
+f4fb2fbcf35 Resolve NumberPicker display abnormal issue.
+d34e9527ab6 base: Handle NPE for ContentObserver
+dbe0b04373b Update wifi interface ip state upon receiving ap disable event
+7d6d5258999 connectivity: Configure additional TCP parameters
+e4e0dfd077c Telephony: NPE observed in Settings when click on Search settings
+c41095f087f LTE+ indicator not shown when attached to CA network
+4db851788b2 Revert "base: Improve SFUNY Clock preview"
+4b245dae9c8 base: Improve SFUNY Clock preview
+fb86810b558 fw_base: follow system accent for OOS Style clear all button icon
+aa14d0f3c37 base: SystemUI: fix NPE in PowerShareTile
+a0df9770cf2 Quick settings: Add method for getting estimated battery time
+01765c86727 base: Improve SFUNY Clock preview
+a8f5802b513 base: Add SFUNY clock
+f142e66ba76 FODCircleView: Let us call show() when mIsBouncer() && !isPinOrPattern()
+98b345a234d Phone ringtone setting for Multi SIM device
+bfec5c2b63f Revert "base: Phone ringtone setting for Multi SIM device [1/3]"
+54c3b3c7485 FODCircleView: Scale FOD icon properly
+11896503f10 FODCircleView: Let displaymanager handle brightness
+4d27af33958 base: Add button to AppErrorDialog to upload crash information to haste
+8e3c8ddf207 fix clear all color
+3c8bbd997a9 base: core: Add combined hour-min display to zenmode config
+8fc56b1d93d base: add 15min 'do not disturb' intervals
+a054b64b225 SystemUI: fix quick qs and qs header text layouts
+cf7c7ab3b38 base: SystemUI: always hide qs status bar on tablets
+057d718a1fb [1/2] base: SystemUI: header image tweaks aka the big marginator
+efd33374d10 fw_base: Update OOS Style clear all notifications button icon
+b63a433d611 Add ripple effect to oos dismiss all
+73176458f68 Fix oxygenos dismiss all appearing when there arent any notifications to dimiss
+52e4df90109 OxygenOS dismiss all: animate it todo: cleanup of all this mess
+c25d88424b8 OxygenOS dismiss all: disable animations and disable it by default
+40024e5ca03 fw_base: OxygenOS styled dismiss all button [1/2]
+6007b6bff8a Live Volume Steps [1/2]
+1a7ed318a40 fw_base: grant Storage Permission to GBoard & Google Recorder
+af43119e995 SystemUi: Replace QS Tile Battery Saver Tile icons to MD2 Design
+5a606b789c6 base: SystemUI: add qs powershare tile
+c36a45aee24 base: Extended suspend actions (1/3)
+26ba0e465f8 Suspend Actions [1/3]
+ebca5a79abf wm::DisplayRotation: Limit WFD UIBC rotation to primary displays
+e7aaba2f46a hwui: Relax the desiredPresent time in RenderAhead feature
+901cd80306c SystemUI: Add OP Energy FOD animation from OnePlus 8 Pro [1/2]
+
+   * packages/apps/AicpExtras
+15a20d1 AicpExtras: Add privapp permissions xml
+d6eabbd AE: OxygenOS styled dismiss all button [2/2]
+49ac6eb ae: Extended suspend actions (3/3)
+a3af50e ae: cleanup suspend actions
+2bb119c AE: Add OP Energy FOD animation from OnePlus 8 Pro [2/2]
+3ff2e6b Update AE switchbar to Android 10 Settings style
+
+   * packages/apps/Settings
+89aff852d7 Settings: Phone ringtone setting for Multi SIM device
+e2c3d7f5e6 Revert "Settings: Phone ringtone setting for Multi SIM device [2/3]"
+
+   * packages/apps/Snap
+cea1db41d Move Snap and its libs to /product
+
+   * platform_manifest
+d8b167c manifest: switch to AICP forks of telephony repos to fix IMS
+
+   * vendor/aicp
+7cf6c5d4 aicp: docs: update features again
+5c7657ec config: Move permission xml to apps
+d7b4db37 [2/2] overlay: header image tweaks
+3d86e051 hosts.aicp_adblock: sync from git, update on build [2/2]
+
+====================
+     05-13-2020
+====================
+
+
+   * device/motorola/potter
+f2052bc potter: Fix Android.mk
+19b5d98 potter: Disable NearbyMessagingService
+f1c15d4 potter: Disable DiscoveryService
+
+   * external/hosts
+45af8fd5 Release 2.6.13
+1fd99387 Updates from yoyo.org, URLHaus, KADhosts, hostsVN, Badd-Boyz, and AdAway.
+b24947d7 Merge pull request #1275 from scafroglia93/master
+93280983 Merge pull request #1277 from sheepfleece/NixOS_Config
+990766f5 Use default hosts file
+0bd364f0 Add Usage for NixOS
+
+   * packages/apps/OmniStyle
+6891493 OmniStyle: add privapp permissions xml
+
+   * packages/services/OmniJaws
+d304ddd OmniJaws: Add privapp permissions xml
+
+   * packages/services/Telephony
+6bd36e0aa Revert "Check UID in getUiccCardsInfoSecurity"
+717d0558a Check UID in getUiccCardsInfoSecurity
+78c465e95 Enforce ACCESS_COARSE_LOCATION on getCellLocation
+
+====================
+     05-12-2020
+====================
+
+
+   * external/hosts
+9edf42d8 Issue #1278: fix — Remove 6×66.com, invalid character in the domain.
+
+   * frameworks/native
+c053eb696 SF:Report active config to java framework
+
+   * packages/apps/DeskClock
+b9faa2cb3 DeskClock: Add sysconfig whitelist xml
+
+   * packages/apps/Dialer
+bb24e2874 Dialer: Add extra privapp permissions xml
+
+   * packages/apps/FMRadio
+4ca9c40 FMRadio: add BOARD_HAVE_SLSI_FM guard
+
+   * packages/apps/Launcher3
+09e984afa Launcher3: Add extra privapp permissions xml
+
+   * packages/apps/Messaging
+cf31a14 Messaging: Add sysconfig whitelist xml
+
+   * packages/apps/Snap
+5290489aa Snap: Add privapp permissions xml
+
+   * packages/apps/Updater
+ca07e4f Updater: Add privapp permissions xml
+
+====================
+     05-11-2020
+====================
+
+
+   * external/hosts
+ac44b444 hosts: malware IoC
+
+   * packages/apps/Settings
+4745a84531 Settings: add 15min 'do not disturb' intervals
+
+====================
      05-10-2020
 ====================
 
@@ -7,163 +299,15 @@
 641868d9 recovery: minui: Switch to aicp variable
 7e57490b minui: Allow skipping EV_REL input devices.
 
-   * packages/apps/Updater
-1d7695b Update changelog URL
-2c4bec8 Update download links
+   * external/hosts
+8dcbf8a3 Add domain from Issue #1269.
+52a04335 Merge pull request #1273 from scafroglia93/master
+8bb05550 hosts: malware IoC
+
+   * packages/services/Telecomm
+c6fc706e Phone ringtone setting for Multi SIM device
+83728ef9 Revert "Telecomm: Phone ringtone setting for Multi SIM device [3/3]"
 
    * vendor/aicp
-b4b37b62 add support for Updater in unofficial build
 d020e72a lineage: Add flag for skipping EV_REL input in recovery
-
-====================
-     05-09-2020
-====================
-
-
-   * development
-a9dcc4229 privapp_permissions: Check product privapp_permissions
-
-   * external/bash
-b330f71 bashrc: Add `ll` alias
-
-   * frameworks/base
-770da18a3fa SystemUI: optionaly disable fod night mode
-
-   * vendor/aicp
-67e42478 vendor: Add StevenBlack source
-
-====================
-     05-08-2020
-====================
-
-
-====================
-     05-07-2020
-====================
-
-
-   * device/aicp/sepolicy
-aa1a3d4 aicp_sepolicy: we are AICP
-
-   * system/core
-ba9731dec fs_mgr: skip setting rootfs block as ro during mount_all in recovery
-
-====================
-     05-06-2020
-====================
-
-
-   * build/make
-41b64a7e4 Merge tag 'android-10.0.0_r35' into q10.0
-
-   * frameworks/av
-79536b8aa Merge tag 'android-10.0.0_r35' into q10.0
-
-   * frameworks/base
-b2a468ceb5a Merge tag 'android-10.0.0_r35' into q10.0
-
-   * frameworks/native
-ded11359a Correct PowerManager transaction IDs. These transaction IDs must be kept in sync with the method order from IPowerManager.aidl.
-
-   * packages/apps/Settings
-ae2ed0272e Merge tag 'android-10.0.0_r35' into q10.0
-
-   * packages/services/Telephony
-21819b7a7 Merge tag 'android-10.0.0_r35' into q10.0
-
-   * platform_manifest
-6022ff4 manifest: android-10.0.0_r33 -> android-10.0.0_r35
-
-   * system/bt
-4b27796cb Merge tag 'android-10.0.0_r35' into q10.0
-
-====================
-     05-05-2020
-====================
-
-
-====================
-     05-04-2020
-====================
-
-
-   * frameworks/base
-13f310b43e1 fw/b data restrictions: Don't call getNetworkCapabilities() in the callback
-
-   * packages/overlays/AICP
-9b77af2 overlays: Make all scripts use bash instead of sh
-
-====================
-     05-03-2020
-====================
-
-
-   * device/aicp/sepolicy
-2fb0e6d qcom: Add legacymm livedisplay sepolicy
-
-   * frameworks/base
-f5b415e650e Add isApplicationOnUicc API
-55933adcf95 Wired/BT headset: make ringtone audio focus customizable [1/2]
-ee6e5df02fb SystemUI: check for weather service in qs tile
-655fd0b4f72 Disable R-style headers by default
-4bc3c0c4ac7 ReadingModeTile: Go away if wellbeing app is enabled
-6185d3c1bc4 SystemUI: Allow setting custom rounded corner shapes
-c805a9b6e66 SystemUI: decrease margin between qs and text
-f8dfb2c8310 FODCircleView: Show while bouncer is requesting Pattern or PIN
-d63af67cd15 Revert "FODCircleView: Show while bouncer is requesting Pattern or PIN"
-fc506c058c3 Revert "Location tile: make it cycle modes"
-0554e3e6108 Revert "SystemUI: QSTiles: add details panel to location tile"
-
-   * packages/apps/JamesDSPManager
-e9ae49f Merge "JamesDSP: add storage permissions" into q10.0
-97a593c JamesDSP: add storage permissions
-
-   * vendor/aicp
-d7b9ac61 vendor: Add partsbin permission
-72b89557 Merge "Add multiple topics support to repopick" into q10.0
-
-====================
-     05-02-2020
-====================
-
-
-   * bootable/recovery
-eaf945b7 recovery: handle interrupts in apply update menu
-d6730d09 recovery: fix volmgr cleaning up
-
-   * frameworks/opt/aicpgear
-992675f aicpgear: add GlobalSettingListPreference to the mix
-
-   * packages/apps/AicpExtras
-5bfb7ae Wired/BT headset: make ringtone audio focus customizable [2/2]
-
-   * packages/apps/Settings
-05a28f919a LiveDisplaySettings: Hide Reading Mode if wellbeing app is enabled
-
-   * packages/services/OmniJaws
-ea65671 OmniJaws: Update owm weather icons' sunset/sunrise dependency
-
-   * packages/services/Telephony
-d95a39023 fixup! Add isApplicationOnUicc API
-10afe04f4 Add isApplicationOnUicc API
-
-====================
-     05-01-2020
-====================
-
-
-   * device/aicp/sepolicy
-73d498f sepolicy: Add sepolicy rules for event-based tap to wake gesture control
-
-   * external/bash
-aeab988 inputrc: Import from Ubuntu
-
-   * frameworks/base
-b2960dc472f Fix WebView vulnerability by disallowing file access
-ae1d814adce base: core: rename restart ui permission
-
-   * hardware/qcom/display
-7d10f4b5c msm8084: libhwcomposer fix some warnings
-d20c3f894 Make hwc_vsync thread realtime
-b9bd88086 msm8084: Deprecate usage of cutils/log.h
 
