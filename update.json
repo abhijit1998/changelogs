@@ -1,13 +1,13 @@
 {
   "response": [
     {
- "1593152415",
-      "filename": "aicp_potter_q-"https://abhi-storage.kozow.com/builds/AICP-15.0/daily/aicp_potter_q-15.0-DAILY-20200626-1130.zip",- "aicp_potter_q-"https://abhi-storage.kozow.com/builds/AICP-15.0/daily/aicp_potter_q-15.0-DAILY-20200626-1130.zip",-DAILY-20200626-1130.zip",-20200519.zip",
- "f0b91003eba466996d6ef5a35a1b258f",
-      "romtype": " "aicp_potter_q-"https://abhi-storage.kozow.com/builds/AICP-15.0/daily/aicp_potter_q-15.0-DAILY-20200626-1130.zip",-DAILY-20200626-1130.zip",",
- "741018704",
-      "url": "https://master.dl.sourceforge.net/project/unofficial-builds/aicp/aicp_potter_q-"https://abhi-storage.kozow.com/builds/AICP-15.0/daily/aicp_potter_q-15.0-DAILY-20200626-1130.zip",- "aicp_potter_q-"https://abhi-storage.kozow.com/builds/AICP-15.0/daily/aicp_potter_q-15.0-DAILY-20200626-1130.zip",-DAILY-20200626-1130.zip",-20200519.zip",
-      "version": "q-"https://abhi-storage.kozow.com/builds/AICP-15.0/daily/aicp_potter_q-15.0-DAILY-20200626-1130.zip","
+      "datetime": 1593230643,
+      "filename": "aicp_potter_q-15.0-DAILY-20200627-0914.zip",
+      "id": "5b0373d631f76138ddd8d9a00197778c",
+      "romtype": "EXPERIMENTAL",
+      "size": 741048706,
+      "url": "https://abhi-storage.kozow.com/builds/AICP-15.0/daily/aicp_potter_q-15.0-DAILY-20200627-0914.zip",
+      "version": "q-15.0"
     }
   ]
 }
