@@ -3,6 +3,21 @@
 ====================
 
 
+====================
+     06-26-2020
+====================
+
+
+   * build/make
+310fb8c53 Refactor how MODULES-IN-* is defined
+d32df4aeb base_rules.mk optimizations
+d6425679e Fix test suite data files issue.
+9f7280978 Export list of "installable" files to soong_ui
+8636fca3b Avoid adding VINTF manifest fragment more than once.
+
+   * external/hosts
+dc68f96f Merge pull request #1321 from taobojlen/add-mailspring-tracking
+
    * hardware/qcom-caf/msm8998/audio
 9e2e494b3 hal: msm8974: Use stereo recording depending on camera orientation
 972bdcff0 hal: msm8974: Fix the wrong device for AUDIO_SOURCE_CAMCORDER
@@ -19,37 +34,16 @@ dde82ee Update changelog URL
 b455222 qcom: Add atoll platform
 
 ====================
-     06-26-2020
-====================
-
-
-   * build/make
-8636fca3b Avoid adding VINTF manifest fragment more than once.
-
-   * external/hosts
-dc68f96f Merge pull request #1321 from taobojlen/add-mailspring-tracking
-a59f18a3 Release 2.6.24
-7ec35337 Updates from clefspeare13, yoyo.org, URLHaus, hostsVN, Badd-Boyz, and AdAway.
-
-   * frameworks/base
-f18b9fe69f9 TextureVuew rebind GL texture, if AHB content has changed
-
-   * platform_manifest
-6b14f10 manifest: Switch to LoS external/skia fork
-
-====================
      06-25-2020
 ====================
 
 
    * external/hosts
-4e2796aa add link.getmailspring.com
+a59f18a3 Release 2.6.24
+7ec35337 Updates from clefspeare13, yoyo.org, URLHaus, hostsVN, Badd-Boyz, and AdAway.
 
    * frameworks/base
-466cfd950f7 SystemUI: Fix issue with Bluetooth tile
-
-   * frameworks/opt/telephony
-3330bb990 Telephony: Add option for using regular poll state for airplane mode
+f18b9fe69f9 TextureVuew rebind GL texture, if AHB content has changed
 
    * packages/apps/Etar
 4d6a7d04 Fix errors caught by aapt2
@@ -74,37 +68,42 @@ a6ee26ee Fixed leak cursor in AlertReciever
 ccf1520d DayView: Revert all whitespace changes
 199c3df7 Etar: Fix invalid string parameter
 
+   * platform_manifest
+6b14f10 manifest: Switch to LoS external/skia fork
+
 ====================
      06-24-2020
 ====================
 
 
+   * external/hosts
+4e2796aa add link.getmailspring.com
+
+   * frameworks/base
+466cfd950f7 SystemUI: Fix issue with Bluetooth tile
+
+   * frameworks/opt/telephony
+3330bb990 Telephony: Add option for using regular poll state for airplane mode
+
    * packages/apps/Etar
 882b00cc Etar: Fix android:targetPackage for shortcut
-
-   * packages/apps/Phonograph
-c01354e7 Phonograph: build as stanbdalone app
 
 ====================
      06-23-2020
 ====================
 
 
-   * external/hosts
-c7537d2b Release 2.6.23
-9a8b5df4 Updates from yoyo.org, URLHaus, KADhosts, HostsVN, Badd-Boyz, and AdAway.
+   * packages/apps/Phonograph
+c01354e7 Phonograph: build as stanbdalone app
 
 ====================
      06-22-2020
 ====================
 
 
-   * packages/apps/Etar
-b338355c Etar: String improvements
-b288818b Etar: Restore tests
-3284faaa AOSP/Calendar - Minimal calendar app.
-2fd1c764 Update code coverage filter
-414c864b Etar: Fix translatables
+   * external/hosts
+c7537d2b Release 2.6.23
+9a8b5df4 Updates from yoyo.org, URLHaus, KADhosts, HostsVN, Badd-Boyz, and AdAway.
 
    * packages/apps/Exchange
 6a0f52cb Automatic translation import
@@ -133,30 +132,29 @@ b288818b Etar: Restore tests
 1388e838733 base: Remove unused config
 
    * packages/apps/Etar
+b338355c Etar: String improvements
+b288818b Etar: Restore tests
+3284faaa AOSP/Calendar - Minimal calendar app.
+2fd1c764 Update code coverage filter
+414c864b Etar: Fix translatables
 2d780472 Etar: Fix content provider rebrand
-
-   * vendor/motorola
-5c62a846 Merge "sanders: Update WFD from daisy Q" into q10.0
-5008af90 sanders: Update WFD from daisy Q
 
 ====================
      06-20-2020
 ====================
 
 
-   * external/skia
-3e76a81b2b Allow to rebind GL texture if AHB content has changed
+   * vendor/motorola
+5c62a846 Merge "sanders: Update WFD from daisy Q" into q10.0
+5008af90 sanders: Update WFD from daisy Q
 
 ====================
      06-19-2020
 ====================
 
 
-   * device/motorola/potter
-a737a07 potter: Bring back AICP Device Maintainer
-fad9eb0 potter: overlay: enable AOD (Always On Display)
-891d582 potter: overlay: set max visible notification count to 6
-17f53f9 potter: MotoActions: use Accent Color for icons in Device Gestures
+   * external/skia
+3e76a81b2b Allow to rebind GL texture if AHB content has changed
 
    * packages/apps/AicpExtras
 93b5048 ae: link to our new wallpaper location
@@ -167,8 +165,11 @@ a6d47e3 ae: explicitly use https everywhere to satisfy the paranoid
 ====================
 
 
-   * external/hosts
-de675b71 Issue #1315: add italiapagamen.com.
+   * device/motorola/potter
+a737a07 potter: Bring back AICP Device Maintainer
+fad9eb0 potter: overlay: enable AOD (Always On Display)
+891d582 potter: overlay: set max visible notification count to 6
+17f53f9 potter: MotoActions: use Accent Color for icons in Device Gestures
 
    * packages/apps/Etar
 e06e35cd Etar: Properly align preferences

@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1593230643,
-      "filename": "aicp_potter_q-15.0-DAILY-20200627-0914.zip",
-      "id": "5b0373d631f76138ddd8d9a00197778c",
-      "romtype": "EXPERIMENTAL",
-      "size": 741048706,
-      "url": "https://abhi-storage.kozow.com/builds/AICP-15.0/daily/aicp_potter_q-15.0-DAILY-20200627-0914.zip",
+      "datetime": 1593275471,
+      "filename": "aicp_potter_q-15.0-WEEKLY-20200627.zip",
+      "id": "6595f7c0abd287ec9c37df9ca2c180c4",
+      "romtype": "WEEKLY",
+      "size": 741053020,
+      "url": "https://abhi-storage.kozow.com/builds/AICP-15.0/daily/aicp_potter_q-15.0-WEEKLY-20200627.zip",
       "version": "q-15.0"
     }
   ]
