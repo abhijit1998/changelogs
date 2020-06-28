@@ -25,11 +25,6 @@ ddb8a617 Release 2.6.25
    * packages/apps/Etar
 4b38c76d Automatic translation import
 
-   * packages/apps/Updater
-6a04b81 update URLs
-dde82ee Update changelog URL
-88fc541 Update download links
-
    * platform_manifest
 4494f92 manifest: Track QTI BT repos
 
@@ -78,6 +73,11 @@ bf0d869e6 media: Exclude libplatformconfig from OSS builds
 044079f11 media: libOmxSw encoders require prop headers :(
 e7cd0ee7b media: Use    * pathmap
 
+   * packages/apps/Updater
+6a04b81 update URLs
+dde82ee Update changelog URL
+88fc541 Update download links
+
    * platform_manifest
 6b14f10 manifest: Switch to LoS external/skia fork
 
@@ -117,12 +117,14 @@ ee72ce05 Capitalize Noon and Midnight in event edit view.
 a6ee26ee Fixed leak cursor in AlertReciever
 ccf1520d DayView: Revert all whitespace changes
 199c3df7 Etar: Fix invalid string parameter
-882b00cc Etar: Fix android:targetPackage for shortcut
 
 ====================
      06-24-2020
 ====================
 
+
+   * packages/apps/Etar
+882b00cc Etar: Fix android:targetPackage for shortcut
 
    * packages/apps/Phonograph
 c01354e7 Phonograph: build as stanbdalone app
