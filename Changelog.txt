@@ -1,4 +1,12 @@
 ====================
+     06-29-2020
+====================
+
+
+   * device/qcom/sepolicy-legacy
+2a96a653 sepolicy: cnd: Allow access to wifi_prop
+
+====================
      06-28-2020
 ====================
 
@@ -24,6 +32,11 @@ ddb8a617 Release 2.6.25
 
    * packages/apps/Etar
 4b38c76d Automatic translation import
+
+   * packages/apps/Updater
+6a04b81 update URLs
+dde82ee Update changelog URL
+88fc541 Update download links
 
    * platform_manifest
 4494f92 manifest: Track QTI BT repos
@@ -73,11 +86,6 @@ bf0d869e6 media: Exclude libplatformconfig from OSS builds
 044079f11 media: libOmxSw encoders require prop headers :(
 e7cd0ee7b media: Use    * pathmap
 
-   * packages/apps/Updater
-6a04b81 update URLs
-dde82ee Update changelog URL
-88fc541 Update download links
-
    * platform_manifest
 6b14f10 manifest: Switch to LoS external/skia fork
 
@@ -117,14 +125,12 @@ ee72ce05 Capitalize Noon and Midnight in event edit view.
 a6ee26ee Fixed leak cursor in AlertReciever
 ccf1520d DayView: Revert all whitespace changes
 199c3df7 Etar: Fix invalid string parameter
+882b00cc Etar: Fix android:targetPackage for shortcut
 
 ====================
      06-24-2020
 ====================
 
-
-   * packages/apps/Etar
-882b00cc Etar: Fix android:targetPackage for shortcut
 
    * packages/apps/Phonograph
 c01354e7 Phonograph: build as stanbdalone app
@@ -190,19 +196,4 @@ b288818b Etar: Restore tests
 
    * external/skia
 3e76a81b2b Allow to rebind GL texture if AHB content has changed
-
-====================
-     06-19-2020
-====================
-
-
-   * device/motorola/potter
-a737a07 potter: Bring back AICP Device Maintainer
-fad9eb0 potter: overlay: enable AOD (Always On Display)
-891d582 potter: overlay: set max visible notification count to 6
-17f53f9 potter: MotoActions: use Accent Color for icons in Device Gestures
-
-   * packages/apps/AicpExtras
-93b5048 ae: link to our new wallpaper location
-a6d47e3 ae: explicitly use https everywhere to satisfy the paranoid
 
