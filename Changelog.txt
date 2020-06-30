@@ -1,10 +1,55 @@
 ====================
+     06-30-2020
+====================
+
+
+   * frameworks/base
+bdac661cbde [BACKPORT] Config of LTE signal strength default value remove SNR
+e8e00857a0a FODCircleView: Update FOD icon position on DreamingStateChanged
+1a550a06feb FODCircleView: let's smoothly fade-out the view, before going to View.GONE
+aee40366a02 FODCircleView: handle more visibility cases
+ee02631be16 FODCircleView: add vertical offset
+017152e607d fw_base: SystemUI: QSBH code cleanup
+d7942dd2073 QuickStatusBarHeader: Allow to show battery percentage [1/2]
+1b594b5bb90 fw/b: [Squash] Add capability to allow tethering to use VPN upstreams
+dc989709a8f ClockController: fix alternative TypeClockController
+959280092fd SystemUI: Add center style Typographic clock
+665afccc9bf [1/2] base: Remove restrictions for system audio record
+4776e22412e base: Lower the internal audio capture restriction
+0d7709f30b0 SystemUI: DataUsage: use proper connection icons
+1eb6561a4c2 SystemUI: QSHeaderDataUsage: hide usage if device is disconnected
+6346ba6ee1c SystemUI: QS Header data usage info: don't show used
+b7801f28c9a base: Use a proper settings validator for qs_datausage
+2f1c74fa156 SystemUI: QSHeaderDataUsage: show Wi-Fi usage when connected to Wi-Fi
+d7a9485a0f2 AicpUtils: add method to check if device is connected to Wi-Fi
+6640ab7c940 AicpUtils: Add method to check for both wifi and mobile connections
+e18745b830a DataUsageView: move it to QQS Status Icons area
+49a22ffdbd9 QSHeaderDataUsage: add icon and improve view
+8a379b72da2 SystemUI: DataUsageDetailView: add ability to show daily data usage
+60b30a7993c QS header datausage: update view immediately after change
+9d26172d7dd QS header datausage: add ability to show daily/monthly data usage [1/2]
+5401f4209e6 SystemUI: QS Header data usage info: improve layout and view
+1bcc4548e4e AicpUtils: add method to get today's passed time
+ae5e9c334c9 SystemUI:QS Header data usage: Backup settings with proper validator
+166ccd39685 SystemUI: QS Header data usage info [1/2]
+
+   * packages/apps/AicpExtras
+4c6e04d ae: Allow to show battery percentage [2/2]
+
+   * packages/apps/Settings
+f8a1167f29 Navigation mode settings: Fix on small displays
+872e8f9f5f Settings: Add hotspot setting to allow VPN upstreams
+
+====================
      06-29-2020
 ====================
 
 
    * device/qcom/sepolicy-legacy
 2a96a653 sepolicy: cnd: Allow access to wifi_prop
+
+   * vendor/aicp
+0a54155 repopick: Fallback to name when    * path is empty
 
 ====================
      06-28-2020
@@ -33,6 +78,9 @@ ddb8a617 Release 2.6.25
    * packages/apps/Etar
 4b38c76d Automatic translation import
 
+   * packages/apps/Launcher3
+f337c30c0 Launcher3: add Prediction Row toggle
+
    * packages/apps/Updater
 6a04b81 update URLs
 dde82ee Update changelog URL
@@ -40,6 +88,10 @@ dde82ee Update changelog URL
 
    * platform_manifest
 4494f92 manifest: Track QTI BT repos
+
+   * prebuilts/clang/host/linux-x86_custom
+221b6a92 clang-custom: update to 11.0.3
+29b5ab16 Update prebuilt Clang to r383902c.
 
    * vendor/aicp
 b455222 qcom: Add atoll platform
@@ -188,12 +240,4 @@ b288818b Etar: Restore tests
    * vendor/motorola
 5c62a846 Merge "sanders: Update WFD from daisy Q" into q10.0
 5008af90 sanders: Update WFD from daisy Q
-
-====================
-     06-20-2020
-====================
-
-
-   * external/skia
-3e76a81b2b Allow to rebind GL texture if AHB content has changed
 
