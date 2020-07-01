@@ -1,4 +1,12 @@
 ====================
+     07-01-2020
+====================
+
+
+   * packages/apps/Settings
+14f1c20725 Settings: Fix fallback summary for power_button_instantly_locks preference
+
+====================
      06-30-2020
 ====================
 
@@ -40,10 +48,16 @@ ae5e9c334c9 SystemUI:QS Header data usage: Backup settings with proper validator
 f8a1167f29 Navigation mode settings: Fix on small displays
 872e8f9f5f Settings: Add hotspot setting to allow VPN upstreams
 
+   * vendor/qcom/opensource/commonsys/system/bt
+af7dfeee0 AVRCP: Ignore AVRCP version when registering absolute volume feature
+
 ====================
      06-29-2020
 ====================
 
+
+   * build/make
+0a5ff1288 Generate block based OTA for product partitions
 
    * device/qcom/sepolicy-legacy
 2a96a653 sepolicy: cnd: Allow access to wifi_prop
@@ -222,22 +236,4 @@ b288818b Etar: Restore tests
 
    * vendor/qcom/opensource/fm-commonsys
 1f27002 Automatic translation import
-
-====================
-     06-21-2020
-====================
-
-
-   * build/make
-0c7654c02 build: Disable backuptool on user instead of GMS builds
-
-   * frameworks/base
-1388e838733 base: Remove unused config
-
-   * packages/apps/Etar
-2d780472 Etar: Fix content provider rebrand
-
-   * vendor/motorola
-5c62a846 Merge "sanders: Update WFD from daisy Q" into q10.0
-5008af90 sanders: Update WFD from daisy Q
 
