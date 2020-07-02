@@ -1,9 +1,35 @@
 ====================
+     07-02-2020
+====================
+
+
+   * system/bt
+dee13cb32 GAP: Reset bondingInitiatedLocally flag(3/3)
+5d51bcccc Bluetooth: Enable Hybrid Audio from stack
+c697edaf6 Add scan filter for Transport Discovery data
+f08732936 TWS-A2DP: Add TWS+ codec index
+e7c0ee846 BT: API to update quiet mode status in Adapter service [3/3]
+4163705dd BT: Adding APTX-Adaptive codec to BT HAL
+9bc0a61d7 Add BLE Scan Phy parameter to scan API
+521512deb Bluetooth: Add SDK API support for TWS feature (1)
+
+   * vendor/aicp
+80e3e08 config: Use tether automatic upstream selection
+
+====================
      07-01-2020
 ====================
 
 
    * packages/apps/Settings
+ec1c753bd4 codec support for DevUI am: f915bd9438
+092fe2ebad BT Settings: Adding aptX Adaptive codec entry in Settings
+b8c7e53d65 Bluetooth-TWS: UI updates based on Filter matched
+65beb3b076 Bluetooth-TWS: UI updates based on profile connection.
+bf27c2517a Fix build error
+42878dc029 Bluetooth-TWS: Filter TWS devices
+7e93acb8f0 Bluetooth: Create new catogory for earbuds
+8a6d9e3360 Settings: restyle that horrible sim select dialog
 14f1c20725 Settings: Fix fallback summary for power_button_instantly_locks preference
 
 ====================
@@ -12,6 +38,33 @@
 
 
    * frameworks/base
+1272a23dfcf Fix build errors
+1aa779d5028 Fix BLE transport discovery scan filter
+2a156633e07 Enable codec change request when mode changes in aptX-adaptive
+2fc064d1533 Keep a null check before accessing the BluetoothA2dpWrapper APIs.
+616a58e03b1 Bluetooth: Fix for out of bound exception
+aa15b22c4af BT Dev: Increase array size for codec selection in Dev Op
+3cdce2a02f3 Keep the BluetoothHeadset finalize() method protected
+16f6bc39a25 Bluetooth: Fix for Global reference table overflow issue[1/2]
+981313824a2 BT: Add new intent to broadcast IOT device details
+1ff362da548 BT_Audio: Updated Check for TWS+ switch
+e5302eaaade TWS_A2DP: Handle active device change between TWS+ earbuds
+da09e5877be audio: Add support for APTX TWSP audio codec
+d8e1b2b82bf Use BluetoothUtils instead of Utils
+5a1be2a92d8 GAP: Handle the race condition cases in auto connect logic
+bde08fd364c Obex: Squashed commit of the following
+d9ea9e83cc7 Add scan filter for Transport Discovery data
+22ef7f3d434 Support CALLBACK_TYPE_SENSOR_ROUTING
+9154142344a Add support for Transport discovery AD type (1/2)
+434b50e2865 Bluetooth: TWSP: Support Battery Status information display
+ce08c1c6852 GAP: Reset bondingInitiatedLocally flag(1/3)
+f5447836e7c Bluetooth-TWS: Disable outgoing connection to 2nd earbud
+5f71c6f2143 Bluetooth-TWS: Disable outgoing connection for 2nd earbud.
+7091d15db8c Bluetooth: Rename bluetooth property to support new P Treble rules
+b1d733f855c Bluetooth: Unpair both earbuds on unpair.
+3bae1e04fb9 Bluetooth: Add SDK API support for TWS feature (2)
+39553863fdc Revert the change: AudioService: remove dead BT code.
+27d2fb6e63f Add BluetoothQualityReport class(1/2)
 bdac661cbde [BACKPORT] Config of LTE signal strength default value remove SNR
 e8e00857a0a FODCircleView: Update FOD icon position on DreamingStateChanged
 1a550a06feb FODCircleView: let's smoothly fade-out the view, before going to View.GONE
@@ -88,6 +141,13 @@ ddb8a617 Release 2.6.25
    * hardware/qcom-caf/msm8998/audio
 9e2e494b3 hal: msm8974: Use stereo recording depending on camera orientation
 972bdcff0 hal: msm8974: Fix the wrong device for AUDIO_SOURCE_CAMCORDER
+
+   * packages/apps/Bluetooth
+2f1815cb Stub TWS related APIs
+6c99b57b GAP: Reset bondingInitiatedLocally flag(2/3)
+f66f64ec BT: API to update quiet mode status in Adapter service [1/3]
+259db747 Bluetooth: Enable Hybrid Audio from App
+f7dd6283 Add BLE Scan Phy parameter to scan API
 
    * packages/apps/Etar
 4b38c76d Automatic translation import
@@ -209,31 +269,4 @@ c01354e7 Phonograph: build as stanbdalone app
    * external/hosts
 c7537d2b Release 2.6.23
 9a8b5df4 Updates from yoyo.org, URLHaus, KADhosts, HostsVN, Badd-Boyz, and AdAway.
-
-====================
-     06-22-2020
-====================
-
-
-   * packages/apps/Etar
-b338355c Etar: String improvements
-b288818b Etar: Restore tests
-3284faaa AOSP/Calendar - Minimal calendar app.
-2fd1c764 Update code coverage filter
-414c864b Etar: Fix translatables
-
-   * packages/apps/Exchange
-6a0f52cb Automatic translation import
-
-   * packages/apps/FMRadio
-8ba2e5d Automatic translation import
-
-   * packages/apps/Gallery2
-40099ee1e Automatic translation import
-
-   * packages/services/BuiltInPrintService
-38c8d56 Automatic translation import
-
-   * vendor/qcom/opensource/fm-commonsys
-1f27002 Automatic translation import
 
