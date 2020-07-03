@@ -1,4 +1,18 @@
 ====================
+     07-03-2020
+====================
+
+
+   * external/hosts
+7fcfacf7 Release 2.6.27
+32fe8e08 Update from URLHaus.
+541841e8 Add missing comment character in a prior commit.
+8847a730 Release 2.6.26
+719cc0b0 Updates from yoyo.org, URLHaus, someonewhocares, KADhosts, hostsVN, and AdAway.
+490e4f83 Issue #1324: fix — add ndjambo.com.
+fab5809c Issue #1325: fix — add ads1.opensubtitles.org.
+
+====================
      07-02-2020
 ====================
 
@@ -260,13 +274,4 @@ ccf1520d DayView: Revert all whitespace changes
 
    * packages/apps/Phonograph
 c01354e7 Phonograph: build as stanbdalone app
-
-====================
-     06-23-2020
-====================
-
-
-   * external/hosts
-c7537d2b Release 2.6.23
-9a8b5df4 Updates from yoyo.org, URLHaus, KADhosts, HostsVN, Badd-Boyz, and AdAway.
 
