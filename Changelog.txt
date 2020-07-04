@@ -1,4 +1,9 @@
 ====================
+     07-04-2020
+====================
+
+
+====================
      07-03-2020
 ====================
 
@@ -243,6 +248,9 @@ e7cd0ee7b media: Use    * pathmap
    * frameworks/opt/telephony
 3330bb990 Telephony: Add option for using regular poll state for airplane mode
 
+   * hardware/qcom/gps
+67a2a14 gps: Correct week rollover timestamps
+
    * packages/apps/Etar
 4d6a7d04 Fix errors caught by aapt2
 50a37183 Allow app to upgrade database on install.
@@ -266,12 +274,4 @@ a6ee26ee Fixed leak cursor in AlertReciever
 ccf1520d DayView: Revert all whitespace changes
 199c3df7 Etar: Fix invalid string parameter
 882b00cc Etar: Fix android:targetPackage for shortcut
-
-====================
-     06-24-2020
-====================
-
-
-   * packages/apps/Phonograph
-c01354e7 Phonograph: build as stanbdalone app
 
