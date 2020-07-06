@@ -1,7 +1,20 @@
 ====================
+     07-06-2020
+====================
+
+
+   * external/hosts
+fd5fd3f0 Release 2.6.28
+6906938b Updates from clefspeare13, yoyo.org, URLHaus, KADhosts, and HostsVN.
+5bab40d6 Merge pull request #1329 from mullinsmikey/patch-1
+
+====================
      07-05-2020
 ====================
 
+
+   * external/hosts
+ad45f75d Update StevenBlack hosts
 
    * packages/apps/Etar
 46533bdf Update readme (#728)
@@ -201,49 +214,4 @@ dde82ee Update changelog URL
 
    * vendor/aicp
 b455222 qcom: Add atoll platform
-
-====================
-     06-26-2020
-====================
-
-
-   * build/make
-310fb8c53 Refactor how MODULES-IN-* is defined
-d32df4aeb base_rules.mk optimizations
-d6425679e Fix test suite data files issue.
-9f7280978 Export list of "installable" files to soong_ui
-8636fca3b Avoid adding VINTF manifest fragment more than once.
-
-   * external/hosts
-dc68f96f Merge pull request #1321 from taobojlen/add-mailspring-tracking
-a59f18a3 Release 2.6.24
-7ec35337 Updates from clefspeare13, yoyo.org, URLHaus, hostsVN, Badd-Boyz, and AdAway.
-
-   * frameworks/base
-f18b9fe69f9 TextureVuew rebind GL texture, if AHB content has changed
-
-   * hardware/qcom-caf/sm8250/audio
-02a7ad67e a2dp: Add a null check before iterating over a2dp.adev->usecase_list
-7282ec971 hal: Add missing includes
-4a5999c39 audio_extn: Allow skipping compilation of audio HAL extensions
-9c5445ae8 audio: Skip libhdmipassthru on OSS builds
-5644af12c audio: Use direct    * pathmap
-
-   * hardware/qcom-caf/sm8250/display
-b454b6913 gralloc: Add option for YCrCb venus camera preview
-df05127cb gralloc: Allow devices to opt-in for YCrCb camera preview
-1f986dfcd Add C2D_FORMAT_BT601_FULLRANGE to C2D_FORMAT_MODE
-e8ac6d83d Add C2D_COLOR_FORMAT_420_TP10 to C2D_YUV_FORMAT
-bcaf4ee87 Don't build lights module if vendor supplies it
-29493687d display: Use    * pathmap
-144521002 Add 'display-commonsys-intf/' from commit 'af08d2405c4961f5159e98dc7266753296874bbf'
-
-   * hardware/qcom-caf/sm8250/media
-bf0d869e6 media: Exclude libplatformconfig from OSS builds
-698c47acf media: Include display_headers instead of display_intf_headers
-044079f11 media: libOmxSw encoders require prop headers :(
-e7cd0ee7b media: Use    * pathmap
-
-   * platform_manifest
-6b14f10 manifest: Switch to LoS external/skia fork
 
