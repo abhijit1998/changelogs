@@ -1,4 +1,25 @@
 ====================
+     07-08-2020
+====================
+
+
+   * build/make
+21b44daf2 Version bump to QQ3A.200705.002 [core/build_id.mk]
+55ea00be4 Make change and version bump to QQ3A.200705.001
+7bb99c8a0 Update Security String to 2020-07-05
+d0f2cf907 Make change and version bump to QQ3A.200701.001
+9410972df Update Security String to 2020-07-01
+
+   * frameworks/native
+e330fa20d Merge tag 'android-10.0.0_r40' into q10.0
+
+   * packages/services/Telephony
+a06ffb293 Merge tag 'android-10.0.0_r40' into q10.0
+
+   * platform_manifest
+e746c8b manifest: android-10.0.0_r37 -> android-10.0.0_r40
+
+====================
      07-07-2020
 ====================
 
@@ -179,19 +200,4 @@ af7dfeee0 AVRCP: Ignore AVRCP version when registering absolute volume feature
 
    * vendor/aicp
 0a54155 repopick: Fallback to name when    * path is empty
-
-====================
-     06-28-2020
-====================
-
-
-   * external/hosts
-ddb8a617 Release 2.6.25
-85112c9a Updates from yoyo.org, URLHaus, someonewhocares.org, hostsVN, and AdAway.
-
-   * platform_manifest
-6cc857d manifest: Sync sm8250 HALs
-
-   * vendor/aicp
-549db6a qcom: Add UM 4.19 platforms
 
