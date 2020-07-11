@@ -1,4 +1,23 @@
 ====================
+     07-11-2020
+====================
+
+
+   * device/motorola/potter
+eb31b86 potter: Update coral FP to QQ3A.200705.002
+2b840d2 potter: update to oreo fingerprint
+9bcb7d1 init: Extend property override from dual to triple
+66e7734 potter: move fingerprint back to init
+
+   * external/hosts
+be57b620 Add one domain from Issue #1343.
+aa5637dc Added four new domains from Issue #1335.
+c2ebad94 Merge pull request #1333 from XhmikosR/patch-1
+
+   * vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
+2ca8b3cbd Clean up duplicate uses-permission entries
+
+====================
      07-10-2020
 ====================
 
@@ -24,6 +43,7 @@ c9412d5a sepolicy: cnd: Fix wifi_prop neverallow for compatible props
 
    * external/hosts
 ddafbada Add domains from user @beerisgood.
+cf92814f Update readme_template.md
 
    * hardware/qcom-caf/sdm845/display
 42deb8b76 gralloc: Add option for unaligned YCrCb pixel format
@@ -116,20 +136,4 @@ e7c0ee846 BT: API to update quiet mode status in Adapter service [3/3]
 
    * vendor/aicp
 80e3e08 config: Use tether automatic upstream selection
-
-====================
-     07-01-2020
-====================
-
-
-   * packages/apps/Settings
-ec1c753bd4 codec support for DevUI am: f915bd9438
-092fe2ebad BT Settings: Adding aptX Adaptive codec entry in Settings
-b8c7e53d65 Bluetooth-TWS: UI updates based on Filter matched
-65beb3b076 Bluetooth-TWS: UI updates based on profile connection.
-bf27c2517a Fix build error
-42878dc029 Bluetooth-TWS: Filter TWS devices
-7e93acb8f0 Bluetooth: Create new catogory for earbuds
-8a6d9e3360 Settings: restyle that horrible sim select dialog
-14f1c20725 Settings: Fix fallback summary for power_button_instantly_locks preference
 
