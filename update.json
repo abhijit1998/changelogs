@@ -1,11 +1,11 @@
 {
   "response": [
     {
-      "datetime": 1594428060,
+      "datetime": 1594440447,
       "filename": "aicp_potter_q-15.0-EXPERIMENTAL-20200711.zip",
-      "id": "c2badb9ef3abea18bfdd914db446d651",
+      "id": "02e2557f6df73d02cff3de4e93cc3fcd",
       "romtype": "EXPERIMENTAL",
-      "size": 739782203,
+      "size": 740426678,
       "url": "https://abhi-storage.kozow.com/builds/AICP-15.0/daily/aicp_potter_q-15.0-EXPERIMENTAL-20200711.zip",
       "version": "q-15.0"
     }

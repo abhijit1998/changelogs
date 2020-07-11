@@ -3,6 +3,13 @@
 ====================
 
 
+   * build/make
+ac1657648 Version bump to QQ3A.200705.002 [core/build_id.mk]
+d98a351f0 Make change and version bump to QQ3A.200705.001
+4f33c1559 Update Security String to 2020-07-05
+ab6d13576 Make change and version bump to QQ3A.200701.001
+66ae92327 Update Security String to 2020-07-01
+
    * device/motorola/potter
 eb31b86 potter: Update coral FP to QQ3A.200705.002
 2b840d2 potter: update to oreo fingerprint
@@ -30,9 +37,6 @@ c2ebad94 Merge pull request #1333 from XhmikosR/patch-1
 a0f0ac7790a Fix app crash if the selection is from reverse direction.
 2c424cf6337 SystemUI: Call setOnlyAlertOnce(true) for PowerShare notification
 
-   * packages/overlays/AICP
-f386a55 automatic_update.sh: improve first time user experience
-
 ====================
      07-09-2020
 ====================
@@ -48,14 +52,26 @@ cf92814f Update readme_template.md
    * hardware/qcom-caf/sdm845/display
 42deb8b76 gralloc: Add option for unaligned YCrCb pixel format
 
+   * packages/overlays/AICP
+f386a55 automatic_update.sh: improve first time user experience
+
 ====================
      07-08-2020
 ====================
 
 
+   * frameworks/native
+e330fa20d Merge tag 'android-10.0.0_r40' into q10.0
+
    * packages/overlays/AICP
 dbee66e Automatic theme update
 c10404c Add hope accent
+
+   * packages/services/Telephony
+a06ffb293 Merge tag 'android-10.0.0_r40' into q10.0
+
+   * platform_manifest
+e746c8b manifest: android-10.0.0_r37 -> android-10.0.0_r40
 
 ====================
      07-07-2020
