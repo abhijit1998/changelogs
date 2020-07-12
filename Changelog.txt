@@ -1,14 +1,29 @@
 ====================
-     07-11-2020
+     07-12-2020
 ====================
 
 
    * build/make
-ac1657648 Version bump to QQ3A.200705.002 [core/build_id.mk]
-d98a351f0 Make change and version bump to QQ3A.200705.001
-4f33c1559 Update Security String to 2020-07-05
-ab6d13576 Make change and version bump to QQ3A.200701.001
-66ae92327 Update Security String to 2020-07-01
+51715ad61 Merge changes from topic "android-10.0.0_r40" into q10.0
+
+   * external/hosts
+c9986cc9 Merge pull request #1339 from codeswhite/patch-systemctl-restart-check
+
+   * frameworks/base
+9505456877c base: consolidate lineage features
+6255cffe0bb Lockscreen bottom shortcuts fixes
+6e45e962237 base: tuner: add a hide config to left and right shortcut
+
+   * frameworks/native
+f77bc0e80 Merge tag 'android-10.0.0_r40' into q10.0
+
+   * packages/services/Telephony
+e7bea19da Merge tag 'android-10.0.0_r40' into q10.0
+
+====================
+     07-11-2020
+====================
+
 
    * device/motorola/potter
 eb31b86 potter: Update coral FP to QQ3A.200705.002
@@ -19,6 +34,8 @@ eb31b86 potter: Update coral FP to QQ3A.200705.002
    * external/hosts
 be57b620 Add one domain from Issue #1343.
 aa5637dc Added four new domains from Issue #1335.
+9e3db93d Updated test
+43fe3018 Check if a service is running (Fixed #1337)
 c2ebad94 Merge pull request #1333 from XhmikosR/patch-1
 
    * vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
@@ -37,6 +54,9 @@ c2ebad94 Merge pull request #1333 from XhmikosR/patch-1
 a0f0ac7790a Fix app crash if the selection is from reverse direction.
 2c424cf6337 SystemUI: Call setOnlyAlertOnce(true) for PowerShare notification
 
+   * packages/overlays/AICP
+f386a55 automatic_update.sh: improve first time user experience
+
 ====================
      07-09-2020
 ====================
@@ -52,23 +72,21 @@ cf92814f Update readme_template.md
    * hardware/qcom-caf/sdm845/display
 42deb8b76 gralloc: Add option for unaligned YCrCb pixel format
 
-   * packages/overlays/AICP
-f386a55 automatic_update.sh: improve first time user experience
-
 ====================
      07-08-2020
 ====================
 
 
-   * frameworks/native
-e330fa20d Merge tag 'android-10.0.0_r40' into q10.0
+   * build/make
+06d851464 Version bump to QQ3A.200705.002 [core/build_id.mk]
+759cbb763 Make change and version bump to QQ3A.200705.001
+bc442f916 Update Security String to 2020-07-05
+4c1624d1f Make change and version bump to QQ3A.200701.001
+986014ec0 Update Security String to 2020-07-01
 
    * packages/overlays/AICP
 dbee66e Automatic theme update
 c10404c Add hope accent
-
-   * packages/services/Telephony
-a06ffb293 Merge tag 'android-10.0.0_r40' into q10.0
 
    * platform_manifest
 e746c8b manifest: android-10.0.0_r37 -> android-10.0.0_r40
@@ -134,22 +152,4 @@ fab5809c Issue #1325: fix — add ads1.opensubtitles.org.
 
    * packages/apps/Etar
 db9d8730 update submodules
-
-====================
-     07-02-2020
-====================
-
-
-   * system/bt
-dee13cb32 GAP: Reset bondingInitiatedLocally flag(3/3)
-5d51bcccc Bluetooth: Enable Hybrid Audio from stack
-c697edaf6 Add scan filter for Transport Discovery data
-f08732936 TWS-A2DP: Add TWS+ codec index
-e7c0ee846 BT: API to update quiet mode status in Adapter service [3/3]
-4163705dd BT: Adding APTX-Adaptive codec to BT HAL
-9bc0a61d7 Add BLE Scan Phy parameter to scan API
-521512deb Bluetooth: Add SDK API support for TWS feature (1)
-
-   * vendor/aicp
-80e3e08 config: Use tether automatic upstream selection
 
