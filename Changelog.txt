@@ -1,4 +1,15 @@
 ====================
+     07-13-2020
+====================
+
+
+   * external/hosts
+82791b30 Merge pull request #1341 from codeswhite/patch-systemctl-multiple-restarts
+aea2e921 Issue #1346: add domains from usefathom.com.
+de3a3d9c Issue #1346: add CNAME aliases for fathomseo.com.
+4f93a59b Issue #1346: add Fathom CDN.
+
+====================
      07-12-2020
 ====================
 
@@ -8,6 +19,7 @@
 
    * external/hosts
 c9986cc9 Merge pull request #1339 from codeswhite/patch-systemctl-restart-check
+12ee4e02 Changed to .append() as requested
 
    * frameworks/base
 9505456877c base: consolidate lineage features
@@ -34,6 +46,7 @@ eb31b86 potter: Update coral FP to QQ3A.200705.002
    * external/hosts
 be57b620 Add one domain from Issue #1343.
 aa5637dc Added four new domains from Issue #1335.
+bb1b8e81 Check if a service has already been restarted (Fixes #1338)
 9e3db93d Updated test
 43fe3018 Check if a service is running (Fixed #1337)
 c2ebad94 Merge pull request #1333 from XhmikosR/patch-1
@@ -135,21 +148,4 @@ ab8f5416 Make use of system theme setting on android 10 (#715)
      07-04-2020
 ====================
 
-
-====================
-     07-03-2020
-====================
-
-
-   * external/hosts
-7fcfacf7 Release 2.6.27
-32fe8e08 Update from URLHaus.
-541841e8 Add missing comment character in a prior commit.
-8847a730 Release 2.6.26
-719cc0b0 Updates from yoyo.org, URLHaus, someonewhocares, KADhosts, hostsVN, and AdAway.
-490e4f83 Issue #1324: fix — add ndjambo.com.
-fab5809c Issue #1325: fix — add ads1.opensubtitles.org.
-
-   * packages/apps/Etar
-db9d8730 update submodules
 
