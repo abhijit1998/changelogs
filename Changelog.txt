@@ -1,4 +1,20 @@
 ====================
+     07-14-2020
+====================
+
+
+   * external/hosts
+a09e408c Merge pull request #1342 from codeswhite/patch-network-retry
+323174e4 Merge pull request #1336 from funilrys/issue-1332
+2abefc7c Fixed retrying
+abf763e9 Change strategy regarding #1332.
+b8b067b6 Replace the returned separator under Windows.
+c756858a Merge branch 'master' into issue-1332
+
+   * packages/apps/AicpExtras
+34282f7 Adjust Capitalization in some strings for uniformity
+
+====================
      07-13-2020
 ====================
 
@@ -19,6 +35,9 @@ de3a3d9c Issue #1346: add CNAME aliases for fathomseo.com.
 
    * external/hosts
 c9986cc9 Merge pull request #1339 from codeswhite/patch-systemctl-restart-check
+f2616819 Retry to get file from URL once failed (Resolves #1038)
+0a96dcad Use 'with' to not leave a resource open
+0f727b8b Revert "Implemented connectivity check (Fixed #1038)"
 12ee4e02 Changed to .append() as requested
 
    * frameworks/base
@@ -46,6 +65,7 @@ eb31b86 potter: Update coral FP to QQ3A.200705.002
    * external/hosts
 be57b620 Add one domain from Issue #1343.
 aa5637dc Added four new domains from Issue #1335.
+bc8e4c92 Implemented connectivity check (Fixed #1038)
 bb1b8e81 Check if a service has already been restarted (Fixes #1338)
 9e3db93d Updated test
 43fe3018 Check if a service is running (Fixed #1337)
@@ -61,6 +81,9 @@ c2ebad94 Merge pull request #1333 from XhmikosR/patch-1
 
    * device/motorola/potter
 392ee6c Add prop for fast app launch
+
+   * external/hosts
+73479bc6 Fix directory separtor under Windows.
 
    * frameworks/base
 3827ab17906 Fix typos related to sortSelectionIndices
@@ -143,9 +166,4 @@ ad45f75d Update StevenBlack hosts
 46533bdf Update readme (#728)
 406bdbe8 Release new 1.0.22 version (#725)
 ab8f5416 Make use of system theme setting on android 10 (#715)
-
-====================
-     07-04-2020
-====================
-
 
