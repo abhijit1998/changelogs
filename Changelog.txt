@@ -1,4 +1,21 @@
 ====================
+     07-15-2020
+====================
+
+
+   * external/hosts
+ca3a99a0 Release 2.7.0
+bdab2fbf Updates from Tiuxo, Sinfonietta, yoyo.org, URLHaus, someonewhocares.org, KADhosts, hostsVN, and AdAway.
+f11b0c6c Add domain from Issue #1349.
+
+   * packages/apps/Launcher3
+e05aa810b Allow recents rotation again
+
+   * vendor/aicp
+df04b99 Remove deprecated backup overlay
+155bf9b lineage: update GMS updater component disable list
+
+====================
      07-14-2020
 ====================
 
@@ -24,6 +41,9 @@ c756858a Merge branch 'master' into issue-1332
 aea2e921 Issue #1346: add domains from usefathom.com.
 de3a3d9c Issue #1346: add CNAME aliases for fathomseo.com.
 4f93a59b Issue #1346: add Fathom CDN.
+
+   * packages/apps/Launcher3
+558d796f4 2 button / swipe navigation: fix for config_navBarCanMove = false
 
 ====================
      07-12-2020
@@ -153,17 +173,4 @@ f14224cf sepolicy: cnd: Allow access to wifi_prop
 fd5fd3f0 Release 2.6.28
 6906938b Updates from clefspeare13, yoyo.org, URLHaus, KADhosts, and HostsVN.
 5bab40d6 Merge pull request #1329 from mullinsmikey/patch-1
-
-====================
-     07-05-2020
-====================
-
-
-   * external/hosts
-ad45f75d Update StevenBlack hosts
-
-   * packages/apps/Etar
-46533bdf Update readme (#728)
-406bdbe8 Release new 1.0.22 version (#725)
-ab8f5416 Make use of system theme setting on android 10 (#715)
 
