@@ -1,4 +1,15 @@
 ====================
+     07-16-2020
+====================
+
+
+   * hardware/qcom-caf/sdm845/display
+95a2d7c71 gralloc: Add option for unaligned YCrCb/YCbCr pixel format height
+
+   * packages/apps/Settings
+5b9055c1d3 fixup! BasebandVersionPreferenceController: Trim baseband if needed
+
+====================
      07-15-2020
 ====================
 
@@ -160,17 +171,4 @@ a907bc64 Updates from tiuxo, URLHaus, and KADhosts
    * frameworks/base
 f540467e79b Set Assistant UID of the current user.
 73e3ea330d4 BLE: Fix NPE during start advertising
-
-====================
-     07-06-2020
-====================
-
-
-   * device/qcom/sepolicy-legacy-um
-f14224cf sepolicy: cnd: Allow access to wifi_prop
-
-   * external/hosts
-fd5fd3f0 Release 2.6.28
-6906938b Updates from clefspeare13, yoyo.org, URLHaus, KADhosts, and HostsVN.
-5bab40d6 Merge pull request #1329 from mullinsmikey/patch-1
 
