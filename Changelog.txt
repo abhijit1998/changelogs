@@ -1,4 +1,9 @@
 ====================
+     07-17-2020
+====================
+
+
+====================
      07-16-2020
 ====================
 
@@ -157,18 +162,4 @@ c10404c Add hope accent
 
    * platform_manifest
 e746c8b manifest: android-10.0.0_r37 -> android-10.0.0_r40
-
-====================
-     07-07-2020
-====================
-
-
-   * external/hosts
-a9a4aa2f Release 2.6.29
-a907bc64 Updates from tiuxo, URLHaus, and KADhosts
-63379987 Include domains from Issue #1331.
-
-   * frameworks/base
-f540467e79b Set Assistant UID of the current user.
-73e3ea330d4 BLE: Fix NPE during start advertising
 
