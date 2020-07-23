@@ -1,4 +1,37 @@
 ====================
+     07-23-2020
+====================
+
+
+   * frameworks/base
+6faa5ed2496 Purge unused native memory before Zygote fork events
+
+====================
+     07-22-2020
+====================
+
+
+   * frameworks/base
+2396b38a289 Merge "Automatic AICP translation import" into q10.0
+2d393d107b4 Fix color mismatch of pointers
+3318eb64154 Automatic AICP translation import
+316f591d119 Automatic AICP translation import
+
+   * packages/apps/Settings
+b95b9358b6 Settings: AICPfy about device
+993d2ec35c Settings: Add AICP entry into device info
+478841c3a9 Settings: Change kernel preference behavior
+cae75ce376 Settings: Show full proc/version information
+
+====================
+     07-21-2020
+====================
+
+
+   * vendor/aicp
+09c8b18 repopick: Use upstream instead of revision to determine branch
+
+====================
      07-20-2020
 ====================
 
@@ -6,9 +39,57 @@
    * external/hosts
 d1454197 Clarify that we'll take pull requests.
 
+   * frameworks/base
+a6a171dc822 fw/b: Add support for per app network isolation
+150239224f8 Teaches the ProcessCpuTracker about USAPs.
+33b3eadd6c7 Adds Zygote policy flags to control how applications are launched
+ff72fb72d9b Start process of next activity with top priority in advance
+9e0841580e3 Fixed an issue Zygote initialization.
+0c19f710de8 Improved timekeeping logic for USAP Pool refill mechanism.
+bcede68c7ba Resets the refill action/timing info after a pool fill event.
+cd290805443 Make the USAP Pool refill delay configurable.
+14f913bd57a Re-adds a trace  point that was accidentally removed.
+293c07a19dc Moved some thread priority changes.
+e9ee832d1ac Adjust Java Language thread priority in new processes.
+69c71d57f5c Adjusts the USAP pool refill mechanism.
+6d568ad412f Change USAP name to application name as soon as possible.
+
+   * frameworks/opt/slimrecent
+4ec4b22 Automatic AICP translation import
+
+   * packages/apps/AicpExtras
+5bcc31c Automatic AICP translation import
+
+   * packages/apps/DeskClock
+ae8ba4de7 DeskClock: Setup data model before calling super.onStart()
+e23c59dac DeskClock: Remove unused imports from NotificationUtils
+0bda19ec9 DeskClock: Don't rely on framework
+0b5810276 Automatic translation import
+
+   * packages/apps/Dialer
+96778549f Automatic AICP translation import
+
+   * packages/apps/JamesDSPManager
+7f9f369 Automatic AICP translation import
+
+   * packages/apps/Launcher3
+8c29641ea Automatic AICP translation import
+2261bc122 Automatic AICP translation import
+
+   * packages/apps/Settings
+134e1aabc3 Automatic AICP translation import
+997cf39a28 Automatic AICP translation import
+117e8314e6 Settings: Add support for per app network isolation
+
    * packages/overlays/AICP
 7f121b6 Automatic theme update
 7bde17d Add ethereal green, blue, and pink accents from ethereal substratum
+
+   * packages/services/OmniJaws
+232bdb7 Automatic AICP translation import
+
+   * system/core
+df39b1195 Boost init priority before main loop
 
 ====================
      07-19-2020
@@ -26,40 +107,8 @@ bfe24eb8 Maintenance - sort, deduplicate my ad-hoc list.
 afce9ec8 Add domains from Issue #1353.
 0f046591 Add domains from Issue #1354.
 
-   * frameworks/base
-a6a171dc822 fw/b: Add support for per app network isolation
-150239224f8 Teaches the ProcessCpuTracker about USAPs.
-33b3eadd6c7 Adds Zygote policy flags to control how applications are launched
-ff72fb72d9b Start process of next activity with top priority in advance
-9e0841580e3 Fixed an issue Zygote initialization.
-0c19f710de8 Improved timekeeping logic for USAP Pool refill mechanism.
-bcede68c7ba Resets the refill action/timing info after a pool fill event.
-cd290805443 Make the USAP Pool refill delay configurable.
-14f913bd57a Re-adds a trace  point that was accidentally removed.
-293c07a19dc Moved some thread priority changes.
-e9ee832d1ac Adjust Java Language thread priority in new processes.
-69c71d57f5c Adjusts the USAP pool refill mechanism.
-6d568ad412f Change USAP name to application name as soon as possible.
-
-   * packages/apps/DeskClock
-ae8ba4de7 DeskClock: Setup data model before calling super.onStart()
-e23c59dac DeskClock: Remove unused imports from NotificationUtils
-0bda19ec9 DeskClock: Don't rely on framework
-0b5810276 Automatic translation import
-
-   * packages/apps/Settings
-117e8314e6 Settings: Add support for per app network isolation
-
-   * system/core
-df39b1195 Boost init priority before main loop
-
 ====================
      07-18-2020
-====================
-
-
-====================
-     07-17-2020
 ====================
 
 
@@ -70,6 +119,14 @@ f05c347 Upgrade Chromium Webview to 84.0.4147.89
 90d5e87 Jelly: Fix find in page functionality
 
 ====================
+     07-17-2020
+====================
+
+
+   * system/netd
+7639e643 system/netd: Add support for per app network isolation
+
+====================
      07-16-2020
 ====================
 
@@ -77,16 +134,21 @@ f05c347 Upgrade Chromium Webview to 84.0.4147.89
    * hardware/qcom-caf/sdm845/display
 95a2d7c71 gralloc: Add option for unaligned YCrCb/YCbCr pixel format height
 
-   * system/netd
-7639e643 system/netd: Add support for per app network isolation
+   * packages/apps/Settings
+5b9055c1d3 fixup! BasebandVersionPreferenceController: Trim baseband if needed
 
 ====================
      07-15-2020
 ====================
 
 
-   * packages/apps/Settings
-5b9055c1d3 fixup! BasebandVersionPreferenceController: Trim baseband if needed
+   * external/hosts
+ca3a99a0 Release 2.7.0
+bdab2fbf Updates from Tiuxo, Sinfonietta, yoyo.org, URLHaus, someonewhocares.org, KADhosts, hostsVN, and AdAway.
+f11b0c6c Add domain from Issue #1349.
+
+   * packages/apps/Launcher3
+e05aa810b Allow recents rotation again
 
    * vendor/aicp
 df04b99 Remove deprecated backup overlay
@@ -98,75 +160,13 @@ df04b99 Remove deprecated backup overlay
 
 
    * external/hosts
-ca3a99a0 Release 2.7.0
-bdab2fbf Updates from Tiuxo, Sinfonietta, yoyo.org, URLHaus, someonewhocares.org, KADhosts, hostsVN, and AdAway.
-f11b0c6c Add domain from Issue #1349.
 a09e408c Merge pull request #1342 from codeswhite/patch-network-retry
-
-   * packages/apps/AicpExtras
-34282f7 Adjust Capitalization in some strings for uniformity
-
-   * packages/apps/Launcher3
-e05aa810b Allow recents rotation again
-
-====================
-     07-13-2020
-====================
-
-
-   * external/hosts
 323174e4 Merge pull request #1336 from funilrys/issue-1332
 2abefc7c Fixed retrying
 abf763e9 Change strategy regarding #1332.
 b8b067b6 Replace the returned separator under Windows.
 c756858a Merge branch 'master' into issue-1332
-82791b30 Merge pull request #1341 from codeswhite/patch-systemctl-multiple-restarts
-aea2e921 Issue #1346: add domains from usefathom.com.
-de3a3d9c Issue #1346: add CNAME aliases for fathomseo.com.
 
-   * packages/apps/Launcher3
-558d796f4 2 button / swipe navigation: fix for config_navBarCanMove = false
-
-====================
-     07-12-2020
-====================
-
-
-   * build/make
-51715ad61 Merge changes from topic "android-10.0.0_r40" into q10.0
-
-   * external/hosts
-4f93a59b Issue #1346: add Fathom CDN.
-
-   * frameworks/base
-9505456877c base: consolidate lineage features
-6255cffe0bb Lockscreen bottom shortcuts fixes
-6e45e962237 base: tuner: add a hide config to left and right shortcut
-
-   * frameworks/native
-f77bc0e80 Merge tag 'android-10.0.0_r40' into q10.0
-
-   * packages/services/Telephony
-e7bea19da Merge tag 'android-10.0.0_r40' into q10.0
-
-====================
-     07-11-2020
-====================
-
-
-   * external/hosts
-c9986cc9 Merge pull request #1339 from codeswhite/patch-systemctl-restart-check
-f2616819 Retry to get file from URL once failed (Resolves #1038)
-0a96dcad Use 'with' to not leave a resource open
-0f727b8b Revert "Implemented connectivity check (Fixed #1038)"
-12ee4e02 Changed to .append() as requested
-be57b620 Add one domain from Issue #1343.
-aa5637dc Added four new domains from Issue #1335.
-bc8e4c92 Implemented connectivity check (Fixed #1038)
-bb1b8e81 Check if a service has already been restarted (Fixes #1338)
-9e3db93d Updated test
-43fe3018 Check if a service is running (Fixed #1337)
-
-   * vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
-2ca8b3cbd Clean up duplicate uses-permission entries
+   * packages/apps/AicpExtras
+34282f7 Adjust Capitalization in some strings for uniformity
 
