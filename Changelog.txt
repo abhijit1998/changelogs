@@ -1,4 +1,32 @@
 ====================
+     07-26-2020
+====================
+
+
+   * external/hosts
+9adfcd4e Release 2.7.2
+1531b621 Updates from clefspeare13, yoyo.org, URLHaus, tiuxo, someonewhocares.org, KADhosts, Badd-Boyz, and AdAway.
+
+====================
+     07-25-2020
+====================
+
+
+   * external/hosts
+3788f584 Issue #1357: add pub.trads.io.
+178ea64f Merge pull request #1355 from XhmikosR/windows-ci
+6940b842 requirements.txt: tighten ranges
+8b4c837d Remove miniconda and add Windows CI support
+
+====================
+     07-24-2020
+====================
+
+
+   * external/hosts
+58b36a7e Add domains from Issue #790.
+
+====================
      07-23-2020
 ====================
 
@@ -125,48 +153,4 @@ f05c347 Upgrade Chromium Webview to 84.0.4147.89
 
    * system/netd
 7639e643 system/netd: Add support for per app network isolation
-
-====================
-     07-16-2020
-====================
-
-
-   * hardware/qcom-caf/sdm845/display
-95a2d7c71 gralloc: Add option for unaligned YCrCb/YCbCr pixel format height
-
-   * packages/apps/Settings
-5b9055c1d3 fixup! BasebandVersionPreferenceController: Trim baseband if needed
-
-====================
-     07-15-2020
-====================
-
-
-   * external/hosts
-ca3a99a0 Release 2.7.0
-bdab2fbf Updates from Tiuxo, Sinfonietta, yoyo.org, URLHaus, someonewhocares.org, KADhosts, hostsVN, and AdAway.
-f11b0c6c Add domain from Issue #1349.
-
-   * packages/apps/Launcher3
-e05aa810b Allow recents rotation again
-
-   * vendor/aicp
-df04b99 Remove deprecated backup overlay
-155bf9b lineage: update GMS updater component disable list
-
-====================
-     07-14-2020
-====================
-
-
-   * external/hosts
-a09e408c Merge pull request #1342 from codeswhite/patch-network-retry
-323174e4 Merge pull request #1336 from funilrys/issue-1332
-2abefc7c Fixed retrying
-abf763e9 Change strategy regarding #1332.
-b8b067b6 Replace the returned separator under Windows.
-c756858a Merge branch 'master' into issue-1332
-
-   * packages/apps/AicpExtras
-34282f7 Adjust Capitalization in some strings for uniformity
 
