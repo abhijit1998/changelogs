@@ -1,4 +1,99 @@
 ====================
+     08-02-2020
+====================
+
+
+   * external/hosts
+e95c8166 Release 2.7.4
+a4ff58d4 Updates from sinfonietta, yoyo.org, URLHaus, someonewhocares.org, mvps.org, KADhosts, Badd-Boyz, and AdAway.
+
+   * vendor/motorola
+1c64e953 Merge remote-tracking branch 'jro1979oliver/lineage-17.1' into q10.0
+18a5b732 griffin: remove from vendor.
+ba03c15b athene: Remove from vendor
+
+====================
+     08-01-2020
+====================
+
+
+   * packages/apps/Gallery2
+6bda026d1 Revert "Remove application/SDP from Gallery2's ACTION_VIEW and REVIEW filters."
+
+====================
+     07-31-2020
+====================
+
+
+   * external/hosts
+06a7cd58 Merge pull request #1358 from bigdargon/add-domain
+9af02df8 Add new domain servenobid.com
+
+   * hardware/lineage/livedisplay
+ce63fc9 livedisplay: sysfs: Add generic implementation for simple sysfs modes
+b8ca32c livedisplay: sysfs: Modularize all components
+22462db livedisplay: sysfs: Refine interface registration
+8a01e72 livedisplay: sysfs: Miscellaneous clean-ups
+d0580f3 livedisplay: sysfs: Use POSIX api to check file access
+b1a97e0 livedisplay: sysfs: Move string literals to anonymous namespace
+8888a4b livedisplay: sysfs: Follow naming rules of Google C++ Style Guide
+44e1a1f livedisplay: sdm: Modularize all components
+5e27e56 livedisplay: sdm: Fix a mismatched data type
+4afd662 livedisplay: sdm: Miscellaneous clean-ups
+5c154dc livedisplay: sdm: Improve SendDppsCommand
+bb5ff4a livedisplay: sdm: Move constants and helpers to anonymous namespace
+b8a246a livedisplay: sdm: Move SDM feature version check to utils
+39b8735 livedisplay: sdm: Convert Utils class to namespace
+07e4ea4 livedisplay: sdm: Use default member initializers
+143150e livedisplay: sdm: Follow naming rules of Google C++ Style Guide
+9d5a9c9 livedisplay: sdm: Implement a sane callback to update default PA
+a15a1f3 livedisplay: sdm: Restart when any QDCM backend not ready
+7468c41 livedisplay: sdm: Use RAII semantics where possible
+
+   * vendor/motorola
+818818ec msm8916: Regenerate vendor
+
+====================
+     07-30-2020
+====================
+
+
+   * bootable/recovery
+b97ca364 recovery: fixup `compute displayable item count while drawing`
+9fc07e5e recovery: compute displayable item count while drawing
+e5603718 recovery: menu wrapping fixes
+5f082e7d recovery: Print the active slot
+d257f5e2 recovery: Display recovery version
+f8ddad3c recovery: Draw the help message below the menu on non-touch devices
+3ca637f9 recovery: Clarify help text
+cae3dbff recovery: Set the INFO color to the recovery/fastboot light color
+4a613268 recovery: apply new design to menu padding, color and arrow
+7f74e937 recovery: add new recovery and fastbootd logos
+
+   * external/hosts
+a7d60624 Release 2.7.3
+917579a7 Updates from sinfonietta, clefspeare13, yoyo.org, URLHaus, KADhosts, hostsVN, Badd-Boyz, and AdAway.
+
+====================
+     07-29-2020
+====================
+
+
+   * frameworks/base
+acc8aa60ccb Disable custom clock format in demo mode
+75c2d9af4fc Disable (status bar) battery bar in demo mode
+
+====================
+     07-28-2020
+====================
+
+
+====================
+     07-27-2020
+====================
+
+
+====================
      07-26-2020
 ====================
 
@@ -25,132 +120,4 @@
 
    * external/hosts
 58b36a7e Add domains from Issue #790.
-
-====================
-     07-23-2020
-====================
-
-
-   * frameworks/base
-6faa5ed2496 Purge unused native memory before Zygote fork events
-
-====================
-     07-22-2020
-====================
-
-
-   * frameworks/base
-2396b38a289 Merge "Automatic AICP translation import" into q10.0
-2d393d107b4 Fix color mismatch of pointers
-3318eb64154 Automatic AICP translation import
-316f591d119 Automatic AICP translation import
-
-   * packages/apps/Settings
-b95b9358b6 Settings: AICPfy about device
-993d2ec35c Settings: Add AICP entry into device info
-478841c3a9 Settings: Change kernel preference behavior
-cae75ce376 Settings: Show full proc/version information
-
-====================
-     07-21-2020
-====================
-
-
-   * vendor/aicp
-09c8b18 repopick: Use upstream instead of revision to determine branch
-
-====================
-     07-20-2020
-====================
-
-
-   * external/hosts
-d1454197 Clarify that we'll take pull requests.
-
-   * frameworks/base
-a6a171dc822 fw/b: Add support for per app network isolation
-150239224f8 Teaches the ProcessCpuTracker about USAPs.
-33b3eadd6c7 Adds Zygote policy flags to control how applications are launched
-ff72fb72d9b Start process of next activity with top priority in advance
-9e0841580e3 Fixed an issue Zygote initialization.
-0c19f710de8 Improved timekeeping logic for USAP Pool refill mechanism.
-bcede68c7ba Resets the refill action/timing info after a pool fill event.
-cd290805443 Make the USAP Pool refill delay configurable.
-14f913bd57a Re-adds a trace  point that was accidentally removed.
-293c07a19dc Moved some thread priority changes.
-e9ee832d1ac Adjust Java Language thread priority in new processes.
-69c71d57f5c Adjusts the USAP pool refill mechanism.
-6d568ad412f Change USAP name to application name as soon as possible.
-
-   * frameworks/opt/slimrecent
-4ec4b22 Automatic AICP translation import
-
-   * packages/apps/AicpExtras
-5bcc31c Automatic AICP translation import
-
-   * packages/apps/DeskClock
-ae8ba4de7 DeskClock: Setup data model before calling super.onStart()
-e23c59dac DeskClock: Remove unused imports from NotificationUtils
-0bda19ec9 DeskClock: Don't rely on framework
-0b5810276 Automatic translation import
-
-   * packages/apps/Dialer
-96778549f Automatic AICP translation import
-
-   * packages/apps/JamesDSPManager
-7f9f369 Automatic AICP translation import
-
-   * packages/apps/Launcher3
-8c29641ea Automatic AICP translation import
-2261bc122 Automatic AICP translation import
-
-   * packages/apps/Settings
-134e1aabc3 Automatic AICP translation import
-997cf39a28 Automatic AICP translation import
-117e8314e6 Settings: Add support for per app network isolation
-
-   * packages/overlays/AICP
-7f121b6 Automatic theme update
-7bde17d Add ethereal green, blue, and pink accents from ethereal substratum
-
-   * packages/services/OmniJaws
-232bdb7 Automatic AICP translation import
-
-   * system/core
-df39b1195 Boost init priority before main loop
-
-====================
-     07-19-2020
-====================
-
-
-   * external/hosts
-fdd7e3f3 Release 2.7.1
-bfe24eb8 Maintenance - sort, deduplicate my ad-hoc list.
-5cf23a4c Updates from tiuxo, yoyo.org, URLHaus, someonewhocares.org, KADhosts, Badd-Boyz, and AdAway.
-337e5ada Fix duplicate inserted by Issue #1352.  Ass domains from Issue 1328.
-55f05d27 Add domains from Issue #1328.
-84fc36e3 Add domain from Issue #1350.
-3cbdc649 Add domain from Issue #1352.
-afce9ec8 Add domains from Issue #1353.
-0f046591 Add domains from Issue #1354.
-
-====================
-     07-18-2020
-====================
-
-
-   * external/chromium-webview
-f05c347 Upgrade Chromium Webview to 84.0.4147.89
-
-   * packages/apps/Jelly
-90d5e87 Jelly: Fix find in page functionality
-
-====================
-     07-17-2020
-====================
-
-
-   * system/netd
-7639e643 system/netd: Add support for per app network isolation
 
