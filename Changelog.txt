@@ -1,4 +1,33 @@
 ====================
+     08-05-2020
+====================
+
+
+   * external/hosts
+7e7e3954 Add api.fouanalytics.com.
+
+====================
+     08-04-2020
+====================
+
+
+   * external/hosts
+275562c6 Remove sandboxie.findmysoft.com as the culprit is downstream; the culprit was added in commit 11cff28668.
+af409a9c Release 2.7.6
+b548b13d Remove *.fouanalytics.com
+3d06f890 Release 2.7.5
+a1d34bdc Updates from tiuxo, yoyo.org, URLHaus, and KADhosts.
+11cff286 Add  instui201.info.
+
+====================
+     08-03-2020
+====================
+
+
+   * frameworks/base
+d947a8e6918 Merge "Automatic AICP translation import" into q10.0
+
+====================
      08-02-2020
 ====================
 
@@ -93,31 +122,31 @@ acc8aa60ccb Disable custom clock format in demo mode
 ====================
 
 
-====================
-     07-26-2020
-====================
+   * frameworks/base
+56e16415e53 Automatic AICP translation import
 
+   * frameworks/opt/aicpgear
+3791483 Automatic AICP translation import
 
-   * external/hosts
-9adfcd4e Release 2.7.2
-1531b621 Updates from clefspeare13, yoyo.org, URLHaus, tiuxo, someonewhocares.org, KADhosts, Badd-Boyz, and AdAway.
+   * frameworks/opt/slimrecent
+06e3dab Automatic AICP translation import
 
-====================
-     07-25-2020
-====================
+   * packages/apps/AicpExtras
+329e2f6 Automatic AICP translation import
 
+   * packages/apps/DeskClock
+ff8aeb9b7 DeskClock: Stop depending on platform APIs
+d5ec5fb43 DeskClock: Fix FAB not being shown everytime
 
-   * external/hosts
-3788f584 Issue #1357: add pub.trads.io.
-178ea64f Merge pull request #1355 from XhmikosR/windows-ci
-6940b842 requirements.txt: tighten ranges
-8b4c837d Remove miniconda and add Windows CI support
+   * packages/apps/Dialer
+a29e877bb Automatic AICP translation import
 
-====================
-     07-24-2020
-====================
+   * packages/apps/Launcher3
+500da8f65 Automatic AICP translation import
 
+   * packages/apps/Settings
+7e2b1123ab Automatic AICP translation import
 
-   * external/hosts
-58b36a7e Add domains from Issue #790.
+   * packages/services/OmniJaws
+febf17b Automatic AICP translation import
 
