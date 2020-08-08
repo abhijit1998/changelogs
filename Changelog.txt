@@ -1,4 +1,45 @@
 ====================
+     08-08-2020
+====================
+
+
+   * external/hosts
+2583decb Release 2.7.7
+6a85b834 Updates from URLHaus, someonewhocares.org, KADhosts, Badd-Boyz, add.Risk, and AdAway.
+
+====================
+     08-07-2020
+====================
+
+
+   * external/hosts
+051689c5 Merge pull request #1371 from bremich/runativepixel
+0f72470a Added pixel.runative-syndicate.com
+
+====================
+     08-06-2020
+====================
+
+
+   * build/make
+73ac868c7 [SQUASH][DNM] Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD
+
+   * frameworks/av
+47c57ea36 [SQUASH][DNM] Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into HEAD
+
+   * frameworks/base
+33dd5814378 [SQUASH][DNM] Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into HEAD
+
+   * packages/apps/Settings
+a5db76499f [SQUASH][DNM] Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD
+
+   * packages/services/Telephony
+5499ca173 [SQUASH][DNM] Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD
+
+   * platform_manifest
+2489470 manifest: android-10.0.0_r40 -> android-10.0.0_r41
+
+====================
      08-05-2020
 ====================
 
@@ -102,51 +143,4 @@ cae3dbff recovery: Set the INFO color to the recovery/fastboot light color
    * external/hosts
 a7d60624 Release 2.7.3
 917579a7 Updates from sinfonietta, clefspeare13, yoyo.org, URLHaus, KADhosts, hostsVN, Badd-Boyz, and AdAway.
-
-====================
-     07-29-2020
-====================
-
-
-   * frameworks/base
-acc8aa60ccb Disable custom clock format in demo mode
-75c2d9af4fc Disable (status bar) battery bar in demo mode
-
-====================
-     07-28-2020
-====================
-
-
-====================
-     07-27-2020
-====================
-
-
-   * frameworks/base
-56e16415e53 Automatic AICP translation import
-
-   * frameworks/opt/aicpgear
-3791483 Automatic AICP translation import
-
-   * frameworks/opt/slimrecent
-06e3dab Automatic AICP translation import
-
-   * packages/apps/AicpExtras
-329e2f6 Automatic AICP translation import
-
-   * packages/apps/DeskClock
-ff8aeb9b7 DeskClock: Stop depending on platform APIs
-d5ec5fb43 DeskClock: Fix FAB not being shown everytime
-
-   * packages/apps/Dialer
-a29e877bb Automatic AICP translation import
-
-   * packages/apps/Launcher3
-500da8f65 Automatic AICP translation import
-
-   * packages/apps/Settings
-7e2b1123ab Automatic AICP translation import
-
-   * packages/services/OmniJaws
-febf17b Automatic AICP translation import
 
