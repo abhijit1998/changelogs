@@ -1,4 +1,59 @@
 ====================
+     08-11-2020
+====================
+
+
+   * external/hosts
+8796eff3 Merge pull request #1375 from bigdargon/master
+8a190811 Add purpleads.io
+
+   * packages/apps/Dialer
+c00176c03 Merge changes from topic "dialer_fixes" into q10.0
+
+   * vendor/aicp
+c819641 vendor_aicp: add random bootanimation
+c5970bb vendor_aicp: Fix zipping up bootanimation
+4a740fc Revert "aicp: Use prebuilt ImageMagick for bootanim"
+8790697 aicp: adblock: Allow overriding the input hosts file
+0946366 repopick: Address PEP8 warnings regarding indentations and variable naming
+c240b4a repopick: Use empty metavar parameter to fix help's indentation
+0ee94c5 kernel: Bail-out if kernel config isn't set
+0050eb0 kernel: Add support for module aliases
+3093b62 kernel: Allow installing modules on vendor_overlay
+
+====================
+     08-10-2020
+====================
+
+
+   * external/hosts
+44273a58 Merge pull request #1373 from forking-repos/setup-cfg
+5fb62630 Merge pull request #1374 from forking-repos/reset-mock-simplify
+24f7482f Remove unnecessary reset_mock calls
+ab1bbe7b Extract flake8 config in setup.cfg
+
+   * frameworks/av
+674598970 Allow graceful degradation of MediaProfile with broken configuration.
+
+   * frameworks/base
+14cd7921421 Add isFaceAuthEnabledForUser checks in KeyguardLiftController
+
+   * packages/apps/DeskClock
+34409991a AOSP/DeskClock - Call executePendingTransactions only if mFragmentManager is not destroyed. Fixes the crash bug. Code matches internal code.
+997ef7053 DeskClock: Fix alarm clock screen show black  when screen locked;
+
+   * packages/apps/Settings
+14ee9c3c4b Settings: Fix icon size for ring volume
+
+====================
+     08-09-2020
+====================
+
+
+   * hardware/qcom-caf/sm8250/display
+4ab176b0e Add C2D_COLOR_FORMAT_420_P010 to C2D_YUV_FORMAT
+
+====================
      08-08-2020
 ====================
 
@@ -6,6 +61,7 @@
    * external/hosts
 2583decb Release 2.7.7
 6a85b834 Updates from URLHaus, someonewhocares.org, KADhosts, Badd-Boyz, add.Risk, and AdAway.
+051689c5 Merge pull request #1371 from bremich/runativepixel
 
 ====================
      08-07-2020
@@ -13,7 +69,6 @@
 
 
    * external/hosts
-051689c5 Merge pull request #1371 from bremich/runativepixel
 0f72470a Added pixel.runative-syndicate.com
 
 ====================
@@ -22,19 +77,19 @@
 
 
    * build/make
-73ac868c7 [SQUASH][DNM] Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD
+337609271 Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD
 
    * frameworks/av
-47c57ea36 [SQUASH][DNM] Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into HEAD
+d87bf83ef Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into HEAD
 
    * frameworks/base
-33dd5814378 [SQUASH][DNM] Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into HEAD
+d86e2456aed Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into HEAD
 
    * packages/apps/Settings
-a5db76499f [SQUASH][DNM] Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD
+b9cfb30888 Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD
 
    * packages/services/Telephony
-5499ca173 [SQUASH][DNM] Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD
+ea782064a Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD
 
    * platform_manifest
 2489470 manifest: android-10.0.0_r40 -> android-10.0.0_r41
@@ -52,6 +107,9 @@ a5db76499f [SQUASH][DNM] Merge tag 'android-10.0.0_r41' of https://android.googl
 ====================
 
 
+   * external/gptfdisk
+27d8747 Merge tag 'android-10.0.0_r41' into staging/lineage-17.1_merge-android-10.0.0_r41
+
    * external/hosts
 275562c6 Remove sandboxie.findmysoft.com as the culprit is downstream; the culprit was added in commit 11cff28668.
 af409a9c Release 2.7.6
@@ -64,6 +122,9 @@ a1d34bdc Updates from tiuxo, yoyo.org, URLHaus, and KADhosts.
      08-03-2020
 ====================
 
+
+   * build/soong
+9a644eec soong: Whitelist(log) mogrify and shuf for aicp's bootanimation
 
    * frameworks/base
 d947a8e6918 Merge "Automatic AICP translation import" into q10.0
@@ -81,66 +142,4 @@ a4ff58d4 Updates from sinfonietta, yoyo.org, URLHaus, someonewhocares.org, mvps.
 1c64e953 Merge remote-tracking branch 'jro1979oliver/lineage-17.1' into q10.0
 18a5b732 griffin: remove from vendor.
 ba03c15b athene: Remove from vendor
-
-====================
-     08-01-2020
-====================
-
-
-   * packages/apps/Gallery2
-6bda026d1 Revert "Remove application/SDP from Gallery2's ACTION_VIEW and REVIEW filters."
-
-====================
-     07-31-2020
-====================
-
-
-   * external/hosts
-06a7cd58 Merge pull request #1358 from bigdargon/add-domain
-9af02df8 Add new domain servenobid.com
-
-   * hardware/lineage/livedisplay
-ce63fc9 livedisplay: sysfs: Add generic implementation for simple sysfs modes
-b8ca32c livedisplay: sysfs: Modularize all components
-22462db livedisplay: sysfs: Refine interface registration
-8a01e72 livedisplay: sysfs: Miscellaneous clean-ups
-d0580f3 livedisplay: sysfs: Use POSIX api to check file access
-b1a97e0 livedisplay: sysfs: Move string literals to anonymous namespace
-8888a4b livedisplay: sysfs: Follow naming rules of Google C++ Style Guide
-44e1a1f livedisplay: sdm: Modularize all components
-5e27e56 livedisplay: sdm: Fix a mismatched data type
-4afd662 livedisplay: sdm: Miscellaneous clean-ups
-5c154dc livedisplay: sdm: Improve SendDppsCommand
-bb5ff4a livedisplay: sdm: Move constants and helpers to anonymous namespace
-b8a246a livedisplay: sdm: Move SDM feature version check to utils
-39b8735 livedisplay: sdm: Convert Utils class to namespace
-07e4ea4 livedisplay: sdm: Use default member initializers
-143150e livedisplay: sdm: Follow naming rules of Google C++ Style Guide
-9d5a9c9 livedisplay: sdm: Implement a sane callback to update default PA
-a15a1f3 livedisplay: sdm: Restart when any QDCM backend not ready
-7468c41 livedisplay: sdm: Use RAII semantics where possible
-
-   * vendor/motorola
-818818ec msm8916: Regenerate vendor
-
-====================
-     07-30-2020
-====================
-
-
-   * bootable/recovery
-b97ca364 recovery: fixup `compute displayable item count while drawing`
-9fc07e5e recovery: compute displayable item count while drawing
-e5603718 recovery: menu wrapping fixes
-5f082e7d recovery: Print the active slot
-d257f5e2 recovery: Display recovery version
-f8ddad3c recovery: Draw the help message below the menu on non-touch devices
-3ca637f9 recovery: Clarify help text
-cae3dbff recovery: Set the INFO color to the recovery/fastboot light color
-4a613268 recovery: apply new design to menu padding, color and arrow
-7f74e937 recovery: add new recovery and fastbootd logos
-
-   * external/hosts
-a7d60624 Release 2.7.3
-917579a7 Updates from sinfonietta, clefspeare13, yoyo.org, URLHaus, KADhosts, hostsVN, Badd-Boyz, and AdAway.
 
