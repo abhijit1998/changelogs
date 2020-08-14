@@ -1,4 +1,39 @@
 ====================
+     08-14-2020
+====================
+
+
+   * external/hosts
+4892cf35 Release 2.7.8
+588fa4b1 Updates from clefspeare13,yoyo.org, URLHaus, KADhosts, hostsVN, and AdAway.
+
+   * platform_manifest
+073b84e Merge "manifest: Add GitLab as remote" into q10.0
+
+====================
+     08-13-2020
+====================
+
+
+   * external/hosts
+30764ced Add domains from Issue #1381.
+539433a6 Add domains from Issue #1380.
+
+====================
+     08-12-2020
+====================
+
+
+   * build/make
+b374d3d2e Merge "releasetools: support dynamic partitions for backuptool" into q10.0
+
+   * frameworks/base
+3593e74615c webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well
+
+   * vendor/aicp
+6a09534 repopick: Fix repopick after c240b4a5d7c4dfdfbf8bca72a1bcd094fcf2dee8
+
+====================
      08-11-2020
 ====================
 
@@ -6,6 +41,9 @@
    * external/hosts
 8796eff3 Merge pull request #1375 from bigdargon/master
 8a190811 Add purpleads.io
+
+   * frameworks/opt/telephony
+f58e587a2 Failed to show hold call when user click swap and merge simultaneously
 
    * packages/apps/Dialer
 c00176c03 Merge changes from topic "dialer_fixes" into q10.0
@@ -101,45 +139,4 @@ ea782064a Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/pla
 
    * external/hosts
 7e7e3954 Add api.fouanalytics.com.
-
-====================
-     08-04-2020
-====================
-
-
-   * external/gptfdisk
-27d8747 Merge tag 'android-10.0.0_r41' into staging/lineage-17.1_merge-android-10.0.0_r41
-
-   * external/hosts
-275562c6 Remove sandboxie.findmysoft.com as the culprit is downstream; the culprit was added in commit 11cff28668.
-af409a9c Release 2.7.6
-b548b13d Remove *.fouanalytics.com
-3d06f890 Release 2.7.5
-a1d34bdc Updates from tiuxo, yoyo.org, URLHaus, and KADhosts.
-11cff286 Add  instui201.info.
-
-====================
-     08-03-2020
-====================
-
-
-   * build/soong
-9a644eec soong: Whitelist(log) mogrify and shuf for aicp's bootanimation
-
-   * frameworks/base
-d947a8e6918 Merge "Automatic AICP translation import" into q10.0
-
-====================
-     08-02-2020
-====================
-
-
-   * external/hosts
-e95c8166 Release 2.7.4
-a4ff58d4 Updates from sinfonietta, yoyo.org, URLHaus, someonewhocares.org, mvps.org, KADhosts, Badd-Boyz, and AdAway.
-
-   * vendor/motorola
-1c64e953 Merge remote-tracking branch 'jro1979oliver/lineage-17.1' into q10.0
-18a5b732 griffin: remove from vendor.
-ba03c15b athene: Remove from vendor
 
