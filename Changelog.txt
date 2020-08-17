@@ -1,4 +1,86 @@
 ====================
+     08-17-2020
+====================
+
+
+   * external/hosts
+fe3a74b6 More email phish.
+
+   * frameworks/base
+e3cc6099b2e WifiManager: Add StaState API [1/2]
+411f38fd444 Show the nearby chip for images and files too.
+1729c7aa5eb Clock: Use handler optimizations wherever possible
+db096e976bb Pulse: Add automatic album art color mode [1/3]
+2fa82b908dc Pulse navbar audio gfx visualizer for Android 10 [1/4]
+23ea9d71210 [1/2] base: add setting for clamp min auto screen brightness
+3809fcaa424 SystemUI: Don't show VoLTE icon when VoWiFi is showing
+0c240b5926d base: VoWiFi switch[1/2]
+ff7ef3a80cf SystemUI: support VoWIFI icons the CAF way
+
+   * frameworks/opt/net/wifi
+72a5ba20f wifi: Add StaState API [2/2]
+843c2440e HDM: Resolve concurrent access issue - defer execution
+4ce141d63 [HDM] Fix concurrency failure
+
+   * packages/apps/AicpExtras
+3e31c56 ae: update onscreen navigation resources
+744fa8c Pulse: Add automatic album art color mode [3/3]
+4491050 ae: Pulse navbar audio gfx visualizer for Android 10 [3/4]
+18a472d AE: Remove unused java class
+c0fb1ec ae: VoWiFi Switch (2/2)
+
+   * packages/apps/Settings
+f4f566f1b8 Merge "[2/2] Settings: add setting for clamp min auto screen brightness" into q10.0
+
+   * platform_manifest
+7b5f191 Merge "manifest: track pulse from du [4/4]" into q10.0
+
+   * vendor/aicp
+6ae7643 kernel: Set full path to DTC
+d138b04 kernel: Make dtb.img depend on dtc and dtbo.img on mkdtimg
+
+====================
+     08-16-2020
+====================
+
+
+   * external/hosts
+a4e7c902 Release 2.7.10
+da8c7074 Updates from clefspeare13, yoyo.org, URLHaus, and KADhosts.
+37154d3b It's a bad idea to email phish me.
+cc50ac4c Add domain from Issue #1384.
+
+====================
+     08-15-2020
+====================
+
+
+   * external/hosts
+e041213c Release 2.7.9
+20056218 Updates from yoyo.org, URLHaus, KADhosts, and AdAway.
+
+   * frameworks/base
+91d2625d9e8 FODCircleView: Dim FOD icon
+
+   * frameworks/opt/jamesdsp
+b8b4dd2 jamesdsp: Support BUILD_WITHOUT_VENDOR
+
+   * hardware/qcom-caf/sm8150/display
+c78f45e58 sdm: mark FOD pressed layer by setting a bit on ZPOS
+
+   * packages/apps/Nfc
+ae902f6d Avoid NFC continuous crash
+
+   * platform_manifest
+dac8821 manifest: Switch to LoS fork of external/libtextclassifier repo
+
+   * vendor/aicp
+8985023 vendor_aicp: Fix missing default alarm tone
+
+   * vendor/nxp/opensource/commonsys/packages/apps/Nfc
+1fa0d049 Avoid NFC continuous crash
+
+====================
      08-14-2020
 ====================
 
@@ -82,6 +164,7 @@ ab1bbe7b Extract flake8 config in setup.cfg
 
    * packages/apps/Settings
 14ee9c3c4b Settings: Fix icon size for ring volume
+ed03bbda97 [2/2] Settings: add setting for clamp min auto screen brightness
 
 ====================
      08-09-2020
@@ -100,43 +183,4 @@ ab1bbe7b Extract flake8 config in setup.cfg
 2583decb Release 2.7.7
 6a85b834 Updates from URLHaus, someonewhocares.org, KADhosts, Badd-Boyz, add.Risk, and AdAway.
 051689c5 Merge pull request #1371 from bremich/runativepixel
-
-====================
-     08-07-2020
-====================
-
-
-   * external/hosts
-0f72470a Added pixel.runative-syndicate.com
-
-====================
-     08-06-2020
-====================
-
-
-   * build/make
-337609271 Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD
-
-   * frameworks/av
-d87bf83ef Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into HEAD
-
-   * frameworks/base
-d86e2456aed Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into HEAD
-
-   * packages/apps/Settings
-b9cfb30888 Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD
-
-   * packages/services/Telephony
-ea782064a Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD
-
-   * platform_manifest
-2489470 manifest: android-10.0.0_r40 -> android-10.0.0_r41
-
-====================
-     08-05-2020
-====================
-
-
-   * external/hosts
-7e7e3954 Add api.fouanalytics.com.
 
