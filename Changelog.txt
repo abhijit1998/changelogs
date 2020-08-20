@@ -1,4 +1,63 @@
 ====================
+     08-20-2020
+====================
+
+
+   * external/hosts
+2814997d Release 2.7.12
+b40e703f Updates from sinfonietta, clefspeafre13, yoyo.org, URLHaus, someonewhocares.org, KADhosts, and hostsVN.
+
+   * platform_manifest
+ca0c927 manifest: Track packages_inputmethods_LatinIME from LoS
+
+   * vendor/aicp
+a54dd53 Merge "aicp: Exclude all aicp overlays from RRO" into q10.0
+74451c1 Merge "aicp: overlay: Enable LatinIME gesture typing" into q10.0
+d3dc9c3 aicp: Exclude all aicp overlays from RRO
+0485c72 aicp: overlay: Enable LatinIME gesture typing
+
+====================
+     08-19-2020
+====================
+
+
+====================
+     08-18-2020
+====================
+
+
+   * build/make
+e2b1d87b5 build: Cleanup changelog invocation
+
+   * build/soong
+6f062fc8 soong: Whitelist python3.7
+
+   * device/motorola/potter
+d1580b5 potter: Update coral FP to august patch
+
+   * external/hosts
+5340f9ad Still more email phish.
+bdaf8e8c Release 2.7.11
+31e3085a Updates from yoyo.org, URLHaus, someonewhocares.org, KADhosts, and hostsVN.
+7fd3ef62 Add korfo.org.
+
+   * frameworks/base
+2b051dc8235 SystemUI: Allow snoozing SD card notification unconditionally
+
+   * frameworks/opt/jamesdsp
+24d335e jamesdsp: Fix multi-arch issue with LOCAL_POST_INSTALL_CMD
+
+   * packages/apps/Snap
+a8051b255 Snap: Report device orientation to Audio HAL
+62b8df6fc Automatic translation import
+
+   * packages/services/OmniJaws
+73d3085 OmniJaws: Let go of the apache http client
+
+   * vendor/aicp
+389f82c aicp: changelog: Only rebuild changelog when needed, and cleanup
+
+====================
      08-17-2020
 ====================
 
@@ -68,9 +127,6 @@ b8b4dd2 jamesdsp: Support BUILD_WITHOUT_VENDOR
    * hardware/qcom-caf/sm8150/display
 c78f45e58 sdm: mark FOD pressed layer by setting a bit on ZPOS
 
-   * packages/apps/Nfc
-ae902f6d Avoid NFC continuous crash
-
    * platform_manifest
 dac8821 manifest: Switch to LoS fork of external/libtextclassifier repo
 
@@ -88,6 +144,9 @@ dac8821 manifest: Switch to LoS fork of external/libtextclassifier repo
    * external/hosts
 4892cf35 Release 2.7.8
 588fa4b1 Updates from clefspeare13,yoyo.org, URLHaus, KADhosts, hostsVN, and AdAway.
+
+   * packages/apps/Nfc
+ae902f6d Avoid NFC continuous crash
 
    * platform_manifest
 073b84e Merge "manifest: Add GitLab as remote" into q10.0
@@ -122,7 +181,6 @@ b374d3d2e Merge "releasetools: support dynamic partitions for backuptool" into q
 
    * external/hosts
 8796eff3 Merge pull request #1375 from bigdargon/master
-8a190811 Add purpleads.io
 
    * frameworks/opt/telephony
 f58e587a2 Failed to show hold call when user click swap and merge simultaneously
@@ -140,47 +198,4 @@ c240b4a repopick: Use empty metavar parameter to fix help's indentation
 0ee94c5 kernel: Bail-out if kernel config isn't set
 0050eb0 kernel: Add support for module aliases
 3093b62 kernel: Allow installing modules on vendor_overlay
-
-====================
-     08-10-2020
-====================
-
-
-   * external/hosts
-44273a58 Merge pull request #1373 from forking-repos/setup-cfg
-5fb62630 Merge pull request #1374 from forking-repos/reset-mock-simplify
-24f7482f Remove unnecessary reset_mock calls
-ab1bbe7b Extract flake8 config in setup.cfg
-
-   * frameworks/av
-674598970 Allow graceful degradation of MediaProfile with broken configuration.
-
-   * frameworks/base
-14cd7921421 Add isFaceAuthEnabledForUser checks in KeyguardLiftController
-
-   * packages/apps/DeskClock
-34409991a AOSP/DeskClock - Call executePendingTransactions only if mFragmentManager is not destroyed. Fixes the crash bug. Code matches internal code.
-997ef7053 DeskClock: Fix alarm clock screen show black  when screen locked;
-
-   * packages/apps/Settings
-14ee9c3c4b Settings: Fix icon size for ring volume
-ed03bbda97 [2/2] Settings: add setting for clamp min auto screen brightness
-
-====================
-     08-09-2020
-====================
-
-
-   * hardware/qcom-caf/sm8250/display
-4ab176b0e Add C2D_COLOR_FORMAT_420_P010 to C2D_YUV_FORMAT
-
-====================
-     08-08-2020
-====================
-
-
-   * external/hosts
-2583decb Release 2.7.7
-6a85b834 Updates from URLHaus, someonewhocares.org, KADhosts, Badd-Boyz, add.Risk, and AdAway.
-051689c5 Merge pull request #1371 from bremich/runativepixel
 
