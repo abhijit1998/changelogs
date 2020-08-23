@@ -1,11 +1,30 @@
 ====================
-     08-20-2020
+     08-23-2020
+====================
+
+
+====================
+     08-22-2020
+====================
+
+
+====================
+     08-21-2020
 ====================
 
 
    * external/hosts
 2814997d Release 2.7.12
 b40e703f Updates from sinfonietta, clefspeafre13, yoyo.org, URLHaus, someonewhocares.org, KADhosts, and hostsVN.
+
+   * vendor/motorola
+d1166f90 Update README.md
+207ad4bb Update README.md
+
+====================
+     08-20-2020
+====================
+
 
    * platform_manifest
 ca0c927 manifest: Track packages_inputmethods_LatinIME from LoS
@@ -40,6 +59,9 @@ d1580b5 potter: Update coral FP to august patch
 bdaf8e8c Release 2.7.11
 31e3085a Updates from yoyo.org, URLHaus, someonewhocares.org, KADhosts, and hostsVN.
 7fd3ef62 Add korfo.org.
+
+   * external/pulse
+e6cdfd7 Solid render: Code clean up and possibly improve performance
 
    * frameworks/base
 2b051dc8235 SystemUI: Allow snoozing SD card notification unconditionally
@@ -127,6 +149,9 @@ b8b4dd2 jamesdsp: Support BUILD_WITHOUT_VENDOR
    * hardware/qcom-caf/sm8150/display
 c78f45e58 sdm: mark FOD pressed layer by setting a bit on ZPOS
 
+   * packages/apps/Nfc
+ae902f6d Avoid NFC continuous crash
+
    * platform_manifest
 dac8821 manifest: Switch to LoS fork of external/libtextclassifier repo
 
@@ -145,57 +170,6 @@ dac8821 manifest: Switch to LoS fork of external/libtextclassifier repo
 4892cf35 Release 2.7.8
 588fa4b1 Updates from clefspeare13,yoyo.org, URLHaus, KADhosts, hostsVN, and AdAway.
 
-   * packages/apps/Nfc
-ae902f6d Avoid NFC continuous crash
-
    * platform_manifest
 073b84e Merge "manifest: Add GitLab as remote" into q10.0
-
-====================
-     08-13-2020
-====================
-
-
-   * external/hosts
-30764ced Add domains from Issue #1381.
-539433a6 Add domains from Issue #1380.
-
-====================
-     08-12-2020
-====================
-
-
-   * build/make
-b374d3d2e Merge "releasetools: support dynamic partitions for backuptool" into q10.0
-
-   * frameworks/base
-3593e74615c webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well
-
-   * vendor/aicp
-6a09534 repopick: Fix repopick after c240b4a5d7c4dfdfbf8bca72a1bcd094fcf2dee8
-
-====================
-     08-11-2020
-====================
-
-
-   * external/hosts
-8796eff3 Merge pull request #1375 from bigdargon/master
-
-   * frameworks/opt/telephony
-f58e587a2 Failed to show hold call when user click swap and merge simultaneously
-
-   * packages/apps/Dialer
-c00176c03 Merge changes from topic "dialer_fixes" into q10.0
-
-   * vendor/aicp
-c819641 vendor_aicp: add random bootanimation
-c5970bb vendor_aicp: Fix zipping up bootanimation
-4a740fc Revert "aicp: Use prebuilt ImageMagick for bootanim"
-8790697 aicp: adblock: Allow overriding the input hosts file
-0946366 repopick: Address PEP8 warnings regarding indentations and variable naming
-c240b4a repopick: Use empty metavar parameter to fix help's indentation
-0ee94c5 kernel: Bail-out if kernel config isn't set
-0050eb0 kernel: Add support for module aliases
-3093b62 kernel: Allow installing modules on vendor_overlay
 
