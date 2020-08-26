@@ -1,7 +1,58 @@
 ====================
+     08-26-2020
+====================
+
+
+   * frameworks/base
+b3e6c84292c PackageInstaller: Fix crash when uninstalling apps with fragile data
+0ca97dae6eb Revert "UninstallAlertDialogFragment: Catch IllegalArgumentException"
+
+   * vendor/aicp
+eaa5744 vendor: kernel: Add back support for custom dtboimg makefile
+c3d2e83 Revert "kernel: Set full path to DTC"
+
+====================
+     08-25-2020
+====================
+
+
+   * bootable/recovery
+417a0ff4 recovery: AICPify Version
+
+   * external/hosts
+556545a6 Issue #1394 — add collect.installeranalytics.com.
+b8c4dfdc Merge pull request #1396 from tanrax/patch-3
+edb9eed5 Remove bad text
+9b8cce7b Add Maza in readme_template
+5c2a30d5 Merge pull request #1393 from tanrax/patch-2
+
+====================
+     08-24-2020
+====================
+
+
+   * external/hosts
+78231337 Add maza ad blocker
+
+   * packages/apps/Settings
+2b0d99edb0 Add NR network type to "Global" mode preference
+
+   * platform_manifest
+8f36b43 manifest: Switch to LoS fork of system_libufdt
+
+   * vendor/aicp
+3464db2 kernel: Add support for mkdtimg cfg_create
+bf67c61 kernel: Switch to mkdtboimg.py
+1f61435 kernel: Rework how DTB/DTBO are built
+
+====================
      08-23-2020
 ====================
 
+
+   * system/libufdt
+ada7a05 mkdtboimg: Add support to V0 DTBO image creation
+1f2f097 mkdtboimg: Make filepath search recursive
 
 ====================
      08-22-2020
@@ -119,57 +170,4 @@ f4f566f1b8 Merge "[2/2] Settings: add setting for clamp min auto screen brightne
    * vendor/aicp
 6ae7643 kernel: Set full path to DTC
 d138b04 kernel: Make dtb.img depend on dtc and dtbo.img on mkdtimg
-
-====================
-     08-16-2020
-====================
-
-
-   * external/hosts
-a4e7c902 Release 2.7.10
-da8c7074 Updates from clefspeare13, yoyo.org, URLHaus, and KADhosts.
-37154d3b It's a bad idea to email phish me.
-cc50ac4c Add domain from Issue #1384.
-
-====================
-     08-15-2020
-====================
-
-
-   * external/hosts
-e041213c Release 2.7.9
-20056218 Updates from yoyo.org, URLHaus, KADhosts, and AdAway.
-
-   * frameworks/base
-91d2625d9e8 FODCircleView: Dim FOD icon
-
-   * frameworks/opt/jamesdsp
-b8b4dd2 jamesdsp: Support BUILD_WITHOUT_VENDOR
-
-   * hardware/qcom-caf/sm8150/display
-c78f45e58 sdm: mark FOD pressed layer by setting a bit on ZPOS
-
-   * packages/apps/Nfc
-ae902f6d Avoid NFC continuous crash
-
-   * platform_manifest
-dac8821 manifest: Switch to LoS fork of external/libtextclassifier repo
-
-   * vendor/aicp
-8985023 vendor_aicp: Fix missing default alarm tone
-
-   * vendor/nxp/opensource/commonsys/packages/apps/Nfc
-1fa0d049 Avoid NFC continuous crash
-
-====================
-     08-14-2020
-====================
-
-
-   * external/hosts
-4892cf35 Release 2.7.8
-588fa4b1 Updates from clefspeare13,yoyo.org, URLHaus, KADhosts, hostsVN, and AdAway.
-
-   * platform_manifest
-073b84e Merge "manifest: Add GitLab as remote" into q10.0
 
