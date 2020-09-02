@@ -1,9 +1,66 @@
 ====================
+     09-02-2020
+====================
+
+
+====================
+     09-01-2020
+====================
+
+
+   * vendor/motorola
+10f2ad8b msm8916-common: Fix import
+
+====================
+     08-31-2020
+====================
+
+
+   * vendor/aicp
+b9a0a1e Add Inter font
+
+   * vendor/motorola
+0b3093fb sanders: Update Digital TV to 01.01.0823
+
+====================
+     08-30-2020
+====================
+
+
+   * bootable/recovery
+0611c81f recovery: Stop showing fastbootd logo for devices without it
+
+====================
+     08-29-2020
+====================
+
+
+   * vendor/motorola
+348b0552 victara: Kill time_daemon
+
+====================
+     08-28-2020
+====================
+
+
+====================
+     08-27-2020
+====================
+
+
+   * external/hosts
+099954eb Release 2.7.13
+942aaae9 Updates from sinfonietta, fakenews, yoyo.org, URLHaus, KADhosts, hostsVN, and AdAway.
+
+====================
      08-26-2020
 ====================
 
 
    * frameworks/base
+0120b7dd2b3 base: add zen mode off hook to prevent problems with ringer mode
+9aa5cbfc71d base: Add DND & Rate settings to flash on call [1/3]
+6c346cef463 base: Allow to flash on call only when entirely silent [1/3]
 b3e6c84292c PackageInstaller: Fix crash when uninstalling apps with fragile data
 0ca97dae6eb Revert "UninstallAlertDialogFragment: Catch IllegalArgumentException"
 
@@ -26,6 +83,10 @@ edb9eed5 Remove bad text
 9b8cce7b Add Maza in readme_template
 5c2a30d5 Merge pull request #1393 from tanrax/patch-2
 
+   * packages/apps/AicpExtras
+10ac07b ae: Add DND & Rate settings to flash on call [3/3]
+c6dec00 ae: Allow to flash on call only when entirely silent [3/3]
+
 ====================
      08-24-2020
 ====================
@@ -44,130 +105,4 @@ edb9eed5 Remove bad text
 3464db2 kernel: Add support for mkdtimg cfg_create
 bf67c61 kernel: Switch to mkdtboimg.py
 1f61435 kernel: Rework how DTB/DTBO are built
-
-====================
-     08-23-2020
-====================
-
-
-   * system/libufdt
-ada7a05 mkdtboimg: Add support to V0 DTBO image creation
-1f2f097 mkdtboimg: Make filepath search recursive
-
-====================
-     08-22-2020
-====================
-
-
-====================
-     08-21-2020
-====================
-
-
-   * external/hosts
-2814997d Release 2.7.12
-b40e703f Updates from sinfonietta, clefspeafre13, yoyo.org, URLHaus, someonewhocares.org, KADhosts, and hostsVN.
-
-   * vendor/motorola
-d1166f90 Update README.md
-207ad4bb Update README.md
-
-====================
-     08-20-2020
-====================
-
-
-   * platform_manifest
-ca0c927 manifest: Track packages_inputmethods_LatinIME from LoS
-
-   * vendor/aicp
-a54dd53 Merge "aicp: Exclude all aicp overlays from RRO" into q10.0
-74451c1 Merge "aicp: overlay: Enable LatinIME gesture typing" into q10.0
-d3dc9c3 aicp: Exclude all aicp overlays from RRO
-0485c72 aicp: overlay: Enable LatinIME gesture typing
-
-====================
-     08-19-2020
-====================
-
-
-====================
-     08-18-2020
-====================
-
-
-   * build/make
-e2b1d87b5 build: Cleanup changelog invocation
-
-   * build/soong
-6f062fc8 soong: Whitelist python3.7
-
-   * device/motorola/potter
-d1580b5 potter: Update coral FP to august patch
-
-   * external/hosts
-5340f9ad Still more email phish.
-bdaf8e8c Release 2.7.11
-31e3085a Updates from yoyo.org, URLHaus, someonewhocares.org, KADhosts, and hostsVN.
-7fd3ef62 Add korfo.org.
-
-   * external/pulse
-e6cdfd7 Solid render: Code clean up and possibly improve performance
-
-   * frameworks/base
-2b051dc8235 SystemUI: Allow snoozing SD card notification unconditionally
-
-   * frameworks/opt/jamesdsp
-24d335e jamesdsp: Fix multi-arch issue with LOCAL_POST_INSTALL_CMD
-
-   * packages/apps/Snap
-a8051b255 Snap: Report device orientation to Audio HAL
-62b8df6fc Automatic translation import
-
-   * packages/services/OmniJaws
-73d3085 OmniJaws: Let go of the apache http client
-
-   * vendor/aicp
-389f82c aicp: changelog: Only rebuild changelog when needed, and cleanup
-
-====================
-     08-17-2020
-====================
-
-
-   * external/hosts
-fe3a74b6 More email phish.
-
-   * frameworks/base
-e3cc6099b2e WifiManager: Add StaState API [1/2]
-411f38fd444 Show the nearby chip for images and files too.
-1729c7aa5eb Clock: Use handler optimizations wherever possible
-db096e976bb Pulse: Add automatic album art color mode [1/3]
-2fa82b908dc Pulse navbar audio gfx visualizer for Android 10 [1/4]
-23ea9d71210 [1/2] base: add setting for clamp min auto screen brightness
-3809fcaa424 SystemUI: Don't show VoLTE icon when VoWiFi is showing
-0c240b5926d base: VoWiFi switch[1/2]
-ff7ef3a80cf SystemUI: support VoWIFI icons the CAF way
-
-   * frameworks/opt/net/wifi
-72a5ba20f wifi: Add StaState API [2/2]
-843c2440e HDM: Resolve concurrent access issue - defer execution
-4ce141d63 [HDM] Fix concurrency failure
-
-   * packages/apps/AicpExtras
-3e31c56 ae: update onscreen navigation resources
-744fa8c Pulse: Add automatic album art color mode [3/3]
-4491050 ae: Pulse navbar audio gfx visualizer for Android 10 [3/4]
-18a472d AE: Remove unused java class
-c0fb1ec ae: VoWiFi Switch (2/2)
-
-   * packages/apps/Settings
-f4f566f1b8 Merge "[2/2] Settings: add setting for clamp min auto screen brightness" into q10.0
-
-   * platform_manifest
-7b5f191 Merge "manifest: track pulse from du [4/4]" into q10.0
-
-   * vendor/aicp
-6ae7643 kernel: Set full path to DTC
-d138b04 kernel: Make dtb.img depend on dtc and dtbo.img on mkdtimg
 
