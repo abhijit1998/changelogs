@@ -1,7 +1,59 @@
 ====================
+     09-05-2020
+====================
+
+
+   * vendor/aicp
+958e7ca Revert "kernel: prevent additional config from being always rebuilt"
+
+   * vendor/motorola
+2f0a9f1a msm8916-common: Drop QC implementation for audio sw effects
+
+====================
+     09-04-2020
+====================
+
+
+   * build/soong
+1900abd6 Add support for macOS 11 SDK
+dc4e4b6f Add support for 10.15 SDK
+
+   * external/hosts
+0060ef11 Release 3.0.0
+393b7c3b Updates from yoyo.org, URLHaus, someonewhocares.org, KADhosts, Badd-Boyz, and AdAway.
+a0e2e39a Merge pull request #1392 from AlexanderCecile/introduce-requests
+
+   * frameworks/base
+04d5decf854 Fix CDM.requestNotificationAccess() in profile.
+
+   * system/sepolicy
+37942c73 Fix sepolicy_tests on Mac 10.15
+
+   * vendor/aicp
+7cd3e0a kernel: Use CPATH for including host headers
+95bebaf kernel: prevent additional config from being always rebuilt
+
+====================
+     09-03-2020
+====================
+
+
+   * external/hosts
+b350c685 Improved tests for get_file_by_url
+
+   * packages/apps/AicpExtras
+242c015 ae: Adjust verbiage for flash on calls
+
+   * prebuilts/tools-aicp
+b0e4e6a tools-lineage: Add prebuilt DTC
+
+====================
      09-02-2020
 ====================
 
+
+   * packages/apps/Settings
+7fe88197d4 Settings: Fix notification light color preference
 
 ====================
      09-01-2020
@@ -15,6 +67,10 @@
      08-31-2020
 ====================
 
+
+   * system/libufdt
+c54fd08 mkdtboimg: Sanitize dt filename
+409c2d0 mkdtboimg: Allow specifying full path for dtb
 
    * vendor/aicp
 b9a0a1e Add Inter font
@@ -35,6 +91,12 @@ b9a0a1e Add Inter font
 ====================
 
 
+   * external/hosts
+d85c9657 Remove unused test code
+ad356812 Improve tests for get_file_by_url
+59ddd34d Changed dependency-related exception to be compatible with Python versions < 3.6
+1019c6ae Improve the error raised when the new dependency is missing
+
    * vendor/motorola
 348b0552 victara: Kill time_daemon
 
@@ -51,58 +113,8 @@ b9a0a1e Add Inter font
    * external/hosts
 099954eb Release 2.7.13
 942aaae9 Updates from sinfonietta, fakenews, yoyo.org, URLHaus, KADhosts, hostsVN, and AdAway.
+06483cca Update error handling in get_file_by_url
 
-====================
-     08-26-2020
-====================
-
-
-   * frameworks/base
-0120b7dd2b3 base: add zen mode off hook to prevent problems with ringer mode
-9aa5cbfc71d base: Add DND & Rate settings to flash on call [1/3]
-6c346cef463 base: Allow to flash on call only when entirely silent [1/3]
-b3e6c84292c PackageInstaller: Fix crash when uninstalling apps with fragile data
-0ca97dae6eb Revert "UninstallAlertDialogFragment: Catch IllegalArgumentException"
-
-   * vendor/aicp
-eaa5744 vendor: kernel: Add back support for custom dtboimg makefile
-c3d2e83 Revert "kernel: Set full path to DTC"
-
-====================
-     08-25-2020
-====================
-
-
-   * bootable/recovery
-417a0ff4 recovery: AICPify Version
-
-   * external/hosts
-556545a6 Issue #1394 — add collect.installeranalytics.com.
-b8c4dfdc Merge pull request #1396 from tanrax/patch-3
-edb9eed5 Remove bad text
-9b8cce7b Add Maza in readme_template
-5c2a30d5 Merge pull request #1393 from tanrax/patch-2
-
-   * packages/apps/AicpExtras
-10ac07b ae: Add DND & Rate settings to flash on call [3/3]
-c6dec00 ae: Allow to flash on call only when entirely silent [3/3]
-
-====================
-     08-24-2020
-====================
-
-
-   * external/hosts
-78231337 Add maza ad blocker
-
-   * packages/apps/Settings
-2b0d99edb0 Add NR network type to "Global" mode preference
-
-   * platform_manifest
-8f36b43 manifest: Switch to LoS fork of system_libufdt
-
-   * vendor/aicp
-3464db2 kernel: Add support for mkdtimg cfg_create
-bf67c61 kernel: Switch to mkdtboimg.py
-1f61435 kernel: Rework how DTB/DTBO are built
+   * system/netd
+466ac698 netd: Sort and cache hosts file data for fast lookup
 
