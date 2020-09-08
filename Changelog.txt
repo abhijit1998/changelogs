@@ -1,4 +1,19 @@
 ====================
+     09-08-2020
+====================
+
+
+====================
+     09-07-2020
+====================
+
+
+====================
+     09-06-2020
+====================
+
+
+====================
      09-05-2020
 ====================
 
@@ -85,36 +100,4 @@ b9a0a1e Add Inter font
 
    * bootable/recovery
 0611c81f recovery: Stop showing fastbootd logo for devices without it
-
-====================
-     08-29-2020
-====================
-
-
-   * external/hosts
-d85c9657 Remove unused test code
-ad356812 Improve tests for get_file_by_url
-59ddd34d Changed dependency-related exception to be compatible with Python versions < 3.6
-1019c6ae Improve the error raised when the new dependency is missing
-
-   * vendor/motorola
-348b0552 victara: Kill time_daemon
-
-====================
-     08-28-2020
-====================
-
-
-====================
-     08-27-2020
-====================
-
-
-   * external/hosts
-099954eb Release 2.7.13
-942aaae9 Updates from sinfonietta, fakenews, yoyo.org, URLHaus, KADhosts, hostsVN, and AdAway.
-06483cca Update error handling in get_file_by_url
-
-   * system/netd
-466ac698 netd: Sort and cache hosts file data for fast lookup
 
