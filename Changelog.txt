@@ -1,4 +1,48 @@
 ====================
+     09-11-2020
+====================
+
+
+   * vendor/aicp
+356aa5c extract_utils: Add support for system_ext
+
+====================
+     09-10-2020
+====================
+
+
+   * build/soong
+ecb5de49 soong: Forbid arm-linux-androidkernel-as and arm-linux-androidkernel-ld
+
+   * external/chromium-webview
+cd830a4 Update Chromium Webview to 85.0.4183.101
+
+   * packages/apps/Etar
+f2390684 Automatic translation import
+04673c6b Automatic translation import
+
+   * vendor/aicp
+289667e vendor_aicp: Build Email and Exchange2 packages
+
+====================
+     09-09-2020
+====================
+
+
+   * build/make
+849b2968f build_image: Allow disabling custom inode count calculation
+
+   * external/hosts
+f45e7e45 Release 3.0.1
+ea69ee14 Updates from yoyo.org, URLHaus, KADhosts, hostsVN, and Badd-Boyz.
+
+   * system/bt
+7a8ecbf44 Changed HID_DEV_MTU_SIZE from 64 to 512
+
+   * vendor/qcom/opensource/commonsys/system/bt
+614a3e2ac Changed HID_DEV_MTU_SIZE from 64 to 512
+
+====================
      09-08-2020
 ====================
 
@@ -17,6 +61,9 @@
      09-05-2020
 ====================
 
+
+   * system/netd
+60425acb netd: Support wildcards in cached hosts file
 
    * vendor/aicp
 958e7ca Revert "kernel: prevent additional config from being always rebuilt"
@@ -40,6 +87,9 @@ a0e2e39a Merge pull request #1392 from AlexanderCecile/introduce-requests
 
    * frameworks/base
 04d5decf854 Fix CDM.requestNotificationAccess() in profile.
+
+   * packages/apps/Settings
+d4ee788b97 Settings: Account more 5G network modes
 
    * system/sepolicy
 37942c73 Fix sepolicy_tests on Mac 10.15
@@ -69,35 +119,4 @@ b0e4e6a tools-lineage: Add prebuilt DTC
 
    * packages/apps/Settings
 7fe88197d4 Settings: Fix notification light color preference
-
-====================
-     09-01-2020
-====================
-
-
-   * vendor/motorola
-10f2ad8b msm8916-common: Fix import
-
-====================
-     08-31-2020
-====================
-
-
-   * system/libufdt
-c54fd08 mkdtboimg: Sanitize dt filename
-409c2d0 mkdtboimg: Allow specifying full path for dtb
-
-   * vendor/aicp
-b9a0a1e Add Inter font
-
-   * vendor/motorola
-0b3093fb sanders: Update Digital TV to 01.01.0823
-
-====================
-     08-30-2020
-====================
-
-
-   * bootable/recovery
-0611c81f recovery: Stop showing fastbootd logo for devices without it
 
