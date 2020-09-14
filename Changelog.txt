@@ -1,10 +1,114 @@
 ====================
-     09-11-2020
+     09-14-2020
+====================
+
+
+   * build/make
+bd119758a sign_target_apks: Replace update-payload-key.pub.pem in RECOVERY as well
+5bade6197 Bump Security String to 2020-09-05
+
+   * frameworks/av
+cb05b12c0 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/av into q10.0
+
+   * frameworks/base
+65fa6bf584d Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/base into q10.0
+
+   * frameworks/native
+8fd4e4912 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/native into q10.0
+
+   * frameworks/opt/net/wifi
+98e1dea70 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into q10.0
+
+   * frameworks/opt/telephony
+0e2d8a080 Use FLAG_IMMUTABLE for MultiSimSettingController
+5246aa6f1 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/opt/telephony into q10.0
+
+   * packages/apps/Bluetooth
+0997e58b Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Bluetooth into q10.0
+
+   * packages/apps/Contacts
+5b9df7f51 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Contacts into q10.0
+
+   * packages/apps/Settings
+caea97ab55 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Settings into q10.0
+
+   * packages/inputmethods/LatinIME
+724c50785 LatinIME: Move keyboard height setting from debug to advanced
+
+   * packages/services/Telephony
+5c5c099d8 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/services/Telephony into q10.0
+
+   * platform_manifest
+3d9d307 manifest: Track sonivox from lineage
+
+   * system/bt
+bf54ae786 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/system/bt into q10.0
+
+   * system/core
+e11f62773 libutils: check vsnprintf error
+784d80f60 String16::remove - avoid overflow
+
+   * system/sepolicy
+7d0edaeb Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/system/sepolicy into q10.0
+
+====================
+     09-13-2020
+====================
+
+
+   * packages/apps/Etar
+f2e64168 Automatic translation import
+
+   * packages/apps/Gallery2
+277741332 Automatic translation import
+
+   * packages/apps/Messaging
+272a3ce Fix NoSuchMethodError for getTypeInfo()
+bb23356 Remove advanced category if no preference
+352bd6e AOSP/Messaging - Changed minSdkVersion to 19.
+4d8b4ff Fix SecurityException at getActiveSubscriptionInfoList() on N and O
+b2e8a4c Fix app initialization issue if no permissions
+d58236e AOSP/Messaging - Changed midSdkVersion to 14 and reverted to using Telephony.Carriers.CONTENT_URI instead of  Telephony.Carriers.SIM_APN_URI.
+2632cd0 Fix handling format based on API level accordingly.
+fe475f2 Remove only one Lambda Exp for JAVA 7
+19cee1b Fix creating ConnectivityUtil to work on any platform
+2e30582 Fix missing computeIfAbsent() method in L_MR1 and M
+1761c69 Remove unnecessary methods from MmsUtils
+48da09a Allow call to phone numbers or voice mail numbers only
+c75e86c Check CONFIG_SEND_MULTIPART_SMS_AS_SEPARATE_MESSAGES always
+beb2be0 Fix ConcurrentModificationException
+525b843 Parse recipients from RESPOND_VIA_MESSAGE correctly
+c956ab0 Disallow making a call to emergency numbers
+c415b84 Auto re-sending MMS for all the transient failures
+328a9cf Remove dead code
+c08cb76 Check whether dialable only
+
+   * packages/inputmethods/LatinIME
+7ae7f6537 Automatic translation import
+
+   * packages/services/BuiltInPrintService
+ce69440 Automatic translation import
+
+====================
+     09-12-2020
 ====================
 
 
    * vendor/aicp
+e9d6542 Merge "vendor_aicp: Give TilesWallpaper its own RRO package [2/2]" into q10.0
+
+====================
+     09-11-2020
+====================
+
+
+   * packages/apps/Settings
+bb2eae8cf7 Remove useless png and add vector drawable
+f9ccfd803b Remove "storage type" preference from Settings
+
+   * vendor/aicp
 356aa5c extract_utils: Add support for system_ext
+a7412da vendor_aicp: Give TilesWallpaper its own RRO package [2/2]
 
 ====================
      09-10-2020
@@ -17,9 +121,15 @@ ecb5de49 soong: Forbid arm-linux-androidkernel-as and arm-linux-androidkernel-ld
    * external/chromium-webview
 cd830a4 Update Chromium Webview to 85.0.4183.101
 
+   * external/sonivox
+1d4b36d Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46
+
    * packages/apps/Etar
 f2390684 Automatic translation import
 04673c6b Automatic translation import
+
+   * packages/apps/PermissionController
+c22ae4bb Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46
 
    * vendor/aicp
 289667e vendor_aicp: Build Email and Exchange2 packages
@@ -70,53 +180,4 @@ ea69ee14 Updates from yoyo.org, URLHaus, KADhosts, hostsVN, and Badd-Boyz.
 
    * vendor/motorola
 2f0a9f1a msm8916-common: Drop QC implementation for audio sw effects
-
-====================
-     09-04-2020
-====================
-
-
-   * build/soong
-1900abd6 Add support for macOS 11 SDK
-dc4e4b6f Add support for 10.15 SDK
-
-   * external/hosts
-0060ef11 Release 3.0.0
-393b7c3b Updates from yoyo.org, URLHaus, someonewhocares.org, KADhosts, Badd-Boyz, and AdAway.
-a0e2e39a Merge pull request #1392 from AlexanderCecile/introduce-requests
-
-   * frameworks/base
-04d5decf854 Fix CDM.requestNotificationAccess() in profile.
-
-   * packages/apps/Settings
-d4ee788b97 Settings: Account more 5G network modes
-
-   * system/sepolicy
-37942c73 Fix sepolicy_tests on Mac 10.15
-
-   * vendor/aicp
-7cd3e0a kernel: Use CPATH for including host headers
-95bebaf kernel: prevent additional config from being always rebuilt
-
-====================
-     09-03-2020
-====================
-
-
-   * external/hosts
-b350c685 Improved tests for get_file_by_url
-
-   * packages/apps/AicpExtras
-242c015 ae: Adjust verbiage for flash on calls
-
-   * prebuilts/tools-aicp
-b0e4e6a tools-lineage: Add prebuilt DTC
-
-====================
-     09-02-2020
-====================
-
-
-   * packages/apps/Settings
-7fe88197d4 Settings: Fix notification light color preference
 
