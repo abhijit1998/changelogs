@@ -1,4 +1,30 @@
 ====================
+     09-17-2020
+====================
+
+
+   * frameworks/base
+9cdd7405fc2 WiredAccessoryManager: support for multiple display ports
+93d89b6d68b audio: update WiredAccessoryManager to use ExtconUEventObserver based on events available
+8d0bc079f2f WiredAccessoryManager: Support for multiple extconn devices
+6f80bafa8b7 WiredAccessoryManager: update extcon file paths
+bf735925ba5 WiredAccessoryManager: Add support for DisplayPort Audio
+
+====================
+     09-16-2020
+====================
+
+
+   * external/hosts
+d06f3d2c Release 3.0.2
+9ae4f735 Updates from yoyo.org, URLHaus, someonewhocares.org, mvps.org, KADhosts, hostsVM, Badd-Boyz, and AdAway.
+
+====================
+     09-15-2020
+====================
+
+
+====================
      09-14-2020
 ====================
 
@@ -156,28 +182,4 @@ ea69ee14 Updates from yoyo.org, URLHaus, KADhosts, hostsVN, and Badd-Boyz.
      09-08-2020
 ====================
 
-
-====================
-     09-07-2020
-====================
-
-
-====================
-     09-06-2020
-====================
-
-
-====================
-     09-05-2020
-====================
-
-
-   * system/netd
-60425acb netd: Support wildcards in cached hosts file
-
-   * vendor/aicp
-958e7ca Revert "kernel: prevent additional config from being always rebuilt"
-
-   * vendor/motorola
-2f0a9f1a msm8916-common: Drop QC implementation for audio sw effects
 
