@@ -1,9 +1,39 @@
 ====================
+     09-20-2020
+====================
+
+
+   * frameworks/base
+2667bd3db78 Merge "Automatic AICP translation import" into q10.0
+
+   * packages/apps/Dialer
+e94f528ec Merge "Automatic AICP translation import" into q10.0
+
+====================
+     09-19-2020
+====================
+
+
+====================
+     09-18-2020
+====================
+
+
+   * packages/apps/Dialer
+e5c2f1915 incallui: use accent color for dialpad text
+
+   * vendor/aicp
+26451f3 vendor: Add TARGET_USES_AOSP_RECOVERY flag
+
+====================
      09-17-2020
 ====================
 
 
    * frameworks/base
+77794271f4e Bluetooth: Serialize sending sendBluetoothServiceUpCallback
+0760565c3ad BT: Added bind retry logic to handle race condition in Bluetooth off/on
+5c27720f490 HeadsUpStatusBarView: account for rounded corner
 9cdd7405fc2 WiredAccessoryManager: support for multiple display ports
 93d89b6d68b audio: update WiredAccessoryManager to use ExtconUEventObserver based on events available
 8d0bc079f2f WiredAccessoryManager: Support for multiple extconn devices
@@ -37,6 +67,7 @@ bd119758a sign_target_apks: Replace update-payload-key.pub.pem in RECOVERY as we
 cb05b12c0 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/av into q10.0
 
    * frameworks/base
+67a3b102e82 Automatic AICP translation import
 65fa6bf584d Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/base into q10.0
 
    * frameworks/native
@@ -45,9 +76,15 @@ cb05b12c0 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/pla
    * frameworks/opt/net/wifi
 98e1dea70 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into q10.0
 
+   * frameworks/opt/slimrecent
+86abf15 Automatic AICP translation import
+
    * frameworks/opt/telephony
 0e2d8a080 Use FLAG_IMMUTABLE for MultiSimSettingController
 5246aa6f1 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/opt/telephony into q10.0
+
+   * packages/apps/AicpExtras
+d89f2c9 Automatic AICP translation import
 
    * packages/apps/Bluetooth
 0997e58b Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Bluetooth into q10.0
@@ -55,11 +92,24 @@ cb05b12c0 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/pla
    * packages/apps/Contacts
 5b9df7f51 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Contacts into q10.0
 
+   * packages/apps/Dialer
+5a3821756 Automatic AICP translation import
+
+   * packages/apps/JamesDSPManager
+373f237 Automatic AICP translation import
+
+   * packages/apps/Launcher3
+33982dd62 Automatic AICP translation import
+
    * packages/apps/Settings
+ee62aa2d34 Automatic AICP translation import
 caea97ab55 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Settings into q10.0
 
    * packages/inputmethods/LatinIME
 724c50785 LatinIME: Move keyboard height setting from debug to advanced
+
+   * packages/resources/devicesettings
+2cc532d Automatic AICP translation import
 
    * packages/services/Telephony
 5c5c099d8 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/services/Telephony into q10.0
@@ -71,11 +121,16 @@ caea97ab55 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/pl
 bf54ae786 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/system/bt into q10.0
 
    * system/core
+786769e02 init: update recovery when enabled in settings
+ae9ee75cc Revert "init: Don't install AOSP recovery"
 e11f62773 libutils: check vsnprintf error
 784d80f60 String16::remove - avoid overflow
 
    * system/sepolicy
 7d0edaeb Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/system/sepolicy into q10.0
+
+   * vendor/aicp
+e59f6b7 aicp: Update APN list from Google master branch
 
 ====================
      09-13-2020
@@ -135,51 +190,4 @@ f9ccfd803b Remove "storage type" preference from Settings
    * vendor/aicp
 356aa5c extract_utils: Add support for system_ext
 a7412da vendor_aicp: Give TilesWallpaper its own RRO package [2/2]
-
-====================
-     09-10-2020
-====================
-
-
-   * build/soong
-ecb5de49 soong: Forbid arm-linux-androidkernel-as and arm-linux-androidkernel-ld
-
-   * external/chromium-webview
-cd830a4 Update Chromium Webview to 85.0.4183.101
-
-   * external/sonivox
-1d4b36d Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46
-
-   * packages/apps/Etar
-f2390684 Automatic translation import
-04673c6b Automatic translation import
-
-   * packages/apps/PermissionController
-c22ae4bb Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46
-
-   * vendor/aicp
-289667e vendor_aicp: Build Email and Exchange2 packages
-
-====================
-     09-09-2020
-====================
-
-
-   * build/make
-849b2968f build_image: Allow disabling custom inode count calculation
-
-   * external/hosts
-f45e7e45 Release 3.0.1
-ea69ee14 Updates from yoyo.org, URLHaus, KADhosts, hostsVN, and Badd-Boyz.
-
-   * system/bt
-7a8ecbf44 Changed HID_DEV_MTU_SIZE from 64 to 512
-
-   * vendor/qcom/opensource/commonsys/system/bt
-614a3e2ac Changed HID_DEV_MTU_SIZE from 64 to 512
-
-====================
-     09-08-2020
-====================
-
 
