@@ -1,4 +1,42 @@
 ====================
+     09-23-2020
+====================
+
+
+====================
+     09-22-2020
+====================
+
+
+   * external/hosts
+32242792 Release 3.0.3
+f60686d0 Issue #1392 — set the minimum version of Requests to v2.20.
+dc595848 Updates from yoyo.org, URLHaus, someonewhocares.org, KADhosts, hostsVN, and Badd-Boyz.
+
+====================
+     09-21-2020
+====================
+
+
+   * packages/apps/Etar
+2d2dd489 Automatic translation import
+
+   * packages/apps/Exchange
+975b705c Automatic translation import
+
+   * packages/apps/Gallery2
+071d93927 Automatic translation import
+
+   * packages/apps/Nfc
+f8825899 Automatic translation import
+
+   * packages/inputmethods/LatinIME
+459a560e9 Automatic translation import
+
+   * packages/providers/ContactsProvider
+4a7b2237 Automatic translation import
+
+====================
      09-20-2020
 ====================
 
@@ -131,63 +169,4 @@ e11f62773 libutils: check vsnprintf error
 
    * vendor/aicp
 e59f6b7 aicp: Update APN list from Google master branch
-
-====================
-     09-13-2020
-====================
-
-
-   * packages/apps/Etar
-f2e64168 Automatic translation import
-
-   * packages/apps/Gallery2
-277741332 Automatic translation import
-
-   * packages/apps/Messaging
-272a3ce Fix NoSuchMethodError for getTypeInfo()
-bb23356 Remove advanced category if no preference
-352bd6e AOSP/Messaging - Changed minSdkVersion to 19.
-4d8b4ff Fix SecurityException at getActiveSubscriptionInfoList() on N and O
-b2e8a4c Fix app initialization issue if no permissions
-d58236e AOSP/Messaging - Changed midSdkVersion to 14 and reverted to using Telephony.Carriers.CONTENT_URI instead of  Telephony.Carriers.SIM_APN_URI.
-2632cd0 Fix handling format based on API level accordingly.
-fe475f2 Remove only one Lambda Exp for JAVA 7
-19cee1b Fix creating ConnectivityUtil to work on any platform
-2e30582 Fix missing computeIfAbsent() method in L_MR1 and M
-1761c69 Remove unnecessary methods from MmsUtils
-48da09a Allow call to phone numbers or voice mail numbers only
-c75e86c Check CONFIG_SEND_MULTIPART_SMS_AS_SEPARATE_MESSAGES always
-beb2be0 Fix ConcurrentModificationException
-525b843 Parse recipients from RESPOND_VIA_MESSAGE correctly
-c956ab0 Disallow making a call to emergency numbers
-c415b84 Auto re-sending MMS for all the transient failures
-328a9cf Remove dead code
-c08cb76 Check whether dialable only
-
-   * packages/inputmethods/LatinIME
-7ae7f6537 Automatic translation import
-
-   * packages/services/BuiltInPrintService
-ce69440 Automatic translation import
-
-====================
-     09-12-2020
-====================
-
-
-   * vendor/aicp
-e9d6542 Merge "vendor_aicp: Give TilesWallpaper its own RRO package [2/2]" into q10.0
-
-====================
-     09-11-2020
-====================
-
-
-   * packages/apps/Settings
-bb2eae8cf7 Remove useless png and add vector drawable
-f9ccfd803b Remove "storage type" preference from Settings
-
-   * vendor/aicp
-356aa5c extract_utils: Add support for system_ext
-a7412da vendor_aicp: Give TilesWallpaper its own RRO package [2/2]
 
