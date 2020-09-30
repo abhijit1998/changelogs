@@ -1,10 +1,104 @@
 ====================
+     09-30-2020
+====================
+
+
+====================
+     09-29-2020
+====================
+
+
+   * frameworks/opt/telephony
+ae14d91e6 Merge "Telephony: Fix crash while updating Operator Name" into q10.0
+
+   * hardware/qcom-caf/msm8974/display
+d5ea07279 copybit: Export c2d header
+
+   * hardware/qcom-caf/msm8974/media
+0ac6d80eb libc2dcolorconvert: Remove dependency on stagefright
+88a2c357a media: change way of accessing aosp project headers
+f4c68e8e1 mm-video: remove hevc sw decoder files
+124e6f358 mm-video: Remove old decoder test apps
+
+   * vendor/aicp
+fdda15e backuptool_ab: Use mv instead of cp for restore step
+8ff333c backuptool_ab: Make copy_file preserve file/directory attrs
+911ccb7 extract_utils: Fix system_ext framework blueprint generation.
+
+====================
+     09-28-2020
+====================
+
+
+   * build/make
+ed86bef9b backuptool: do not unmap dynamic partition after finished
+
+   * packages/apps/Phonograph
+942d9616 Phonograph: fix bg color for R
+
+====================
+     09-27-2020
+====================
+
+
+   * external/hosts
+dccdf794 Release 3.0.4
+611c4a0b Updates from yoyo.org, URLHaus, someonewhocares.org, KADhosts, hostsVN, and Badd-Boyz.
+6ebfc1ed Issue #1409: fix — remove unnecessary and confusing Windows flush DNS instructions.
+
+   * hardware/qcom-caf/sm8150/audio
+6a9c3b063 audio_amplifier: Add new hook for setting amp feedback
+cfd9e4ed7 hal: Support the audio amplifier hook
+
+   * system/netd
+ddde0f8d Make hosts cache respect toggle-able adblock file
+
+====================
+     09-26-2020
+====================
+
+
+   * frameworks/base
+5ac0a5bc48c Revert "Revert "Remove BatteryDetail from BatterySaverTile""
+
+   * packages/apps/Launcher3
+9a16a7bd8 Launcher3: bring back hotseat icons view for recents ui state
+
+   * packages/apps/TilesWallpaper
+efffcf9 TilesWallpaperOverlay: Force-enable by default
+
+====================
+     09-25-2020
+====================
+
+
+   * packages/apps/Phonograph
+2ab55ba6 Phonograph: add v27 resource folder for styles
+884daadc Phonograph: fix MedisStore access for artwork
+
+====================
+     09-24-2020
+====================
+
+
+   * hardware/qcom-caf/msm8960/display
+41b612349 Revert "Don't force GPU composite for older devices"
+
+====================
      09-23-2020
 ====================
 
 
+   * hardware/qcom/display
+efd182313 msm8084: hwcomposer: Fix unused parameter build warning
+
 ====================
      09-22-2020
+====================
+
+
+====================
+     09-21-2020
 ====================
 
 
@@ -12,11 +106,6 @@
 32242792 Release 3.0.3
 f60686d0 Issue #1392 — set the minimum version of Requests to v2.20.
 dc595848 Updates from yoyo.org, URLHaus, someonewhocares.org, KADhosts, hostsVN, and Badd-Boyz.
-
-====================
-     09-21-2020
-====================
-
 
    * packages/apps/Etar
 2d2dd489 Automatic translation import
@@ -35,138 +124,4 @@ f8825899 Automatic translation import
 
    * packages/providers/ContactsProvider
 4a7b2237 Automatic translation import
-
-====================
-     09-20-2020
-====================
-
-
-   * frameworks/base
-2667bd3db78 Merge "Automatic AICP translation import" into q10.0
-
-   * packages/apps/Dialer
-e94f528ec Merge "Automatic AICP translation import" into q10.0
-
-====================
-     09-19-2020
-====================
-
-
-====================
-     09-18-2020
-====================
-
-
-   * packages/apps/Dialer
-e5c2f1915 incallui: use accent color for dialpad text
-
-   * vendor/aicp
-26451f3 vendor: Add TARGET_USES_AOSP_RECOVERY flag
-
-====================
-     09-17-2020
-====================
-
-
-   * frameworks/base
-77794271f4e Bluetooth: Serialize sending sendBluetoothServiceUpCallback
-0760565c3ad BT: Added bind retry logic to handle race condition in Bluetooth off/on
-5c27720f490 HeadsUpStatusBarView: account for rounded corner
-9cdd7405fc2 WiredAccessoryManager: support for multiple display ports
-93d89b6d68b audio: update WiredAccessoryManager to use ExtconUEventObserver based on events available
-8d0bc079f2f WiredAccessoryManager: Support for multiple extconn devices
-6f80bafa8b7 WiredAccessoryManager: update extcon file paths
-bf735925ba5 WiredAccessoryManager: Add support for DisplayPort Audio
-
-====================
-     09-16-2020
-====================
-
-
-   * external/hosts
-d06f3d2c Release 3.0.2
-9ae4f735 Updates from yoyo.org, URLHaus, someonewhocares.org, mvps.org, KADhosts, hostsVM, Badd-Boyz, and AdAway.
-
-====================
-     09-15-2020
-====================
-
-
-====================
-     09-14-2020
-====================
-
-
-   * build/make
-bd119758a sign_target_apks: Replace update-payload-key.pub.pem in RECOVERY as well
-5bade6197 Bump Security String to 2020-09-05
-
-   * frameworks/av
-cb05b12c0 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/av into q10.0
-
-   * frameworks/base
-67a3b102e82 Automatic AICP translation import
-65fa6bf584d Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/base into q10.0
-
-   * frameworks/native
-8fd4e4912 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/native into q10.0
-
-   * frameworks/opt/net/wifi
-98e1dea70 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into q10.0
-
-   * frameworks/opt/slimrecent
-86abf15 Automatic AICP translation import
-
-   * frameworks/opt/telephony
-0e2d8a080 Use FLAG_IMMUTABLE for MultiSimSettingController
-5246aa6f1 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/opt/telephony into q10.0
-
-   * packages/apps/AicpExtras
-d89f2c9 Automatic AICP translation import
-
-   * packages/apps/Bluetooth
-0997e58b Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Bluetooth into q10.0
-
-   * packages/apps/Contacts
-5b9df7f51 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Contacts into q10.0
-
-   * packages/apps/Dialer
-5a3821756 Automatic AICP translation import
-
-   * packages/apps/JamesDSPManager
-373f237 Automatic AICP translation import
-
-   * packages/apps/Launcher3
-33982dd62 Automatic AICP translation import
-
-   * packages/apps/Settings
-ee62aa2d34 Automatic AICP translation import
-caea97ab55 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Settings into q10.0
-
-   * packages/inputmethods/LatinIME
-724c50785 LatinIME: Move keyboard height setting from debug to advanced
-
-   * packages/resources/devicesettings
-2cc532d Automatic AICP translation import
-
-   * packages/services/Telephony
-5c5c099d8 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/services/Telephony into q10.0
-
-   * platform_manifest
-3d9d307 manifest: Track sonivox from lineage
-
-   * system/bt
-bf54ae786 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/system/bt into q10.0
-
-   * system/core
-786769e02 init: update recovery when enabled in settings
-ae9ee75cc Revert "init: Don't install AOSP recovery"
-e11f62773 libutils: check vsnprintf error
-784d80f60 String16::remove - avoid overflow
-
-   * system/sepolicy
-7d0edaeb Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/system/sepolicy into q10.0
-
-   * vendor/aicp
-e59f6b7 aicp: Update APN list from Google master branch
 
