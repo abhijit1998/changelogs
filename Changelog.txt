@@ -1,4 +1,27 @@
 ====================
+     10-02-2020
+====================
+
+
+   * packages/apps/Email
+66c6d3f38 Automatic translation import
+
+   * packages/apps/Etar
+15e694ae Automatic translation import
+
+   * packages/apps/Gallery2
+3e4805552 Automatic translation import
+
+====================
+     10-01-2020
+====================
+
+
+   * external/hosts
+468ba554 Merge pull request #1413 from FadeMind/patch-2
+7c136578 updateHostsWindows.bat: fix python exe cmd
+
+====================
      09-30-2020
 ====================
 
@@ -91,37 +114,4 @@ efffcf9 TilesWallpaperOverlay: Force-enable by default
 
    * hardware/qcom/display
 efd182313 msm8084: hwcomposer: Fix unused parameter build warning
-
-====================
-     09-22-2020
-====================
-
-
-====================
-     09-21-2020
-====================
-
-
-   * external/hosts
-32242792 Release 3.0.3
-f60686d0 Issue #1392 — set the minimum version of Requests to v2.20.
-dc595848 Updates from yoyo.org, URLHaus, someonewhocares.org, KADhosts, hostsVN, and Badd-Boyz.
-
-   * packages/apps/Etar
-2d2dd489 Automatic translation import
-
-   * packages/apps/Exchange
-975b705c Automatic translation import
-
-   * packages/apps/Gallery2
-071d93927 Automatic translation import
-
-   * packages/apps/Nfc
-f8825899 Automatic translation import
-
-   * packages/inputmethods/LatinIME
-459a560e9 Automatic translation import
-
-   * packages/providers/ContactsProvider
-4a7b2237 Automatic translation import
 
