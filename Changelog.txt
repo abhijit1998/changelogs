@@ -1,4 +1,26 @@
 ====================
+     10-05-2020
+====================
+
+
+====================
+     10-04-2020
+====================
+
+
+   * external/hosts
+586f4c29 Release 3.0.5
+6faa4d82 Updates from sinfonietta, yoyo.org, URLHaus, someonewhocares.org, KADhosts, hostsVN, and Badd-Boyz.
+
+====================
+     10-03-2020
+====================
+
+
+   * external/hosts
+9876dde1 Issue #1414: add two new domains.
+
+====================
      10-02-2020
 ====================
 
@@ -89,29 +111,4 @@ ddde0f8d Make hosts cache respect toggle-able adblock file
 
    * packages/apps/TilesWallpaper
 efffcf9 TilesWallpaperOverlay: Force-enable by default
-
-====================
-     09-25-2020
-====================
-
-
-   * packages/apps/Phonograph
-2ab55ba6 Phonograph: add v27 resource folder for styles
-884daadc Phonograph: fix MedisStore access for artwork
-
-====================
-     09-24-2020
-====================
-
-
-   * hardware/qcom-caf/msm8960/display
-41b612349 Revert "Don't force GPU composite for older devices"
-
-====================
-     09-23-2020
-====================
-
-
-   * hardware/qcom/display
-efd182313 msm8084: hwcomposer: Fix unused parameter build warning
 
