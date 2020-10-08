@@ -1,4 +1,25 @@
 ====================
+     10-08-2020
+====================
+
+
+   * build/make
+fbfbe6427 Bump Security String to 2020-10-05
+
+====================
+     10-07-2020
+====================
+
+
+   * packages/apps/Dialer
+9915a5d17 Merge "Dialer: Fix call log refresh" into q10.0
+
+====================
+     10-06-2020
+====================
+
+
+====================
      10-05-2020
 ====================
 
@@ -12,6 +33,9 @@
 586f4c29 Release 3.0.5
 6faa4d82 Updates from sinfonietta, yoyo.org, URLHaus, someonewhocares.org, KADhosts, hostsVN, and Badd-Boyz.
 
+   * packages/apps/Dialer
+86e4aadf1 Dialer: Fix call log refresh
+
 ====================
      10-03-2020
 ====================
@@ -24,6 +48,9 @@
      10-02-2020
 ====================
 
+
+   * hardware/qcom-caf/msm8916/display
+2facb060e Gralloc: Validate buffer parameters during importBuffer call
 
    * packages/apps/Email
 66c6d3f38 Automatic translation import
@@ -48,6 +75,9 @@
 ====================
 
 
+   * packages/services/OmniJaws
+a3efe23 Omnijaws: widget: Uncouple the temperature from the image
+
 ====================
      09-29-2020
 ====================
@@ -69,46 +99,4 @@ f4c68e8e1 mm-video: remove hevc sw decoder files
 fdda15e backuptool_ab: Use mv instead of cp for restore step
 8ff333c backuptool_ab: Make copy_file preserve file/directory attrs
 911ccb7 extract_utils: Fix system_ext framework blueprint generation.
-
-====================
-     09-28-2020
-====================
-
-
-   * build/make
-ed86bef9b backuptool: do not unmap dynamic partition after finished
-
-   * packages/apps/Phonograph
-942d9616 Phonograph: fix bg color for R
-
-====================
-     09-27-2020
-====================
-
-
-   * external/hosts
-dccdf794 Release 3.0.4
-611c4a0b Updates from yoyo.org, URLHaus, someonewhocares.org, KADhosts, hostsVN, and Badd-Boyz.
-6ebfc1ed Issue #1409: fix — remove unnecessary and confusing Windows flush DNS instructions.
-
-   * hardware/qcom-caf/sm8150/audio
-6a9c3b063 audio_amplifier: Add new hook for setting amp feedback
-cfd9e4ed7 hal: Support the audio amplifier hook
-
-   * system/netd
-ddde0f8d Make hosts cache respect toggle-able adblock file
-
-====================
-     09-26-2020
-====================
-
-
-   * frameworks/base
-5ac0a5bc48c Revert "Revert "Remove BatteryDetail from BatterySaverTile""
-
-   * packages/apps/Launcher3
-9a16a7bd8 Launcher3: bring back hotseat icons view for recents ui state
-
-   * packages/apps/TilesWallpaper
-efffcf9 TilesWallpaperOverlay: Force-enable by default
 
