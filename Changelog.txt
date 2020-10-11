@@ -1,4 +1,35 @@
 ====================
+     10-11-2020
+====================
+
+
+   * build/make
+7f7467722 Merge "build tools: Fix TypeError when signing builds with Python3" into q10.0
+
+   * packages/apps/Dialer
+799483ce4 Dialer: incallui: Replace strings file
+
+   * system/sepolicy
+f4a75a78 Merge "Copying platform seinfo into vendor partition" into q10.0
+
+   * vendor/aicp
+081132c Merge "overlay: Override config for platform number verification" into q10.0
+
+====================
+     10-10-2020
+====================
+
+
+   * external/hosts
+5a5016ab Release 3.0.6
+663fb2d4 Updates from yoyo.org, URLHaus, someonewhocares.org, KADHosts, hostsVN, and AdAway.
+
+====================
+     10-09-2020
+====================
+
+
+====================
      10-08-2020
 ====================
 
@@ -60,43 +91,4 @@ fbfbe6427 Bump Security String to 2020-10-05
 
    * packages/apps/Gallery2
 3e4805552 Automatic translation import
-
-====================
-     10-01-2020
-====================
-
-
-   * external/hosts
-468ba554 Merge pull request #1413 from FadeMind/patch-2
-7c136578 updateHostsWindows.bat: fix python exe cmd
-
-====================
-     09-30-2020
-====================
-
-
-   * packages/services/OmniJaws
-a3efe23 Omnijaws: widget: Uncouple the temperature from the image
-
-====================
-     09-29-2020
-====================
-
-
-   * frameworks/opt/telephony
-ae14d91e6 Merge "Telephony: Fix crash while updating Operator Name" into q10.0
-
-   * hardware/qcom-caf/msm8974/display
-d5ea07279 copybit: Export c2d header
-
-   * hardware/qcom-caf/msm8974/media
-0ac6d80eb libc2dcolorconvert: Remove dependency on stagefright
-88a2c357a media: change way of accessing aosp project headers
-f4c68e8e1 mm-video: remove hevc sw decoder files
-124e6f358 mm-video: Remove old decoder test apps
-
-   * vendor/aicp
-fdda15e backuptool_ab: Use mv instead of cp for restore step
-8ff333c backuptool_ab: Make copy_file preserve file/directory attrs
-911ccb7 extract_utils: Fix system_ext framework blueprint generation.
 
