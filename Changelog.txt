@@ -1,4 +1,92 @@
 ====================
+     10-20-2020
+====================
+
+
+   * external/hosts
+079471f3 Release 3.1.1
+d8591c32 Updates from clefspeare13, yoyo.org, URLHaus, someonewhocares.org, KADHosts, Badd-Boyz, and AdAway.
+d06c30d0 Issue #1433: add four new hosts.
+69a95807 Merge pull request #1434 from FadeMind/master
+e774b391 ADD:osint.digitalside.it
+
+====================
+     10-19-2020
+====================
+
+
+   * platform_manifest
+64cd6bd manifest: add a little XML-file for crowdin
+
+====================
+     10-18-2020
+====================
+
+
+   * packages/apps/Dialer
+d051da75f Merge "Dialer: Fix launch screen status bar color" into q10.0
+
+   * vendor/aicp
+f45293f aicp: docs: update donate link
+
+====================
+     10-17-2020
+====================
+
+
+====================
+     10-16-2020
+====================
+
+
+   * external/hosts
+750faf4b Release 3.1.0
+65474474 Updates from clefspeare13, yoyo.org, URLHaus, KADhosts, Badd-Boyz, and AdAway.
+babe52a9 Update the readme_template with Docker instructions.
+
+   * packages/apps/Etar
+7cfefcd8 Automatic translation import
+
+   * packages/apps/Nfc
+3b393bfd Automatic translation import
+
+   * packages/apps/Stk
+7fc8734 Automatic translation import
+
+   * packages/inputmethods/LatinIME
+e1cf71186 Automatic translation import
+
+====================
+     10-15-2020
+====================
+
+
+   * external/hosts
+9fcac054 Change the WORKDIR after the git clone step.
+cce7894b Add some basic run instructions (comments) in the Dockerfile
+aef9829f Add a first-pass Dockerfile.
+e772566d Release 3.0.7
+0d2f7da5 Updates from clefspeare13, yoyo.org, URLHaus, someonewhocares.org, KADhosts, hostsVN, and Badd-Boyz.
+
+====================
+     10-14-2020
+====================
+
+
+====================
+     10-13-2020
+====================
+
+
+====================
+     10-12-2020
+====================
+
+
+   * vendor/aicp
+22ad951 Merge "vendor_aicp: fonts: Create a module for adding fonts_customization.xml" into q10.0
+
+====================
      10-11-2020
 ====================
 
@@ -14,81 +102,4 @@ f4a75a78 Merge "Copying platform seinfo into vendor partition" into q10.0
 
    * vendor/aicp
 081132c Merge "overlay: Override config for platform number verification" into q10.0
-
-====================
-     10-10-2020
-====================
-
-
-   * external/hosts
-5a5016ab Release 3.0.6
-663fb2d4 Updates from yoyo.org, URLHaus, someonewhocares.org, KADHosts, hostsVN, and AdAway.
-
-====================
-     10-09-2020
-====================
-
-
-====================
-     10-08-2020
-====================
-
-
-   * build/make
-fbfbe6427 Bump Security String to 2020-10-05
-
-====================
-     10-07-2020
-====================
-
-
-   * packages/apps/Dialer
-9915a5d17 Merge "Dialer: Fix call log refresh" into q10.0
-
-====================
-     10-06-2020
-====================
-
-
-====================
-     10-05-2020
-====================
-
-
-====================
-     10-04-2020
-====================
-
-
-   * external/hosts
-586f4c29 Release 3.0.5
-6faa4d82 Updates from sinfonietta, yoyo.org, URLHaus, someonewhocares.org, KADhosts, hostsVN, and Badd-Boyz.
-
-   * packages/apps/Dialer
-86e4aadf1 Dialer: Fix call log refresh
-
-====================
-     10-03-2020
-====================
-
-
-   * external/hosts
-9876dde1 Issue #1414: add two new domains.
-
-====================
-     10-02-2020
-====================
-
-
-   * hardware/qcom-caf/msm8916/display
-2facb060e Gralloc: Validate buffer parameters during importBuffer call
-
-   * packages/apps/Email
-66c6d3f38 Automatic translation import
-
-   * packages/apps/Etar
-15e694ae Automatic translation import
-
-   * packages/apps/Gallery2
-3e4805552 Automatic translation import
 
