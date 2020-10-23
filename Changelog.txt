@@ -1,4 +1,22 @@
 ====================
+     10-23-2020
+====================
+
+
+====================
+     10-22-2020
+====================
+
+
+====================
+     10-21-2020
+====================
+
+
+   * external/hosts
+b021448c Reapply the commit for Issue #1433.
+
+====================
      10-20-2020
 ====================
 
@@ -72,34 +90,4 @@ e772566d Release 3.0.7
      10-14-2020
 ====================
 
-
-====================
-     10-13-2020
-====================
-
-
-====================
-     10-12-2020
-====================
-
-
-   * vendor/aicp
-22ad951 Merge "vendor_aicp: fonts: Create a module for adding fonts_customization.xml" into q10.0
-
-====================
-     10-11-2020
-====================
-
-
-   * build/make
-7f7467722 Merge "build tools: Fix TypeError when signing builds with Python3" into q10.0
-
-   * packages/apps/Dialer
-799483ce4 Dialer: incallui: Replace strings file
-
-   * system/sepolicy
-f4a75a78 Merge "Copying platform seinfo into vendor partition" into q10.0
-
-   * vendor/aicp
-081132c Merge "overlay: Override config for platform number verification" into q10.0
 
