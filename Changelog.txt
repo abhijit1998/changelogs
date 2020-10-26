@@ -1,4 +1,31 @@
 ====================
+     10-26-2020
+====================
+
+
+   * frameworks/base
+d2f3ff9e69c Automatic AICP translation import
+
+   * packages/apps/JamesDSPManager
+f039aaa Automatic AICP translation import
+
+   * packages/apps/Launcher3
+c28b5b399 Automatic AICP translation import
+
+====================
+     10-25-2020
+====================
+
+
+====================
+     10-24-2020
+====================
+
+
+   * external/hosts
+1cd35b6c Issue #1437: add gameads.io domains.
+
+====================
      10-23-2020
 ====================
 
@@ -33,6 +60,30 @@ e774b391 ADD:osint.digitalside.it
 ====================
 
 
+   * frameworks/opt/aicpgear
+a92a737 Automatic AICP translation import
+
+   * packages/apps/AicpExtras
+235c65f Automatic AICP translation import
+
+   * packages/apps/Dialer
+bd539ffe1 Automatic AICP translation import
+
+   * packages/apps/JamesDSPManager
+cd1220e Automatic AICP translation import
+
+   * packages/apps/Launcher3
+2ea575030 Automatic AICP translation import
+
+   * packages/apps/Settings
+579228a1ca Automatic AICP translation import
+
+   * packages/resources/devicesettings
+d040927 Automatic AICP translation import
+
+   * packages/services/OmniJaws
+2ec473b Automatic AICP translation import
+
    * platform_manifest
 64cd6bd manifest: add a little XML-file for crowdin
 
@@ -49,45 +100,6 @@ f45293f aicp: docs: update donate link
 
 ====================
      10-17-2020
-====================
-
-
-====================
-     10-16-2020
-====================
-
-
-   * external/hosts
-750faf4b Release 3.1.0
-65474474 Updates from clefspeare13, yoyo.org, URLHaus, KADhosts, Badd-Boyz, and AdAway.
-babe52a9 Update the readme_template with Docker instructions.
-
-   * packages/apps/Etar
-7cfefcd8 Automatic translation import
-
-   * packages/apps/Nfc
-3b393bfd Automatic translation import
-
-   * packages/apps/Stk
-7fc8734 Automatic translation import
-
-   * packages/inputmethods/LatinIME
-e1cf71186 Automatic translation import
-
-====================
-     10-15-2020
-====================
-
-
-   * external/hosts
-9fcac054 Change the WORKDIR after the git clone step.
-cce7894b Add some basic run instructions (comments) in the Dockerfile
-aef9829f Add a first-pass Dockerfile.
-e772566d Release 3.0.7
-0d2f7da5 Updates from clefspeare13, yoyo.org, URLHaus, someonewhocares.org, KADhosts, hostsVN, and Badd-Boyz.
-
-====================
-     10-14-2020
 ====================
 
 
