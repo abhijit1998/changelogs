@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1604065802,
-      "filename": "aicp_potter_q-15.0-EXPERIMENTAL-20201030.zip",
-      "id": "7f1ac6ae35821b954e744247f963f42b",
+      "datetime": 1604277626,
+      "filename": "aicp_potter_q-15.0-EXPERIMENTAL-20201102.zip",
+      "id": "bac4376cf609fa1f98bac04379b31e94",
       "romtype": "EXPERIMENTAL",
-      "size": 756228887,
-      "url": "https://abhi-storage.kozow.com/builds/AICP-15.0/daily/aicp_potter_q-15.0-EXPERIMENTAL-20201030.zip",
+      "size": 747355740,
+      "url": "https://abhi-storage.kozow.com/builds/AICP-15.0/daily/aicp_potter_q-15.0-EXPERIMENTAL-20201102.zip",
       "version": "q-15.0"
     }
   ]

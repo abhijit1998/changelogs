@@ -1,4 +1,39 @@
 ====================
+     11-02-2020
+====================
+
+
+   * external/hosts
+e9004456 Release 3.1.3
+59d57e91 Updates from yoyo.org, URLHaus, someonewhocares.org, digitalside.it, KADhosts, hostsVN, and AdAway.
+f1099124 Remove inactive domains.
+
+   * packages/apps/Etar
+ad81d361 Automatic translation import
+
+   * packages/inputmethods/LatinIME
+921a67e36 Automatic translation import
+
+   * packages/services/BuiltInPrintService
+0700616 Automatic translation import
+
+====================
+     11-01-2020
+====================
+
+
+   * external/hosts
+833e3f8e Merge pull request #1446 from XhmikosR/patch-2
+38abfff2 Merge pull request #1445 from XhmikosR/patch-1
+dea68fc5 Create codeql-analysis.yml
+c95763d3 CI: add Python 3.9
+
+====================
+     10-31-2020
+====================
+
+
+====================
      10-30-2020
 ====================
 
@@ -28,6 +63,9 @@ b5da9af5 Updates from clefspeare13, fakenews, yoyo.org, URLHaus, someonewhocares
 ====================
 
 
+   * external/chromium-webview
+64b0dfa Update Chromium Webview to 86.0.4240.114
+
    * frameworks/base
 d2f3ff9e69c Automatic AICP translation import
 
@@ -42,9 +80,6 @@ c28b5b399 Automatic AICP translation import
 ====================
 
 
-   * external/chromium-webview
-64b0dfa Update Chromium Webview to 86.0.4240.114
-
 ====================
      10-24-2020
 ====================
@@ -52,22 +87,4 @@ c28b5b399 Automatic AICP translation import
 
    * external/hosts
 1cd35b6c Issue #1437: add gameads.io domains.
-
-====================
-     10-23-2020
-====================
-
-
-====================
-     10-22-2020
-====================
-
-
-====================
-     10-21-2020
-====================
-
-
-   * external/hosts
-b021448c Reapply the commit for Issue #1433.
 
