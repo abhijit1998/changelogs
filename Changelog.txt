@@ -1,7 +1,32 @@
 ====================
+     11-08-2020
+====================
+
+
+====================
+     11-07-2020
+====================
+
+
+====================
+     11-06-2020
+====================
+
+
+====================
      11-05-2020
 ====================
 
+
+   * external/chromium-webview
+ad4f2cc Update Chromium Webview to 86.0.4240.185
+
+   * vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
+37967afe1 Pass whether the local device is an atv device to the native layer to determine whether to include pairing dialogs for justworks and encryption only LE pairing
+
+   * vendor/qcom/opensource/commonsys/system/bt
+bcb3cafc4 Check whether local device is an ATV device to determine whether to show the consent dialog for BLE pairing in JUSTWORKS and ENCRYPTION_ONLY mode
+204a797cc Shows a consent dialog on the local device when pairing a bluetooth low energy device if the local device has a display.
 
 ====================
      11-04-2020
@@ -64,19 +89,4 @@ c95763d3 CI: add Python 3.9
 422ce949 Bump release-it package to v14.2.
 bc0b4182 Release 3.1.2
 b5da9af5 Updates from clefspeare13, fakenews, yoyo.org, URLHaus, someonewhocares.org, digitalside, mvps.org, KADhosts, hostsVN, and Badd-Boyz.
-
-====================
-     10-29-2020
-====================
-
-
-====================
-     10-28-2020
-====================
-
-
-====================
-     10-27-2020
-====================
-
 
