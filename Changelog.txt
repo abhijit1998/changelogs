@@ -1,4 +1,25 @@
 ====================
+     11-20-2020
+====================
+
+
+   * external/hosts
+5c614ca1 Release 3.2.5
+5c058ce3 Updates from yoyo.org, URLHaus, digitalside.it, KADhosts, hostsVN, Badd-Boyz, and AdAway.
+ee8868cb Release 3.2.4
+d9273762 Issue #1465: add opengapps.com.
+
+====================
+     11-19-2020
+====================
+
+
+====================
+     11-18-2020
+====================
+
+
+====================
      11-17-2020
 ====================
 
@@ -39,6 +60,9 @@ ac175ae7 Release 3.2.1
 ====================
 
 
+   * external/chromium-webview
+0d47ba6 Update Chromium Webview to 86.0.4240.198
+
 ====================
      11-13-2020
 ====================
@@ -58,57 +82,4 @@ ac175ae7 Release 3.2.1
 8d617d29 Release 3.2.0
 f6f5a6c6 Updates from URLHaus, someonewhocares.org, digitalside.it, KADhosts, hostsVN, and AdAway.
 91b00d9f Issues #1455, #1403, #1367 and others: remove malwaredomainlist from the repo.
-
-====================
-     11-10-2020
-====================
-
-
-   * external/hosts
-193c668a Release 3.1.5
-881fa64e Updates from yoyo.org, URLHaus, tiuxo, someonewhocares.org, digitalside.it, KADhosts, and AdAway.
-
-====================
-     11-09-2020
-====================
-
-
-   * build/make
-bee0b1f55 Bump Security String to 2020-11-05
-
-   * frameworks/base
-4204b2ad052 Accept repeated locale as an input of LocaleList construction.
-b68142852bf Sanitize more of the notification text fields
-d83b5b474bd DO NOT MERGE Don't allow non-instant permissions for instant apps.
-
-   * frameworks/native
-2dfe1d415 libbinder_ndk: fix failure when dump/shell are unset
-
-   * packages/apps/Bluetooth
-4e1e7b8c Pass whether the local device is an atv device to the native layer to determine whether to include pairing dialogs for justworks and encryption only LE pairing
-
-   * packages/services/Telecomm
-a207ba3c Fix security vulnerability of TelecomManager#getPhoneAccountsForPackage
-
-   * platform_manifest
-7df8f9e manifest: track CellBroadcastReceiver from lineage for the asb
-2c2d1ea manifest: Track freetype from lineage
-421623a Track fork(s) from lineage for 2020-11 ASB patching
-
-   * system/bt
-106d161e1 Send a response to an smp security request depending on the callback event
-7497c2981 Return after removing sample LTK device
-27b7671b1 Check whether local device is an ATV device to determine whether to show the consent dialog for BLE pairing in JUSTWORKS and ENCRYPTION_ONLY mode
-c661d1990 Shows a consent dialog on the local device when pairing a bluetooth low energy device if the local device has a display.
-
-   * system/core
-15a5765bc Fail explicitly on length overflow.
-
-   * system/netd
-b4939e06 Fix OOB read in DNS resolver
-
-====================
-     11-08-2020
-====================
-
 
