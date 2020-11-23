@@ -1,4 +1,60 @@
 ====================
+     11-23-2020
+====================
+
+
+   * external/hosts
+420113fb Bump release-it to v.14.2.1.
+e1af4f45 Release 3.2.6
+f6a45ec8 Updates from yoyo.org, URLHaus, someovewhocares.org, digitalside.it, KADhost, hostsVN, and AdAway.
+7846075c Issue #1466: add pamsg.online.
+
+   * frameworks/base
+a013eb93a29 Automatic AICP translation import
+
+   * packages/apps/AicpExtras
+69e7c7e Automatic AICP translation import
+
+   * packages/apps/Dialer
+00f2884b1 Automatic AICP translation import
+
+   * packages/apps/Gallery2
+09836d6bf Gallery2: Remove LOCAL_NDK_STL_VARIANT
+
+   * packages/apps/JamesDSPManager
+b80dcb1 Automatic AICP translation import
+
+   * packages/apps/Launcher3
+d85558494 Automatic AICP translation import
+
+   * packages/apps/Settings
+e7c71f573e Automatic AICP translation import
+
+   * packages/resources/devicesettings
+f50b613 Automatic AICP translation import
+
+====================
+     11-22-2020
+====================
+
+
+   * hardware/lineage/livedisplay
+db60203 sdm: Unguard restoring default mode
+
+====================
+     11-21-2020
+====================
+
+
+   * packages/apps/Email
+11cd39d3f Handle IMAP NonExistent folder flag as NoSelect
+0daa1bdb4 Do not show unreads count for Trash folder
+dd0553eb6 Email: Declare GET_WIDGET_UPDATE permission
+
+   * packages/apps/Gallery2
+949656841 Gallery: rotate icon is counter-clockwise, so do it!
+
+====================
      11-20-2020
 ====================
 
@@ -18,6 +74,9 @@ d9273762 Issue #1465: add opengapps.com.
      11-18-2020
 ====================
 
+
+   * packages/inputmethods/LatinIME
+69c4c7666 Include Bulgarian Extended Keyboard Layout
 
 ====================
      11-17-2020
@@ -62,24 +121,4 @@ ac175ae7 Release 3.2.1
 
    * external/chromium-webview
 0d47ba6 Update Chromium Webview to 86.0.4240.198
-
-====================
-     11-13-2020
-====================
-
-
-====================
-     11-12-2020
-====================
-
-
-====================
-     11-11-2020
-====================
-
-
-   * external/hosts
-8d617d29 Release 3.2.0
-f6f5a6c6 Updates from URLHaus, someonewhocares.org, digitalside.it, KADhosts, hostsVN, and AdAway.
-91b00d9f Issues #1455, #1403, #1367 and others: remove malwaredomainlist from the repo.
 
