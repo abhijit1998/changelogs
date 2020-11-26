@@ -1,4 +1,26 @@
 ====================
+     11-26-2020
+====================
+
+
+   * external/hosts
+aa377ddd Release 3.2.7
+dfb50bf3 Updates from clefspeare, yoyo.org, URLHaus, someonewhocares.org, digitalside.it, KADhosts, and AdAway.
+
+====================
+     11-25-2020
+====================
+
+
+   * vendor/aicp
+1637a4e repopick: Use project revision if available
+
+====================
+     11-24-2020
+====================
+
+
+====================
      11-23-2020
 ====================
 
@@ -87,38 +109,4 @@ d9273762 Issue #1465: add opengapps.com.
 88ca32af Release 3.2.3
 372c65f7 Updates from yoyo.org, URLHaus, digitalside.it, KADhosts, hostsVN, and AdAway.
 2e115c35 Issue #1463: fix — remove problem domain.
-
-====================
-     11-16-2020
-====================
-
-
-   * external/hosts
-43ac2794 Release 3.2.2
-e200e600 Updates from URLHaus, digitalside.it, KADhosts, Badd-Boyz, and AdAway.
-de32eb3d Issue #1463: fix — add diacritics.com subdomains.
-af9cc115 Issue #1464: fix — force a new line prior to the End comment statement.
-
-   * packages/apps/Etar
-395a0d93 Automatic translation import
-
-   * packages/providers/ContactsProvider
-14a25a3c Automatic translation import
-
-====================
-     11-15-2020
-====================
-
-
-   * external/hosts
-ac175ae7 Release 3.2.1
-048e8322 Updates from clefspeare13, yoyo.org, URLHaus, digitalside.it, KADhosts, and AdAway.
-
-====================
-     11-14-2020
-====================
-
-
-   * external/chromium-webview
-0d47ba6 Update Chromium Webview to 86.0.4240.198
 
