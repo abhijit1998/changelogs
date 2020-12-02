@@ -1,4 +1,67 @@
 ====================
+     12-02-2020
+====================
+
+
+   * packages/apps/Etar
+990f6b3b Automatic translation import
+
+   * packages/apps/Gallery2
+cac0c6009 Automatic translation import
+
+   * packages/apps/UnifiedEmail
+6f125a2fc Automatic translation import
+
+   * packages/inputmethods/LatinIME
+fbdb19100 Automatic translation import
+
+   * packages/services/BuiltInPrintService
+5461b61 Automatic translation import
+
+====================
+     12-01-2020
+====================
+
+
+====================
+     11-30-2020
+====================
+
+
+   * external/hosts
+80b0ee1c Release 3.2.8
+1b62b56d Updates from yoyo.org, URLHaus, digitalside.it, KADhosts, Badd-Boyz, and AdAway.
+
+   * frameworks/base
+b56353fbd9b Merge "Revert "Navbar: Ensure 2/3 button layout options play nice with gesture navbar"" into q10.0
+
+====================
+     11-29-2020
+====================
+
+
+   * frameworks/base
+53767117db0 Revert "Navbar: Ensure 2/3 button layout options play nice with gesture navbar"
+
+====================
+     11-28-2020
+====================
+
+
+   * hardware/qcom-caf/msm8960/audio
+623cc1f13 hal: Allow hal to open Telephony RX as attached device
+
+====================
+     11-27-2020
+====================
+
+
+   * hardware/qcom-caf/msm8960/audio
+3a6fa7feb hal: Validate active input before accessing source
+3d11dc235 hal: update sink capability for dynamic format support
+1f9bbc425 hal: return with error code to avoid tearing down existing recording
+
+====================
      11-26-2020
 ====================
 
@@ -54,59 +117,4 @@ e7c71f573e Automatic AICP translation import
 
    * packages/resources/devicesettings
 f50b613 Automatic AICP translation import
-
-====================
-     11-22-2020
-====================
-
-
-   * hardware/lineage/livedisplay
-db60203 sdm: Unguard restoring default mode
-
-====================
-     11-21-2020
-====================
-
-
-   * packages/apps/Email
-11cd39d3f Handle IMAP NonExistent folder flag as NoSelect
-0daa1bdb4 Do not show unreads count for Trash folder
-dd0553eb6 Email: Declare GET_WIDGET_UPDATE permission
-
-   * packages/apps/Gallery2
-949656841 Gallery: rotate icon is counter-clockwise, so do it!
-
-====================
-     11-20-2020
-====================
-
-
-   * external/hosts
-5c614ca1 Release 3.2.5
-5c058ce3 Updates from yoyo.org, URLHaus, digitalside.it, KADhosts, hostsVN, Badd-Boyz, and AdAway.
-ee8868cb Release 3.2.4
-d9273762 Issue #1465: add opengapps.com.
-
-====================
-     11-19-2020
-====================
-
-
-====================
-     11-18-2020
-====================
-
-
-   * packages/inputmethods/LatinIME
-69c4c7666 Include Bulgarian Extended Keyboard Layout
-
-====================
-     11-17-2020
-====================
-
-
-   * external/hosts
-88ca32af Release 3.2.3
-372c65f7 Updates from yoyo.org, URLHaus, digitalside.it, KADhosts, hostsVN, and AdAway.
-2e115c35 Issue #1463: fix — remove problem domain.
 
