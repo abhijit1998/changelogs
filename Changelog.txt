@@ -1,4 +1,25 @@
 ====================
+     12-23-2020
+====================
+
+
+   * external/hosts
+a204d5a1 Merge pull request #1486 from timgates42/bugfix_typo_separator
+
+====================
+     12-22-2020
+====================
+
+
+   * external/hosts
+f6d89777 docs: fix simple typo, seprator -> separator
+
+====================
+     12-21-2020
+====================
+
+
+====================
      12-20-2020
 ====================
 
@@ -107,32 +128,4 @@ bee8521b Updates from clefspeare13, yoyo.org, URLHaus, someonewhocares.org, KADh
 
    * platform_manifest
 b0de68d manifest: bring crowdin.xml in line
-
-====================
-     12-13-2020
-====================
-
-
-   * frameworks/base
-88d942d730b SystemUI: properly tint System Info icons
-
-   * packages/apps/Car/Settings
-04f93ad0 Stop expecting WifiConfig extra from CONFIGURED_NETWORKS_CHANGED_ACTION broadcast
-
-====================
-     12-12-2020
-====================
-
-
-   * external/chromium-webview
-33ab33d Update Chromium Webview to 87.0.4280.101
-
-====================
-     12-11-2020
-====================
-
-
-   * packages/overlays/AICP
-873dd9e Automatic theme update
-269b4bf Dialer: update dark theme
 
