@@ -1,4 +1,19 @@
 ====================
+     12-26-2020
+====================
+
+
+====================
+     12-25-2020
+====================
+
+
+====================
+     12-24-2020
+====================
+
+
+====================
      12-23-2020
 ====================
 
@@ -45,87 +60,4 @@ f6d89777 docs: fix simple typo, seprator -> separator
      12-17-2020
 ====================
 
-
-====================
-     12-16-2020
-====================
-
-
-   * build/make
-2fa93aa32 Bump Security String to 2020-12-05
-
-   * frameworks/av
-fe2485433 Move an orphaned analytics reference under a mutex
-
-   * frameworks/base
-24e4455cd95 Automatic AICP translation import
-070aaaf7b49 CONFIGURED_NETWORKS_CHANGED_ACTION: update docs since we stop sending WifiConfiguration
-c6559661dd1 Fix storing the wrong value of mLockdown in setting
-9e95e699995 [DO NOT MERGE][BACKPORT]Improve location checks in TelephonyRegistry
-3f4cce9b440 Make WallpaperMS bind wallpaper component PendingIntent immutable.
-
-   * frameworks/native
-84f80a1ba Backport: Update the documentation of ANDROID_RESOLV_NO_CACHE_STORE
-
-   * frameworks/opt/net/wifi
-07ee23351 WifiConfigManager: protect CONFIGURED_NETWORKS_CHANGED_ACTION with permissions
-
-   * frameworks/opt/slimrecent
-c112234 Automatic AICP translation import
-
-   * packages/apps/AicpExtras
-c950c6d Automatic AICP translation import
-
-   * packages/apps/Dialer
-70f2ef083 Automatic AICP translation import
-
-   * packages/apps/Etar
-1606ddaf Automatic translation import
-
-   * packages/apps/Launcher3
-aeff35b9a Automatic AICP translation import
-
-   * packages/apps/Settings
-04d5080a0c Automatic AICP translation import
-922f4d86b0 Stop expecting WifiConfig extra from CONFIGURED_NETWORKS_CHANGED_ACTION broadcast
-
-   * packages/inputmethods/LatinIME
-787eeccc9 Automatic translation import
-
-   * packages/resources/devicesettings
-2377bdf Automatic AICP translation import
-
-   * packages/services/BuiltInPrintService
-14aa36a Automatic translation import
-
-   * platform_manifest
-04ba6bf manifest: Track external/libaom and packages/apps/Car/Settings from lineage
-
-   * system/bt
-f99d48ed6 Fix a security issue in sdp_server.cc
-9a18f68ae Check Classic key before cross-key derivation
-
-   * system/netd
-4d5ab429 Backport: Fix the side channel attack by using async DnsResolver API with FLAG_NO_CACHE_STORE
-
-   * vendor/qcom/opensource/fm-commonsys
-b258ea1 Automatic translation import
-
-====================
-     12-15-2020
-====================
-
-
-   * external/hosts
-b19a01ef Release 3.2.11
-bee8521b Updates from clefspeare13, yoyo.org, URLHaus, someonewhocares.org, KADhosts, Badd-Boyz, and AdAway.
-5e4813cf Add osint.digitalside.it source to the repo.
-
-====================
-     12-14-2020
-====================
-
-
-   * platform_manifest
-b0de68d manifest: bring crowdin.xml in line
 
