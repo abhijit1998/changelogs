@@ -1,7 +1,84 @@
 ====================
+     01-02-2021
+====================
+
+
+   * packages/apps/Etar
+52c1f108 Automatic translation import
+
+====================
+     01-01-2021
+====================
+
+
+   * external/hosts
+15ea6d0f Release 3.3.0
+0cee7eb9 Updates from shady-hosts, URLHaus, digitalside.it, KADHosts, HostsVN, Badd-Boyz, and AdAway.
+0692e445 New locator for KADHosts.
+69ea323c Merge pull request #1492 from shreyasminocha/shady-hosts
+a3abfc86 Move shady-hosts to GitHub
+626711d2 Issue #1491: add shady-hosts source to the repo.
+
+====================
+     12-31-2020
+====================
+
+
+====================
+     12-30-2020
+====================
+
+
+====================
+     12-29-2020
+====================
+
+
+====================
+     12-28-2020
+====================
+
+
+   * external/chromium-webview
+c780a2e webview: Hard no to persistent histograms
+
+====================
+     12-27-2020
+====================
+
+
+   * external/hosts
+56f6051c Release 3.2.13
+1f52e1fd Updates from yoyo.org, URLHaus, someonewhocares.org, digitalside.it, KADHosts, and BaddBoyz.
+
+====================
      12-26-2020
 ====================
 
+
+   * packages/apps/Etar
+90807734 Cleanup
+cab38af8 Etar: Link to androidx-constraintlayout_constraintlayout
+5c249e2a New EditEvent Layout
+da94506d Use antialias for new event hint (#807)
+dfd5aa42 Update README.md
+92849b66 Add Croatian translations for F-Droid
+11459d8f Update full_description.txt
+927a30c8 Remove "drawable" overhead (#795)
+2ec78a30 Use svg in recurrence dialog and respect theme primary color (#794)
+480ef72f Update submodules
+5626c916 Added possibility to choose black theme for night mode (#787)
+c38647b5 Simplify if statement
+e05e3193 Add missing layout-height and layout-width
+1e99c6ed Resolve lint warnings
+ef606770 Update gradle (#785)
+7ef5f258 Add more icons
+0a51e747 Resolve bugs in goTo function
+40165c45 Use primary color for "month background today color" in light theme.
+d8409a57 Don't show week number in miniMonth
+ab6b736c Update README.md
+f527bdaa Settings: add a button to add remote EteSync accounts. (#768)
+37f9fbad Release version 1.0.23
 
 ====================
      12-25-2020
@@ -10,54 +87,6 @@
 
 ====================
      12-24-2020
-====================
-
-
-====================
-     12-23-2020
-====================
-
-
-   * external/hosts
-a204d5a1 Merge pull request #1486 from timgates42/bugfix_typo_separator
-
-====================
-     12-22-2020
-====================
-
-
-   * external/hosts
-f6d89777 docs: fix simple typo, seprator -> separator
-
-====================
-     12-21-2020
-====================
-
-
-====================
-     12-20-2020
-====================
-
-
-   * external/hosts
-458804c5 Upgrade the congratulations on merging message to first time contributors.
-2741273b Release 3.2.12
-38ab6803 Updates from yoyo.org, URLHaus, digitalside.it, mvps.org, KADhosts, hostsVN, Badd-Boyz, and AdAway.
-575813f1 Merge pull request #1485 from Lateralus138/master
-92ffe9fc Added BlackHosts link to the "Interesting Applications" section
-
-====================
-     12-19-2020
-====================
-
-
-====================
-     12-18-2020
-====================
-
-
-====================
-     12-17-2020
 ====================
 
 
