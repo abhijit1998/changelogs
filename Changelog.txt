@@ -1,4 +1,23 @@
 ====================
+     01-05-2021
+====================
+
+
+====================
+     01-04-2021
+====================
+
+
+====================
+     01-03-2021
+====================
+
+
+   * external/hosts
+91b65a8b Release 3.3.1
+db488f56 Updates from yoyo.org, URLHaus, shady-hosts, digitalside.it, KADhosts, and badd-boyz.
+
+====================
      01-02-2021
 ====================
 
@@ -50,43 +69,4 @@ c780a2e webview: Hard no to persistent histograms
    * external/hosts
 56f6051c Release 3.2.13
 1f52e1fd Updates from yoyo.org, URLHaus, someonewhocares.org, digitalside.it, KADHosts, and BaddBoyz.
-
-====================
-     12-26-2020
-====================
-
-
-   * packages/apps/Etar
-90807734 Cleanup
-cab38af8 Etar: Link to androidx-constraintlayout_constraintlayout
-5c249e2a New EditEvent Layout
-da94506d Use antialias for new event hint (#807)
-dfd5aa42 Update README.md
-92849b66 Add Croatian translations for F-Droid
-11459d8f Update full_description.txt
-927a30c8 Remove "drawable" overhead (#795)
-2ec78a30 Use svg in recurrence dialog and respect theme primary color (#794)
-480ef72f Update submodules
-5626c916 Added possibility to choose black theme for night mode (#787)
-c38647b5 Simplify if statement
-e05e3193 Add missing layout-height and layout-width
-1e99c6ed Resolve lint warnings
-ef606770 Update gradle (#785)
-7ef5f258 Add more icons
-0a51e747 Resolve bugs in goTo function
-40165c45 Use primary color for "month background today color" in light theme.
-d8409a57 Don't show week number in miniMonth
-ab6b736c Update README.md
-f527bdaa Settings: add a button to add remote EteSync accounts. (#768)
-37f9fbad Release version 1.0.23
-
-====================
-     12-25-2020
-====================
-
-
-====================
-     12-24-2020
-====================
-
 
