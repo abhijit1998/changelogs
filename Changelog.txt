@@ -1,1 +1,122 @@
-[]
+====================
+     05-21-2021
+====================
+
+
+   * packages/resources/deviceparts
+51b148a deviceparts: fix typo
+
+====================
+     05-20-2021
+====================
+
+
+   * kernel/motorola/potter
+d3dc6ac2f093 defconfig: Set CFQ as default I/O scheduler
+
+====================
+     05-19-2021
+====================
+
+
+   * frameworks/base
+1bd8edc4b70 core: IS_DEBUGGABLE -> IS_ENG
+056cb19f1a9 SystemUI: VPN tile: Collapse panel when opening app
+fdf70278e28 SystemUI: NotificationLightsView: fill available space
+cb042087da8 FODCircleView: Hide fod when screen is off
+3290a093d6b SystemUI: Fix unreadable SSOS clock thumbnail
+
+   * packages/apps/Settings
+f9b8830218 Settings: remove Bluetooth related text from DNS-dialog
+
+====================
+     05-18-2021
+====================
+
+
+   * external/hosts
+74606d05 Release 3.7.4
+dcc468f7 Updates from yoyo.org, URLHaus, someonewhocares.org, digitalside.it, KADHosts, Adguard, and AdAway.
+
+====================
+     05-17-2021
+====================
+
+
+====================
+     05-16-2021
+====================
+
+
+   * external/hosts
+ce669d05 Release 3.7.3
+18f1298e Updated from clefspeare13, yoyo.org, URLHaus, someonewhocares.org, digitalside.it, orca.pet, and KADhosts.
+
+   * frameworks/base
+581dbb55de4 base: Allow switching to drawable for qs icons
+
+   * hardware/interfaces
+56119901f wifi: optionally reset the interface after setMacAddress
+
+   * packages/apps/Etar
+00e00b3b Automatic translation import
+
+====================
+     05-15-2021
+====================
+
+
+   * packages/apps/Snap
+ac1e6708f Snap: api2: reduce unneeded animations
+8f96a84b1 Snap: api2: add QR scanner mode
+a47c2c28e Snap: api2: update promode icons
+1e07abecc Snap: api2: use nicer icons in settings
+
+   * vendor/aicp
+3ad8677 aicp: remove old musicfx flag, and jamesdsp info
+
+====================
+     05-14-2021
+====================
+
+
+   * packages/apps/AicpExtras
+40d5534e ae: Merge spoof footer into summary, make it look better
+
+   * packages/apps/ExactCalculator
+5fd0be8 ExactCalculator: Move to /product
+93b3354 ExactCalculator: Convert to Android.bp
+97ab35d Revert "ExactCalculator: Install to /product"
+d276cdc ExactCalculator: Install to /product
+
+   * packages/apps/Launcher3
+2c358b815 Launcher3: Limit depth blur to overview and quick switch states
+
+====================
+     05-13-2021
+====================
+
+
+   * external/hosts
+cd011f88 Release 3.7.2
+fda33828 Updates from yoyo.org, URLHaus, someonewhocares.org, digitalside.it, orca.pet, KADhosts, hostsVN, Badd-Boyz, and Adguard.
+9cd1d30d Add urgente.eu.
+
+   * frameworks/base
+396867f566c Revert "base: SystemUI: no weird sorting of sim cards in statusbar please"
+
+   * packages/apps/Settings
+79baa57067 Settings: Make setup wizard go through ChooseLockPatternSize if needed
+6d1960be97 Settings: Make FRP go through ChooseLockPatternSize if needed
+b4796a14a8 Settings: Remove hardcoded extras from ChooseLockPatternSize
+
+====================
+     05-12-2021
+====================
+
+
+   * packages/apps/Jelly
+01ec94e Jelly: MainActivity: Replace applyThemeColor with setUiMode
+ce7abca Jelly: Switch to mavenCentral() inplace of jCenter()
+71d6085 Jelly: Upgrade gradle to v4.2.0 stable release
+
